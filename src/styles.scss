@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/noty/src/noty.scss';
+@import '../node_modules/noty/src/themes/sunset.scss';
+@import './variables';
+
+.btn {
+    border-color: $PrimaryColor;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: $PrimaryColor;
+    border-color: #fff;
+}
+
+.btn-inverted {
+    color: #fff;
+    background-color: $PrimaryColor;
+    border-color: #fff;
+}
+
+.btn-delete {
+	border-color: #ED3210;
+}
+
+.btn-delete:hover {
+	border-color: #ED3210;
+	background-color: #ED3210;
+}
