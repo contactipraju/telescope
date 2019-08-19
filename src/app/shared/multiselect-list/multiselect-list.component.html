@@ -1,0 +1,26 @@
+<div class="modal-content">
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Multiple Events</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="multiple-events" class="col-12 control-label">Which Event Would You Like To Select?</label>
+        <div class="col-12">
+          <select name="multi-select" class="form-control modal-input" id="multi-select" [(ngModel)]="selectedEventId">
+            <option *ngFor="let event of list" [value]="event.id">
+              ({{event.id}}): {{event.startDateFormatted}} - {{event.endDateFormatted}}
+            </option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" id="cancel-multi" (click)="modalRef.hide()">Back</button>
+    <button type="button" class="btn btn-primary" id="select-multi" (click)="onSelectEvent()">Select</button>
+  </div>
+</div>
