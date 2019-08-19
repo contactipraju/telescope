@@ -1,0 +1,13 @@
+<div class="calendar-page outer-container">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6 order-sm-first">
+        <app-table-view-series   [data]="events$ | async"></app-table-view-series>
+        <app-table-view-episodes [data]="events$ | async"></app-table-view-episodes>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <app-calendar-view [events]="events$ | async"></app-calendar-view>
+      </div>
+    </div>
+  </div>
+</div>
