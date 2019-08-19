@@ -9,6 +9,7 @@ export interface IImage {
 
 export interface IEvent {
   id: number;
+  name: string;
   startDate: Date;
   endDate: Date;
 
@@ -28,6 +29,7 @@ export interface IEvent {
   speaker?: number;
   participants?: number[];
   images?: IImage[];
+  seriesId: number; // TODO: Cleanup later
 }
 
 export interface ISeries extends IEvent {
