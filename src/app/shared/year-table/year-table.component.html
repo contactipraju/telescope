@@ -1,0 +1,10 @@
+<div class="yacht-table">
+  <table class="h-100 w-100">
+    <tr>
+      <td *ngFor="let columnTitle of data.columnTitles"><b>{{columnTitle}}</b></td>
+    </tr>
+    <tr class="weekly-row" *ngFor="let row of data.data" (click)="selectRow(row)">
+      <td *ngFor="let prop of data.props" [innerHTML]="row[prop]"></td>
+    </tr>
+  </table>
+</div>

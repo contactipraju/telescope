@@ -1,0 +1,4 @@
+<div id="event-sfs-col">
+  <h3>Series</h3>
+  <bc-year-table *ngIf="table && table.data && table.data.length" [data]="table" (emitter)="eventSelected($event)"></bc-year-table>
+</div>

@@ -1,0 +1,26 @@
+[
+    {"id": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "name": "The Bertrand Russell", "color": "#3fb498",
+        "episodes": [
+            {"id": 11, "seriesId": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-08-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Introduction"},
+            {"id": 12, "seriesId": 1, "startDate": "2019-08-10T00:00:00", "endDate": "2019-08-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Theory of Knowledge"},
+            {"id": 13, "seriesId": 1, "startDate": "2019-08-17T00:00:00", "endDate": "2019-08-17T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Logic and Knowledge"},
+            {"id": 14, "seriesId": 1, "startDate": "2019-08-24T00:00:00", "endDate": "2019-08-24T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Human Knowledge, it's scope and limits"},
+            {"id": 15, "seriesId": 1, "startDate": "2019-08-31T00:00:00", "endDate": "2019-08-31T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "The Scientific Outlook"},
+            {"id": 16, "seriesId": 1, "startDate": "2019-09-07T00:00:00", "endDate": "2019-09-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "The Principle of Mathematics"},
+            {"id": 17, "seriesId": 1, "startDate": "2019-09-14T00:00:00", "endDate": "2019-09-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Introduction to Mathematica"},
+            {"id": 18, "seriesId": 1, "startDate": "2019-09-21T00:00:00", "endDate": "2019-09-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Mysticism and Mathematics"},
+            {"id": 19, "seriesId": 1, "startDate": "2019-09-28T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Religion and Science - Conclusion"}
+        ]
+    },
+    {"id": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "name": "Leonardo DaVinci - The Scientist", "color": "#00b0f0",
+        "episodes": [
+            {"id": 21, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Introduction"},
+            {"id": 22, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "The Inventor"},
+            {"id": 23, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Engineering - 1"},
+            {"id": 24, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Engineering - 2"},
+            {"id": 24, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Milatary Engineering"},
+            {"id": 24, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "The Flight"},
+            {"id": 24, "seriesId": 2, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "name": "Conclusion and QA"}
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+.yacht-table tr:nth-child(odd) {
+    background-color: #dadada;
+}
+
+.yacht-table tr:first-child {
+    background-color: #1a345b;
+    color: #fff;
+}
+
+.yacht-table tr.weekly-row {
+    cursor: pointer;
+}
+
+.yacht-table td {
+    padding: 5px 0 5px 10px;
+    font-size: 12px;
+}
