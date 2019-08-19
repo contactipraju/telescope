@@ -43,11 +43,16 @@ import { EventService }    from './services/event.service';
 import { AppComponent }    from './app.component';
 
 /* Page Components */
-import { AdminComponent }  from './pages/admin/admin.component';
-import { PeopleComponent } from './pages/people/people.component';
-import { EventsComponent } from './pages/events/events.component';
+import { HomeComponent }      from './pages/home/home.component';
+import { EventsComponent }    from './pages/events/events.component';
+import { ResourcesComponent } from './pages/resources/resources.component';
+import { NewsComponent }      from './pages/news/news.component';
+import { PeopleComponent }    from './pages/people/people.component';
+import { AdminComponent }     from './pages/admin/admin.component';
 
 /* Shared Components */
+import { FooterComponent }    from './shared/footer/footer.component';
+
 import { CalendarViewComponent }      from './shared/calendar-view/calendar-view.component';
 import { MultiselectListComponent }   from './shared/multiselect-list/multiselect-list.component';
 
@@ -65,9 +70,6 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
 @NgModule({
   declarations: [
     AppComponent,
-    AdminComponent,
-    PeopleComponent,
-    EventsComponent,
     YearTableComponent,
     YearCalendarComponent,
     CalendarViewComponent,
@@ -77,7 +79,14 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
     TableViewPeopleComponent,
     TableViewSeriesComponent,
     TableViewEpisodesComponent,
-    EditUserComponent
+    EditUserComponent,
+    HomeComponent,
+    EventsComponent,
+    ResourcesComponent,
+    NewsComponent,
+    PeopleComponent,
+    AdminComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -96,10 +105,13 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
     RouterModule.forRoot([
-      { path: 'admin',  component: AdminComponent },
-      { path: 'events', component: EventsComponent },
-      { path: 'people', component: PeopleComponent },
-      { path: '', redirectTo: '/events', pathMatch: 'full' }
+      { path: 'home',      component: HomeComponent },
+      { path: 'events',    component: EventsComponent },
+      { path: 'resources', component: ResourcesComponent },
+      { path: 'news',      component: NewsComponent },
+      { path: 'people',    component: PeopleComponent },
+      { path: 'admin',     component: AdminComponent },
+      { path: '', redirectTo: '/home', pathMatch: 'full' }
     ]),
     BrowserAnimationsModule
   ],
