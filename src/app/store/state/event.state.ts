@@ -1,9 +1,9 @@
 import { IEvent } from '../../models/event.interface';
 
 export interface IEventState {
-  events: IEvent[];
+  eventList: IEvent[];
 }
 
 export const initialEventState: IEventState = {
-  events: null
+  eventList: null
 }

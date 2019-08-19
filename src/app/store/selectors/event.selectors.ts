@@ -7,5 +7,5 @@ const selectEvents = (state: IAppState) => state.events;
 
 export const selectEventList = createSelector(
   selectEvents,
-  (state: IEventState) => state.events
+  (state: IEventState) => state.eventList
 );

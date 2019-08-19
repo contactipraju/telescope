@@ -6,9 +6,9 @@ import { of }                             from 'rxjs';
 import { switchMap, map, withLatestFrom } from 'rxjs/operators';
 
 import { IAppState }      from '../state/app.state';
+import { IUser }          from '../../models/user.interface';
 import { selectUserList } from '../selectors/user.selectors';
 import { UserService }    from '../../services/user.service';
-import { IUser }          from '../../models/user.interface';
 
 import {
   GetUser,

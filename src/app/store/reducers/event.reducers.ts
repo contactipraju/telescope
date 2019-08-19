@@ -54,12 +54,12 @@ export function eventReducers(state = initialEventState, action: EventActions): 
     case EEventActions.GetEventsSuccess: {
       return {
         ...state,
-        events: processEvents(action.payload)
+        eventList: processEvents(action.payload)
       };
     }
 
     case EEventActions.DeleteEventSuccess: {
-      return Object.assign({}, state, { events: deleteEvent(state.events, action.payload)});
+      return Object.assign({}, state, { events: deleteEvent(state.eventList, action.payload)});
     }
 
     default:

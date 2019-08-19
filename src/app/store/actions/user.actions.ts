@@ -3,15 +3,16 @@ import { Action } from '@ngrx/store';
 import { IUser }  from '../../models/user.interface';
 
 export enum EUserActions {
-  GetUsers = '[User] Get Users',
+  GetUsers        = '[User] Get Users',
   GetUsersSuccess = '[User] Get Users Success',
-  GetUser = '[User] Get User',
-  GetUserSuccess = '[User] Get User Success',
+  GetUser         = '[User] Get User',
+  GetUserSuccess  = '[User] Get User Success',
   SetSelectedUser = '[User] Set Selected User'
 }
 
 export class GetUsers implements Action {
   public readonly type = EUserActions.GetUsers;
+  constructor() {}
 }
 
 export class GetUsersSuccess implements Action {

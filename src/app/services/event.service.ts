@@ -15,7 +15,7 @@ export class EventService {
   }
 
   private getUrl() {
-    return this.baseUrl + '/assets/json/events.json';
+    return this.baseUrl + 'assets/json/events.json';
   }
 
   public getEvents(): Observable<IEvent[]> {

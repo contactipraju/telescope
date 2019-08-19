@@ -10,12 +10,15 @@ import { IUser }                   from '../models/user.interface';
   providedIn: 'root'
 })
 export class UserService {
-  url: string = '/assets/users.json';
 
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl) {
   }
 
+  private getUrl() {
+    return this.baseUrl + 'assets/json/users.json';
+  }
+
   public getUsers(): Observable<IUser[]> {
-    return this.http.get<IUser[]>(this.baseUrl + this.url);
+    return this.http.get<IUser[]>(this.getUrl());
   }
 }

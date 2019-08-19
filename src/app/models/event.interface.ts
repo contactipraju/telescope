@@ -1,11 +1,5 @@
 import { Identifiers } from '@angular/compiler';
 
-export interface ITable {
-  columnTitles: string[];
-  props: string[];
-  data: IEvent[];
-}
-
 export interface IImage {
   path?: string;
   description?: string;
