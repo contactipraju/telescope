@@ -7,6 +7,13 @@ import { BrowserModule }            from '@angular/platform-browser';
 import { HttpClientModule }         from '@angular/common/http';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 
+/* Angular/Material Modules */
+import { MatToolbarModule } from '@angular/material';
+import { MatIconModule }    from '@angular/material';
+import { MatSidenavModule } from '@angular/material';
+import { MatListModule }    from '@angular/material';
+import { MatButtonModule }  from '@angular/material';
+
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
 
@@ -78,6 +85,11 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
     FormsModule,
     HttpClientModule,
     StoreDevtoolsModule.instrument(),
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatListModule,
+    MatButtonModule,
     AppRoutingModule,
     StoreModule.forRoot(appReducers),
     EffectsModule.forRoot([UserEffects, EventEffects]),
@@ -88,7 +100,8 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
       { path: 'events', component: EventsComponent },
       { path: 'people', component: PeopleComponent },
       { path: '', redirectTo: '/events', pathMatch: 'full' }
-    ])
+    ]),
+    BrowserAnimationsModule
   ],
   exports: [
     AppComponent
