@@ -1,0 +1,6 @@
+<div class="list-view-series" *ngIf="seriesList && seriesList.length">
+    <div *ngFor="let series of seriesList">
+        <app-tile-view-episodes [series]="series"></app-tile-view-episodes>
+    </div>
+</div>
+
