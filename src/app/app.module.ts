@@ -111,7 +111,7 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
       { path: 'events',    component: EventsComponent },
       { path: 'resources', component: ResourcesComponent },
       { path: 'news',      component: NewsComponent },
-      { path: 'people',    component: PeopleComponent },
+      { path: 'team',      component: PeopleComponent },
       { path: 'admin',     component: AdminComponent },
       { path: '', redirectTo: '/home', pathMatch: 'full' }
     ]),
