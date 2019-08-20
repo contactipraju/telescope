@@ -5,16 +5,6 @@ import { DateFormats } from '../../utils/date';
 import { IEvent }      from 'src/app/models/event.interface';
 import { ISeries }     from 'src/app/models/series.interface';
 
-let legends = [
-  { color: '#3fb498', label: 'Betrand Russell' },
-  { color: '#00b0f0', label: 'Leanardo DaVinci' },
-  { color: '#BFBFBF', label: 'Blue Planet Earth' },
-  { color: '#FF33CC', label: 'Richard Dawkins' },
-  { color: '#ED7D31', label: 'New Horizons' },
-  { color: '#FFFF00', label: 'Watching Heavens' },
-  { color: '#FF0000', label: 'Life Beyond Earth' }
-];
-
 const processEvents = (events: ISeries[]) => {
   for(let i=0; i<events.length; i++) {
     events[i].startDate = new Date(events[i].startDate);
