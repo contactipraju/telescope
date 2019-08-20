@@ -18,8 +18,8 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
   modalRef_EditEpisode: BsModalRef;
 
   table: ITable = {
-    columnTitles: ["ID", "Episode Name", "From", "To"],
-    props: ["id", "name", "startDateFormatted", "endDateFormatted"],
+    columnTitles: ["Episode", "Description", "Date", "Speaker"],
+    props: ["name", "description", "startDateFormatted", "speaker"],
     data: []
   };
 
