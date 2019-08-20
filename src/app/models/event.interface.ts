@@ -12,6 +12,7 @@ export interface IEvent {
 
   rj?: number;
   participants?: number[];
+  flyer?: string;
   images?: IImage[];
   seriesId?: number; // TODO: Cleanup later
 
