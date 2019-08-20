@@ -61,6 +61,9 @@ import { EditUserComponent }          from './shared/edit-user/edit-user.compone
 import { EditSeriesComponent }        from './shared/edit-series/edit-series.component';
 import { EditEpisodeComponent }       from './shared/edit-episode/edit-episode.component';
 
+import { ListViewSeriesComponent }    from './shared/list-view-series/list-view-series.component';
+import { TileViewEpisodesComponent }  from './shared/tile-view-episodes/tile-view-episodes.component';
+
 import { TableViewPeopleComponent }   from './shared/table-view-people/table-view-people.component';
 import { TableViewSeriesComponent }   from './shared/table-view-series/table-view-series.component';
 import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-view-episodes.component';
@@ -68,23 +71,24 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
 @NgModule({
   declarations: [
     AppComponent,
-    YearTableComponent,
-    YearCalendarComponent,
-    CalendarViewComponent,
-    MultiselectListComponent,
-    EditSeriesComponent,
-    EditEpisodeComponent,
-    TableViewPeopleComponent,
-    TableViewSeriesComponent,
-    TableViewEpisodesComponent,
-    EditUserComponent,
     HomeComponent,
     EventsComponent,
     ResourcesComponent,
     NewsComponent,
     PeopleComponent,
     AdminComponent,
-    FooterComponent
+    YearTableComponent,
+    YearCalendarComponent,
+    CalendarViewComponent,
+    MultiselectListComponent,
+    EditSeriesComponent,
+    EditEpisodeComponent,
+    ListViewSeriesComponent,
+    TileViewEpisodesComponent,
+    TableViewPeopleComponent,
+    TableViewSeriesComponent,
+    TableViewEpisodesComponent,
+    EditUserComponent
   ],
   imports: [
     CommonModule,
