@@ -1,4 +1,5 @@
 <div class="list-view-series" *ngIf="seriesList && seriesList.length">
     <div *ngFor="let series of seriesList">
+        <app-tile-series [series]="series"></app-tile-series>
     </div>
 </div>
