@@ -51,8 +51,6 @@ import { PeopleComponent }    from './pages/people/people.component';
 import { AdminComponent }     from './pages/admin/admin.component';
 
 /* Shared Components */
-import { FooterComponent }    from './shared/footer/footer.component';
-
 import { CalendarViewComponent }      from './shared/calendar-view/calendar-view.component';
 import { MultiselectListComponent }   from './shared/multiselect-list/multiselect-list.component';
 
