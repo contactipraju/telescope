@@ -1,4 +1,7 @@
 clear
+git checkout master
+git fetch -p
+git pull
 git checkout gh-pages
 git merge origin/master
 git push origin gh-pages

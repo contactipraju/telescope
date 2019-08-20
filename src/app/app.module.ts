@@ -62,7 +62,8 @@ import { EditSeriesComponent }        from './shared/edit-series/edit-series.com
 import { EditEpisodeComponent }       from './shared/edit-episode/edit-episode.component';
 
 import { ListViewSeriesComponent }    from './shared/list-view-series/list-view-series.component';
-import { TileViewEpisodesComponent }  from './shared/tile-view-episodes/tile-view-episodes.component';
+import { TileSeriesComponent }        from './shared/tile-series/tile-series.component';
+import { TileEpisodeComponent }       from './shared/tile-episode/tile-episode.component';
 
 import { TableViewPeopleComponent }   from './shared/table-view-people/table-view-people.component';
 import { TableViewSeriesComponent }   from './shared/table-view-series/table-view-series.component';
@@ -84,7 +85,8 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
     EditSeriesComponent,
     EditEpisodeComponent,
     ListViewSeriesComponent,
-    TileViewEpisodesComponent,
+    TileSeriesComponent,
+    TileEpisodeComponent,
     TableViewPeopleComponent,
     TableViewSeriesComponent,
     TableViewEpisodesComponent,
