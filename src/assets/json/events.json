@@ -98,7 +98,7 @@
         "id": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "series", "color": "#00b0f0",
         "episodes": [
             {"id": 81, "seriesId": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology.jpg", "name": "Astronomy vs Astrology"},
-            {"id": 82, "seriesId": 8, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology.jpg", "name": "Astronomy vs Astrology"}
+            {"id": 82, "seriesId": 8, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
         ]
     }
 ]
