@@ -1,10 +1,10 @@
 [
-    {"id": 1, "role": "admin",   "firstname": "Prasada",        "lastname": "Indukuri",  "email": "prasadisthebest@gmail.com"},
-    {"id": 2, "role": "manager", "firstname": "Ramanatha Babu", "lastname": "Gogineni",  "email": "babugogineni@gmail.com"},
-    {"id": 4, "role": "admin",   "firstname": "Ram",            "lastname": "Gangaraju", "email": "ramgangaraju@gmail.com"},
-    {"id": 5, "role": "manager", "firstname": "Madhavi",        "lastname": "Potluri",   "email": "madhavipotluri@gmail.com"},
-    {"id": 7, "role": "manager", "firstname": "Adarsh",         "lastname": "Gaddam",    "email": "adarshgaddam@gmail.com"},
-    {"id": 8, "role": "manager", "firstname": "Govind",         "lastname": "Chintada",  "email": "govindchintada@gmail.com"},
-    {"id": 3, "role": "manager", "firstname": "Sarath Teja",    "lastname": "Somina",    "email": "sarathtejasomina@gmail.com"},
-    {"id": 9, "role": "manager", "firstname": "Jyotsna",        "lastname": "Palvai",    "email": "jyotsnapalvai@gmail.com"}
+    {"id": 1, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "admin",   "firstname": "Prasada",        "lastname": "Indukuri",  "profile": "people/indukuri.jpg",  "email": "prasadisthebest@gmail.com"},
+    {"id": 2, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "manager", "firstname": "Ramanatha Babu", "lastname": "Gogineni",  "profile": "people/gogineni.jpg",  "email": "babugogineni@gmail.com"},
+    {"id": 4, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "admin",   "firstname": "Ram",            "lastname": "Gangaraju", "profile": "people/gangaraju.jpg", "email": "ramgangaraju@gmail.com"},
+    {"id": 5, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "manager", "firstname": "Madhavi",        "lastname": "Potluri",   "profile": "people/potluri.jpg",   "email": "madhavipotluri@gmail.com"},
+    {"id": 7, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "manager", "firstname": "Adarsh",         "lastname": "Gaddam",    "profile": "people/gaddam.jpg",    "email": "adarshgaddam@gmail.com"},
+    {"id": 8, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "manager", "firstname": "Govind",         "lastname": "Chintada",  "profile": "people/chintada.jpg",  "email": "govindchintada@gmail.com"},
+    {"id": 3, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "manager", "firstname": "Sarath Teja",    "lastname": "Somina",    "profile": "people/somina.jpg",    "email": "sarathtejasomina@gmail.com"},
+    {"id": 9, "designation": "Volunteer", "country": "India", "timezone": "+5:30", "role": "manager", "firstname": "Jyotsna",        "lastname": "Palvai",    "profile": "people/palvai.jpg",    "email": "jyotsnapalvai@gmail.com"}
 ]
