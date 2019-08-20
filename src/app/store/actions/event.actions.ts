@@ -1,6 +1,7 @@
-import { Action } from '@ngrx/store';
+import { Action }  from '@ngrx/store';
 
-import { IEvent, ISeries } from '../../models/event.interface';
+import { IEvent }  from '../../models/event.interface';
+import { ISeries } from '../../models/series.interface';
 
 export enum EEventActions {
   GetEvents            = '[Event] Get Events',

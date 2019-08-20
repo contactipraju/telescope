@@ -1,8 +1,9 @@
 import { EventActions, EEventActions }    from './../actions/event.actions';
 import { initialEventState, IEventState } from '../state/event.state';
 
-import { DateFormats }     from '../../utils/date';
-import { IEvent, ISeries } from 'src/app/models/event.interface';
+import { DateFormats } from '../../utils/date';
+import { IEvent }      from 'src/app/models/event.interface';
+import { ISeries }     from 'src/app/models/series.interface';
 
 let legends = [
   { color: '#3fb498', label: 'Betrand Russell' },

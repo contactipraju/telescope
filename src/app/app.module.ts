@@ -43,9 +43,12 @@ import { EventService }    from './services/event.service';
 import { AppComponent }    from './app.component';
 
 /* Page Components */
-import { AdminComponent }  from './pages/admin/admin.component';
-import { PeopleComponent } from './pages/people/people.component';
-import { EventsComponent } from './pages/events/events.component';
+import { HomeComponent }      from './pages/home/home.component';
+import { EventsComponent }    from './pages/events/events.component';
+import { ResourcesComponent } from './pages/resources/resources.component';
+import { NewsComponent }      from './pages/news/news.component';
+import { PeopleComponent }    from './pages/people/people.component';
+import { AdminComponent }     from './pages/admin/admin.component';
 
 /* Shared Components */
 import { CalendarViewComponent }      from './shared/calendar-view/calendar-view.component';
@@ -58,6 +61,9 @@ import { EditUserComponent }          from './shared/edit-user/edit-user.compone
 import { EditSeriesComponent }        from './shared/edit-series/edit-series.component';
 import { EditEpisodeComponent }       from './shared/edit-episode/edit-episode.component';
 
+import { ListViewSeriesComponent }    from './shared/list-view-series/list-view-series.component';
+import { TileViewEpisodesComponent }  from './shared/tile-view-episodes/tile-view-episodes.component';
+
 import { TableViewPeopleComponent }   from './shared/table-view-people/table-view-people.component';
 import { TableViewSeriesComponent }   from './shared/table-view-series/table-view-series.component';
 import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-view-episodes.component';
@@ -65,15 +71,20 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
 @NgModule({
   declarations: [
     AppComponent,
-    AdminComponent,
-    PeopleComponent,
+    HomeComponent,
     EventsComponent,
+    ResourcesComponent,
+    NewsComponent,
+    PeopleComponent,
+    AdminComponent,
     YearTableComponent,
     YearCalendarComponent,
     CalendarViewComponent,
     MultiselectListComponent,
     EditSeriesComponent,
     EditEpisodeComponent,
+    ListViewSeriesComponent,
+    TileViewEpisodesComponent,
     TableViewPeopleComponent,
     TableViewSeriesComponent,
     TableViewEpisodesComponent,
@@ -96,10 +107,13 @@ import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-v
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
     RouterModule.forRoot([
-      { path: 'admin',  component: AdminComponent },
-      { path: 'events', component: EventsComponent },
-      { path: 'people', component: PeopleComponent },
-      { path: '', redirectTo: '/events', pathMatch: 'full' }
+      { path: 'home',      component: HomeComponent },
+      { path: 'events',    component: EventsComponent },
+      { path: 'resources', component: ResourcesComponent },
+      { path: 'news',      component: NewsComponent },
+      { path: 'team',      component: PeopleComponent },
+      { path: 'admin',     component: AdminComponent },
+      { path: '', redirectTo: '/home', pathMatch: 'full' }
     ]),
     BrowserAnimationsModule
   ],

@@ -2,8 +2,9 @@ import { Component, OnInit, Input }   from '@angular/core';
 import { OnChanges, SimpleChange  }   from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
-import { ITable }                     from '../../models/table.interface';
-import { IEvent, IEpisode }           from '../../models/event.interface';
+import { ITable }   from '../../models/table.interface';
+import { IEvent }   from '../../models/event.interface';
+import { IEpisode } from '../../models/episode.interface';
 
 import { EditEpisodeComponent}        from '../edit-episode/edit-episode.component';
 
@@ -17,8 +18,8 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
   modalRef_EditEpisode: BsModalRef;
 
   table: ITable = {
-    columnTitles: ["ID", "Episode Name", "From", "To"],
-    props: ["id", "name", "startDateFormatted", "endDateFormatted"],
+    columnTitles: ["Episode", "Description", "Date", "Speaker"],
+    props: ["name", "description", "startDateFormatted", "speaker"],
     data: []
   };
 

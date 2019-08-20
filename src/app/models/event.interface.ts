@@ -1,17 +1,22 @@
-import { Identifiers } from '@angular/compiler';
-
-export interface IImage {
-  path?: string;
-  description?: string;
-  thumbnail?: boolean;
-  show?: boolean;
-}
+import { IImage } from './misc.interface';
 
 export interface IEvent {
-  id: number;
+  id?: number;
   name: string;
-  startDate: Date;
-  endDate: Date;
+  description?: string;
+  speaker?: number;
+
+  type?: string;
+  color?: string;
+  comments?: string;
+
+  rj?: number;
+  participants?: number[];
+  images?: IImage[];
+  seriesId?: number; // TODO: Cleanup later
+
+  startDate?: Date;
+  endDate?: Date;
 
   // For displaying in Events Table
   startDateFormatted?: string;
@@ -20,22 +25,4 @@ export interface IEvent {
   // For the calendar inputs in edit-calendar
   startDateInputFormat?: string;
   endDateInputFormat?: string;
-
-  type: string;
-  color: string;
-  comments?: string;
-
-  rj?: number;
-  speaker?: number;
-  participants?: number[];
-  images?: IImage[];
-  seriesId: number; // TODO: Cleanup later
-}
-
-export interface ISeries extends IEvent {
-  episodes?: IEpisode[];
-}
-
-export interface IEpisode extends IEvent {
-  seriesId: number;
 }
