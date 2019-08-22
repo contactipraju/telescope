@@ -120,15 +120,7 @@ import { ToImplementComponent }       from './shared/to-implement/to-implement.c
     EffectsModule.forRoot([UserEffects, EventEffects]),
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
-    RouterModule.forRoot([
-      { path: 'home',      component: HomeComponent },
-      { path: 'events',    component: EventsComponent },
-      { path: 'resources', component: ResourcesComponent },
-      { path: 'news',      component: NewsComponent },
-      { path: 'team',      component: PeopleComponent },
-      { path: 'admin',     component: AdminComponent },
-      { path: '', redirectTo: '/home', pathMatch: 'full' }
-    ]),
+    AppRoutingModule,
     BrowserAnimationsModule
   ],
   exports: [

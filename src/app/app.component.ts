@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component }        from '@angular/core';
+import { Router }           from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,31 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'science-for-society';
+  navList: any = [];
+
+  constructor(private router: Router) {
+    this.prepareNavLinks();
+  }
+
+  navFromPath(path) {
+    // Make sure the first letter is in Uppercase, and replace '-' with ' '
+    let name = path.charAt(0).toUpperCase() + path.slice(1);
+
+    let nav = {
+      url: '/' + path,
+      name: name.replace(/-/g, ' ')
+    };
+
+    return nav;
+  }
+
+  prepareNavLinks() {
+    for(let i=0; i<this.router.config.length; i++) {
+      let path = this.router.config[i].path;
+
+      if(path != '') {
+        this.navList.push(this.navFromPath(path));
+      }
+    }
+  }
 }
