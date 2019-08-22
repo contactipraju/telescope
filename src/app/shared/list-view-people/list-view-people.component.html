@@ -1,0 +1,5 @@
+<div class="list-view-users" *ngIf="userList && userList.length">
+    <div *ngFor="let user of userList">
+        <app-tile-user [user]="user"></app-tile-user>
+    </div>
+</div>

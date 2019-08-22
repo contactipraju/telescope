@@ -6,11 +6,7 @@
     <img width="50" alt="Science For Society" src="assets/images/logo.jpg">
     <span class="menu-spacer"></span>
     <div>
-      <a mat-button [routerLink]="'/events'"> Events </a>
-      <a mat-button [routerLink]="'/resources'"> Resources </a>
-      <a mat-button [routerLink]="'/news'"> News </a>
-      <a mat-button [routerLink]="'/team'"> Team </a>
-      <a mat-button [routerLink]="'/admin'"> Admin </a>
+      <a mat-button *ngFor="let nav of navList" [routerLink]="nav.url"> {{nav.name}} </a>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
@@ -18,12 +14,8 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav>
     <mat-nav-list>
-      <a mat-list-item [routerLink]="'/events'"> Events </a>
-      <a mat-list-item [routerLink]="'/resources'"> Resources </a>
-      <a mat-list-item [routerLink]="'/news'"> News </a>
-      <a mat-list-item [routerLink]="'/team'"> Team </a>
-      <a mat-list-item [routerLink]="'/admin'"> Admin </a>
-      <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+      <a mat-list-item *ngFor="let nav of navList" [routerLink]="nav.url"> {{nav.name}} </a>
+      <a mat-list-item (click)="sidenav.toggle()" href="">Close</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

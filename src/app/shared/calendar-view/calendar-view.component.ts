@@ -5,8 +5,8 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 import { IEvent }                     from '../../models/event.interface';
 
-import { EditSeriesComponent}         from '../../shared/edit-series/edit-series.component';
-import { EditEpisodeComponent}        from '../../shared/edit-episode/edit-episode.component';
+import { EditSeriesComponent}         from '../edit-series/edit-series.component';
+import { EditEpisodeComponent}        from '../edit-episode/edit-episode.component';
 import { MultiselectListComponent }   from '../multiselect-list/multiselect-list.component';
 
 @Component({
