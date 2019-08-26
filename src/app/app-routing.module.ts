@@ -1,13 +1,13 @@
 import { NgModule }             from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent }      from './pages/home/home.component';
-import { NewsComponent }      from './pages/news/news.component';
-import { EventsComponent }    from './pages/events/events.component';
-import { ArchivesComponent }  from './pages/archives/archives.component';
-import { ResourcesComponent } from './pages/resources/resources.component';
-import { PeopleComponent }    from './pages/people/people.component';
-import { AdminComponent }     from './pages/admin/admin.component';
+import { HomeComponent }      from './components/pages/home/home.component';
+import { NewsComponent }      from './components/pages/news/news.component';
+import { EventsComponent }    from './components/pages/events/events.component';
+import { ArchivesComponent }  from './components/pages/archives/archives.component';
+import { ResourcesComponent } from './components/pages/resources/resources.component';
+import { PeopleComponent }    from './components/pages/people/people.component';
+import { AdminComponent }     from './components/pages/admin/admin.component';
 
 const routes: Routes = [
   { path: 'home',          component: HomeComponent },
