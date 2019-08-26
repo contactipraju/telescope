@@ -6,7 +6,7 @@ import { ITable }   from '../../models/table.interface';
 import { IEvent }   from '../../models/event.interface';
 import { IEpisode } from '../../models/episode.interface';
 
-import { EditEpisodeComponent}        from '../edit-episode/edit-episode.component';
+import { EditEpisodeComponent } from '../edit-episode/edit-episode.component';
 
 @Component({
   selector: 'app-table-view-episodes',
@@ -18,6 +18,7 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
   modalRef_EditEpisode: BsModalRef;
 
   table: ITable = {
+    header: "Episodes",
     columnTitles: ["Episode", "Description", "Date", "Speaker"],
     props: ["name", "description", "startDateFormatted", "speaker"],
     data: []
@@ -40,14 +41,25 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
           episodes.push(changes.data.currentValue[i].episodes[j]);
         }
       }
-      this.sortEvents(episodes);
+      this.sortEpisodes(episodes);
     }
   }
 
-  eventSelected(e) {
+  addEpisode(e) {
+    const initialState = {
+      mode: "add",
+      episodesList: this.data,
+      event: {}
+    };
+
+    this.modalRef_EditEpisode = this.modalService.show(EditEpisodeComponent, {initialState});
+    this.modalRef_EditEpisode.content.modalRef = this.modalRef_EditEpisode;
+  }
+
+  selectEpisode(e) {
     const initialState = {
       mode: "edit",
-      seriesList: this.data,
+      episodesList: this.data,
       event: e
     };
 
@@ -55,14 +67,14 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
     this.modalRef_EditEpisode.content.modalRef = this.modalRef_EditEpisode;
   }
 
-  sortEvents(events: IEvent[]) {
-    events.sort((a,b) => {
+  sortEpisodes(episodes: IEpisode[]) {
+    episodes.sort((a,b) => {
       return a.startDate.getTime() - b.startDate.getTime();
     });
 
     this.table.data = [];
-    for (let i=0; i<events.length; i++) {
-      this.table.data.push(events[i]);
+    for (let i=0; i<episodes.length; i++) {
+      this.table.data.push(episodes[i]);
     }
   }
 }
