@@ -1,10 +1,16 @@
-<div class="yacht-table">
+<div class="table-view-component">
+  <div class="header clearfix">
+    <div class="title pull-left">{{data.header}}</div>
+    <div class="options pull-right">
+      <button (click)="addItem($event)">Add</button>
+    </div>
+  </div>
   <table class="h-100 w-100">
     <tr>
       <td *ngFor="let columnTitle of data.columnTitles"><b>{{columnTitle}}</b></td>
     </tr>
-    <tr class="weekly-row" *ngFor="let row of data.data" (click)="selectRow(row)">
-      <td *ngFor="let prop of data.props" [innerHTML]="row[prop]"></td>
+    <tr class="weekly-row" *ngFor="let item of data.data" (click)="selectItem(item)">
+      <td *ngFor="let prop of data.props" [innerHTML]="item[prop]"></td>
     </tr>
   </table>
 </div>

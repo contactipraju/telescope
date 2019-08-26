@@ -3,6 +3,13 @@
 @import '../node_modules/noty/src/themes/sunset.scss';
 @import './variables';
 
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
 .btn {
     border-color: $PrimaryColor;
 }

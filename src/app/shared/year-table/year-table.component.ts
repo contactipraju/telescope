@@ -11,7 +11,8 @@ import { IEvent } from '../../models/event.interface';
 })
 export class YearTableComponent implements OnInit, OnChanges {
   @Input() data: any;
-  @Output() emitter = new EventEmitter<object>();
+  @Output() addEmitter = new EventEmitter<object>();
+  @Output() selectEmitter = new EventEmitter<object>();
 
   constructor() { }
 
@@ -23,7 +24,11 @@ export class YearTableComponent implements OnInit, OnChanges {
     //console.log("YearTableComponent - data: ", this.data);
   }
 
-  selectRow(event: IEvent) {
-    this.emitter.emit(event);
+  addItem(event: IEvent) {
+    this.addEmitter.emit(event);
+  }
+
+  selectItem(event: IEvent) {
+    this.selectEmitter.emit(event);
   }
 }

@@ -17,6 +17,7 @@ export class TableViewPeopleComponent implements OnInit, OnChanges {
   modalRef_EditUser: BsModalRef;
 
   table: ITable = {
+    header: "People",
     columnTitles: ["ID", "Role", "User Name", "Email"],
     props: ["id", "role", "firstname", "email"],
     data: []
@@ -37,7 +38,18 @@ export class TableViewPeopleComponent implements OnInit, OnChanges {
     }
   }
 
-  userSelected(e) {
+  addUser(e) {
+    const initialState = {
+      mode: "add",
+      usersList: this.data,
+      user: {}
+    };
+
+    this.modalRef_EditUser = this.modalService.show(EditUserComponent, {initialState});
+    this.modalRef_EditUser.content.modalRef = this.modalRef_EditUser;
+  }
+
+  selectUser(e) {
     const initialState = {
       mode: "edit",
       usersList: this.data,

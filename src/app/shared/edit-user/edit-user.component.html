@@ -33,7 +33,7 @@
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-default btn-delete left-button" *ngIf="mode === 'edit'" (click)="showDeleteConfirmation = true">Delete</button>
-        <button type="button" class="btn btn-default" *ngIf="mode === 'create'" (click)="saveUser()">Add</button>
+        <button type="button" class="btn btn-default" *ngIf="mode === 'add'" (click)="saveUser()">Add</button>
         <button type="button" class="btn btn-default" *ngIf="mode === 'edit'"   (click)="saveUser()">Update</button>
 
         <button type="button" class="btn btn-default" (click)="modalRef.hide()" id="btn-close">Close</button>
