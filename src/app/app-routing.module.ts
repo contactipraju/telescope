@@ -12,10 +12,10 @@ import { AdminComponent }     from './pages/admin/admin.component';
 const routes: Routes = [
   { path: 'home',          component: HomeComponent },
   { path: 'newsletter',    component: NewsComponent },
-  { path: 'events',        component: EventsComponent },
+//  { path: 'events',        component: EventsComponent },
   { path: 'archives',      component: ArchivesComponent },
   { path: 'knowledge-hub', component: ResourcesComponent },
-  { path: 'team',          component: PeopleComponent },
+//  { path: 'team',          component: PeopleComponent },
   { path: 'admin',         component: AdminComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];

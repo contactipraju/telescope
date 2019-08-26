@@ -26,7 +26,7 @@
             <div class="form-group">
                 <label for="weekly-rate" class="col-12 control-label">Comments</label>
                 <div class="col-12">
-                    <textarea name="comments" rows="2" cols="60" [(ngModel)]="event.comments" placeholder="Comments go here..."></textarea>
+                    <textarea name="comments" rows="2" cols="50" [(ngModel)]="event.comments" placeholder="Comments go here..."></textarea>
                 </div>
             </div>
             <div class="col-12">
@@ -37,7 +37,7 @@
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-default btn-delete left-button" *ngIf="mode === 'edit'" (click)="showDeleteConfirmation = true">Delete</button>
-        <button type="button" class="btn btn-default" *ngIf="mode === 'create'" (click)="saveEvent()">Add</button>
+        <button type="button" class="btn btn-default" *ngIf="mode === 'add'" (click)="saveEvent()">Add</button>
         <button type="button" class="btn btn-default" *ngIf="mode === 'edit'"   (click)="saveEvent()">Update</button>
 
         <button type="button" class="btn btn-default" (click)="modalRef.hide()" id="btn-close">Close</button>

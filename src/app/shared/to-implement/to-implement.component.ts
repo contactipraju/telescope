@@ -21,6 +21,10 @@ export class ToImplementComponent implements OnInit {
       { text: "Archives"}
     ],
     events: [
+    ],
+    archives: [
+      { text: "On Telugu Radio", children: [{ text: "Tori - Science Hour"}, { text: "Tori - Humanist Hour"}, { text: "YouTube - Manavavaani"}]},
+      { text: "Visual Media",  children: [{ text: "Debates"}, { text: "Speeches"}, { text: "Interviews"}]},
       { text: "Major Events", children: [
         { text: "Selfie with Ghost"},
         { text: "SAHA and SfS Launch at NSW Parliament House, Sydney"},
@@ -29,10 +33,6 @@ export class ToImplementComponent implements OnInit {
         { text: "Humanist Cartoon Competition"},
         { text: "Ride for Reason"}
       ]}
-    ],
-    archives: [
-      { text: "On Telugu Radio", children: [{ text: "Tori - Science Hour"}, { text: "Tori - Humanist Hour"}, { text: "YouTube - Manavavaani"}]},
-      { text: "Visual Media",  children: [{ text: "Debates"}, { text: "Speeches"}, { text: "Interviews"}]}
     ],
     knowledgehub: [
       { text: "Reading",   children: [{ text: "Books"}, { text: "PDFs"}, { text: "Blogs"}, { text: "Websites"}]},
