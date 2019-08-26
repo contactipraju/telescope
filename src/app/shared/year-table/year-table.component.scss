@@ -1,17 +1,39 @@
-.yacht-table tr:nth-child(odd) {
-    background-color: #dadada;
-}
+.table-view-component {
+    margin-bottom: 10px;
 
-.yacht-table tr:first-child {
-    background-color: #1a345b;
-    color: #fff;
-}
+    .header {
+        height: 35px;
 
-.yacht-table tr.weekly-row {
-    cursor: pointer;
-}
+        .title {
+            font-size: 22px;
+        }
 
-.yacht-table td {
-    padding: 5px 0 5px 10px;
-    font-size: 12px;
+        .options {
+            padding: 2px;
+
+            button {
+                border-radius: 5px;
+            }
+        }
+    }
+
+    table {
+        tr:nth-child(odd) {
+            background-color: #dadada;
+        }
+
+        tr:first-child {
+            background-color: #1a345b;
+            color: #fff;
+        }
+
+        tr.weekly-row {
+            cursor: pointer;
+        }
+
+        td {
+            padding: 5px 0 5px 10px;
+            font-size: 12px;
+        }
+    }
 }
