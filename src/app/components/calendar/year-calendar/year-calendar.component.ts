@@ -10,7 +10,7 @@ import { IEvent } from '../../../models/event.interface';
 import Calendar from "../../../../lib/js-year-calendar/js-year-calendar";  // Temporary solution
 
 @Component({
-  selector: 'bc-year-calendar',
+  selector: 'app-year-calendar',
   templateUrl: './year-calendar.component.html',
   styleUrls: ['./year-calendar.component.scss']
 })

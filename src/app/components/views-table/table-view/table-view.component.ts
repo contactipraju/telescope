@@ -5,11 +5,11 @@ import { OnChanges, SimpleChange  } from '@angular/core';
 import { IEvent } from '../../../models/event.interface';
 
 @Component({
-  selector: 'bc-year-table',
-  templateUrl: './year-table.component.html',
-  styleUrls: ['./year-table.component.scss']
+  selector: 'app-table-view',
+  templateUrl: './table-view.component.html',
+  styleUrls: ['./table-view.component.scss']
 })
-export class YearTableComponent implements OnInit, OnChanges {
+export class TableViewComponent implements OnInit, OnChanges {
   @Input() data: any;
   @Output() addEmitter = new EventEmitter<object>();
   @Output() selectEmitter = new EventEmitter<object>();
@@ -21,7 +21,7 @@ export class YearTableComponent implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    //console.log("YearTableComponent - data: ", this.data);
+    //console.log("TableViewComponent - data: ", this.data);
   }
 
   addItem(event: IEvent) {

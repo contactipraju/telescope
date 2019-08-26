@@ -72,10 +72,10 @@ import { ListViewPeopleComponent }    from './components/views-list/list-view-pe
 import { ListViewSeriesComponent }    from './components/views-list/list-view-series/list-view-series.component';
 
 /* Table-View Components */
+import { TableViewComponent }         from './components/views-table/table-view/table-view.component';
 import { TableViewEpisodesComponent } from './components/views-table/table-view-episodes/table-view-episodes.component';
 import { TableViewSeriesComponent }   from './components/views-table/table-view-series/table-view-series.component';
 import { TableViewPeopleComponent }   from './components/views-table/table-view-people/table-view-people.component';
-import { YearTableComponent }         from './components/views-table/year-table/year-table.component';
 
 /* Tile-View Components */
 import { TileEpisodeComponent }       from './components/views-tile/tile-episode/tile-episode.component';
@@ -107,7 +107,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     TableViewPeopleComponent,
     TableViewSeriesComponent,
     TableViewEpisodesComponent,
-    YearTableComponent,
+    TableViewComponent,
     TileEpisodeComponent,
     TileSeriesComponent,
     TileUserComponent
