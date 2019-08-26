@@ -1,0 +1,3 @@
+<div id="event-sfs-col">
+  <app-table-view *ngIf="table && table.data && table.data.length" [data]="table" (selectEmitter)="selectEpisode($event)" (addEmitter)="addEpisode($event)"></app-table-view>
+</div>

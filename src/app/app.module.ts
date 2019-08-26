@@ -42,67 +42,75 @@ import { EventService }    from './services/event.service';
 /* App Components */
 import { AppComponent }    from './app.component';
 
+/* Calendar Components */
+import { CalendarViewComponent }      from './components/calendar/calendar-view/calendar-view.component';
+import { MultiselectListComponent }   from './components/calendar/multiselect-list/multiselect-list.component';
+import { YearCalendarComponent }      from './components/calendar/year-calendar/year-calendar.component';
+
+/* Edit Components */
+import { EditEpisodeComponent }       from './components/edit/edit-episode/edit-episode.component';
+import { EditHtmlComponent }          from './components/edit/edit-html/edit-html.component';
+import { EditLayoutComponent }        from './components/edit/edit-layout/edit-layout.component';
+import { EditSeriesComponent }        from './components/edit/edit-series/edit-series.component';
+import { EditUserComponent }          from './components/edit/edit-user/edit-user.component';
+
+/* Misc Components */
+import { ArticleComponent }           from './components/misc/article/article.component';
+import { ToImplementComponent }       from './components/misc/to-implement/to-implement.component';
+
 /* Page Components */
-import { HomeComponent }      from './pages/home/home.component';
-import { NewsComponent }      from './pages/news/news.component';
-import { EventsComponent }    from './pages/events/events.component';
-import { ArchivesComponent }  from './pages/archives/archives.component';
-import { ResourcesComponent } from './pages/resources/resources.component';
-import { PeopleComponent }    from './pages/people/people.component';
-import { AdminComponent }     from './pages/admin/admin.component';
+import { HomeComponent }              from './components/pages/home/home.component';
+import { NewsComponent }              from './components/pages/news/news.component';
+import { EventsComponent }            from './components/pages/events/events.component';
+import { ArchivesComponent }          from './components/pages/archives/archives.component';
+import { ResourcesComponent }         from './components/pages/resources/resources.component';
+import { PeopleComponent }            from './components/pages/people/people.component';
+import { AdminComponent }             from './components/pages/admin/admin.component';
 
-/* Shared Components */
-import { CalendarViewComponent }      from './shared/calendar-view/calendar-view.component';
-import { MultiselectListComponent }   from './shared/multiselect-list/multiselect-list.component';
+/* List-View Components */
+import { ListViewPeopleComponent }    from './components/views-list/list-view-people/list-view-people.component';
+import { ListViewSeriesComponent }    from './components/views-list/list-view-series/list-view-series.component';
 
-import { YearTableComponent }         from './shared/year-table/year-table.component';
-import { YearCalendarComponent }      from './shared/year-calendar/year-calendar.component';
+/* Table-View Components */
+import { TableViewComponent }         from './components/views-table/table-view/table-view.component';
+import { TableViewEpisodesComponent } from './components/views-table/table-view-episodes/table-view-episodes.component';
+import { TableViewSeriesComponent }   from './components/views-table/table-view-series/table-view-series.component';
+import { TableViewPeopleComponent }   from './components/views-table/table-view-people/table-view-people.component';
 
-import { EditUserComponent }          from './shared/edit-user/edit-user.component';
-import { EditSeriesComponent }        from './shared/edit-series/edit-series.component';
-import { EditEpisodeComponent }       from './shared/edit-episode/edit-episode.component';
-
-import { ListViewSeriesComponent }    from './shared/list-view-series/list-view-series.component';
-import { ListViewPeopleComponent }    from './shared/list-view-people/list-view-people.component';
-
-import { TileUserComponent }          from './shared/tile-user/tile-user.component';
-import { TileSeriesComponent }        from './shared/tile-series/tile-series.component';
-import { TileEpisodeComponent }       from './shared/tile-episode/tile-episode.component';
-
-import { TableViewPeopleComponent }   from './shared/table-view-people/table-view-people.component';
-import { TableViewSeriesComponent }   from './shared/table-view-series/table-view-series.component';
-import { TableViewEpisodesComponent } from './shared/table-view-episodes/table-view-episodes.component';
-
-import { ArticleComponent }           from './shared/article/article.component';
-import { ToImplementComponent }       from './shared/to-implement/to-implement.component';
+/* Tile-View Components */
+import { TileEpisodeComponent }       from './components/views-tile/tile-episode/tile-episode.component';
+import { TileSeriesComponent }        from './components/views-tile/tile-series/tile-series.component';
+import { TileUserComponent }          from './components/views-tile/tile-user/tile-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EventsComponent,
+    ArchivesComponent,
     ResourcesComponent,
     NewsComponent,
     PeopleComponent,
     AdminComponent,
-    YearTableComponent,
-    YearCalendarComponent,
+    ArticleComponent,
+    ToImplementComponent,
     CalendarViewComponent,
     MultiselectListComponent,
-    EditSeriesComponent,
+    YearCalendarComponent,
     EditEpisodeComponent,
+    EditHtmlComponent,
+    EditLayoutComponent,
+    EditSeriesComponent,
+    EditUserComponent,
     ListViewSeriesComponent,
-    TileSeriesComponent,
-    TileEpisodeComponent,
+    ListViewPeopleComponent,
     TableViewPeopleComponent,
     TableViewSeriesComponent,
     TableViewEpisodesComponent,
-    EditUserComponent,
-    ArticleComponent,
-    ToImplementComponent,
-    ListViewPeopleComponent,
-    TileUserComponent,
-    ArchivesComponent
+    TableViewComponent,
+    TileEpisodeComponent,
+    TileSeriesComponent,
+    TileUserComponent
   ],
   imports: [
     CommonModule,
@@ -127,7 +135,13 @@ import { ToImplementComponent }       from './shared/to-implement/to-implement.c
     AppComponent
   ],
   providers: [EventService, UserService],
-  entryComponents: [EditUserComponent, EditSeriesComponent, EditEpisodeComponent, MultiselectListComponent],
+  entryComponents: [
+    EditHtmlComponent,
+    EditLayoutComponent,
+    EditUserComponent,
+    EditSeriesComponent,
+    EditEpisodeComponent,
+    MultiselectListComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
