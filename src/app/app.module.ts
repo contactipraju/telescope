@@ -16,6 +16,7 @@ import { MatButtonModule }  from '@angular/material';
 
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
+import { AngularEditorModule }      from '@kolkov/angular-editor';
 
 /* Routing Module */
 import { AppRoutingModule }         from './app-routing.module';
@@ -32,6 +33,7 @@ import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { appReducers }     from './store/reducers/app.reducers';
 
 /* Store Effects */
+import { AppEffects }      from './app.effects';
 import { UserEffects }     from './store/effects/user.effects';
 import { EventEffects }    from './store/effects/event.effects';
 
@@ -117,6 +119,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    AngularEditorModule,
     StoreDevtoolsModule.instrument(),
     MatToolbarModule,
     MatIconModule,
@@ -125,7 +128,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatButtonModule,
     AppRoutingModule,
     StoreModule.forRoot(appReducers),
-    EffectsModule.forRoot([UserEffects, EventEffects]),
+    EffectsModule.forRoot([UserEffects, EventEffects, AppEffects]),
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
     AppRoutingModule,
