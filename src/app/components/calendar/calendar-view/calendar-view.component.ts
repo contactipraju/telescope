@@ -1,6 +1,5 @@
 import { Component, OnInit, Input }   from '@angular/core';
 import { OnChanges, SimpleChange  }   from '@angular/core';
-import { TemplateRef, ViewChild   }   from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 import { IEvent }                     from '../../../models/event.interface';
@@ -22,8 +21,6 @@ export class CalendarViewComponent implements OnInit, OnChanges {
 
   modalRef_Multiselect: BsModalRef;
   modalRef_EditEvent: BsModalRef;
-
-  @ViewChild('multiselect') templateMultiSelect : TemplateRef<any>;
 
   constructor(private modalService: BsModalService) { }
 
