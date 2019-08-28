@@ -34,7 +34,7 @@ export class EditSeriesComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log('EditSeriesComponent - ngOnInit: ', this.event);
+    //console.log('EditSeriesComponent - ngOnInit: ', this.event);
   }
 
   saveEvent() {

@@ -25,7 +25,7 @@ export class CalendarViewComponent implements OnInit, OnChanges {
   constructor(private modalService: BsModalService) { }
 
   ngOnInit() {
-    console.log("CalendarViewComponent - ngOnInit: ", this.events);
+    //console.log("CalendarViewComponent - ngOnInit: ", this.events);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {

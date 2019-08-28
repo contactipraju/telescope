@@ -25,7 +25,7 @@ export class YearCalendarComponent implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    console.log("YearCalendarComponent - ngOnInit: ", this.data);
+    //console.log("YearCalendarComponent - ngOnInit: ", this.data);
     this.initializeCalendar();
   }
 
@@ -38,7 +38,7 @@ export class YearCalendarComponent implements OnInit, OnChanges {
   }
 
   initializeCalendar() {
-    console.log("YearCalendarComponent - initializeCalendar: ", this.data);
+    //console.log("YearCalendarComponent - initializeCalendar: ", this.data);
 
     const emit = (from, to) => {
       this.emitter.emit({startDate: from, endDate: to});

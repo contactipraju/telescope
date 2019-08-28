@@ -14,7 +14,7 @@ export class ListViewPeopleComponent implements OnInit, OnChanges {
   constructor() { }
 
   ngOnInit() {
-    console.log("ListViewPeopleComponent - ngOnInit: ", this.userList);
+    //console.log("ListViewPeopleComponent - ngOnInit: ", this.userList);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {

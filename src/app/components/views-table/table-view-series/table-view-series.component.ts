@@ -28,7 +28,7 @@ export class TableViewSeriesComponent implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    console.log("TableViewSeriesComponent - ngOnInit: ", this.data);
+    //console.log("TableViewSeriesComponent - ngOnInit: ", this.data);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
