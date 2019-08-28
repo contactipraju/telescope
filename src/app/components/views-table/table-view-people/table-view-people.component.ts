@@ -27,7 +27,7 @@ export class TableViewPeopleComponent implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    console.log("TableViewPeopleComponent - ngOnInit: ", this.data);
+    //console.log("TableViewPeopleComponent - ngOnInit: ", this.data);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {

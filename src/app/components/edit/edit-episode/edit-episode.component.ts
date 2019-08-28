@@ -27,7 +27,7 @@ export class EditEpisodeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log('EditEpisodeComponent - ngOnInit: ', this.event);
+    //console.log('EditEpisodeComponent - ngOnInit: ', this.event);
   }
 
   saveEvent() {

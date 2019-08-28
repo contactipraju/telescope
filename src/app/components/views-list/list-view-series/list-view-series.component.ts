@@ -14,7 +14,7 @@ export class ListViewSeriesComponent implements OnInit, OnChanges {
   constructor() { }
 
   ngOnInit() {
-    console.log("ListViewSeriesComponent - ngOnInit: ", this.seriesList);
+    //console.log("ListViewSeriesComponent - ngOnInit: ", this.seriesList);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {

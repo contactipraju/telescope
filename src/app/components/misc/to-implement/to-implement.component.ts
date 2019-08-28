@@ -52,6 +52,6 @@ export class ToImplementComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log("ToImplementComponent - ngOnInit: ", this.page);
+    //console.log("ToImplementComponent - ngOnInit: ", this.page);
   }
 }

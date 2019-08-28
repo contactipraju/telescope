@@ -28,7 +28,7 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    console.log("TableViewEpisodesComponent - ngOnInit: ", this.data);
+    //console.log("TableViewEpisodesComponent - ngOnInit: ", this.data);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {

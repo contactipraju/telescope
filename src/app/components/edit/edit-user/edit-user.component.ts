@@ -22,7 +22,7 @@ export class EditUserComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log('EditUserComponent - ngOnInit: ', this.user);
+    //console.log('EditUserComponent - ngOnInit: ', this.user);
   }
 
   saveUser() {
