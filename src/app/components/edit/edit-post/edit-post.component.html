@@ -1,6 +1,6 @@
 <div class="modal-content">
     <div class="modal-header">
-        <h4 class="modal-title pull-left">Edit Post ({{post.name}})</h4>
+        <h4 class="modal-title pull-left">Edit Post ({{post.title}})</h4>
         <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -32,7 +32,7 @@
             <div class="form-group">
                 <label for="weekly-rate" class="col-12 control-label">Comments</label>
                 <div class="col-12">
-                    <textarea name="comments" rows="2" cols="50" [(ngModel)]="post.comments" placeholder="Comments go here..."></textarea>
+                    <textarea name="notes" rows="2" cols="50" [(ngModel)]="post.notes" placeholder="Comments go here..."></textarea>
                 </div>
             </div>
             <div class="col-12">
