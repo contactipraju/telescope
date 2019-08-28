@@ -34,12 +34,14 @@ import { appReducers }     from './store/reducers/app.reducers';
 
 /* Store Effects */
 import { AppEffects }      from './app.effects';
-import { UserEffects }     from './store/effects/user.effects';
 import { EventEffects }    from './store/effects/event.effects';
+import { PostEffects }     from './store/effects/post.effects';
+import { UserEffects }     from './store/effects/user.effects';
 
 /* Services */
-import { UserService }     from './services/user.service';
 import { EventService }    from './services/event.service';
+import { PostService }     from './services/post.service';
+import { UserService }     from './services/user.service';
 
 /* App Components */
 import { AppComponent }    from './app.component';
@@ -51,8 +53,8 @@ import { YearCalendarComponent }      from './components/calendar/year-calendar/
 
 /* Edit Components */
 import { EditEpisodeComponent }       from './components/edit/edit-episode/edit-episode.component';
-import { EditHtmlComponent }          from './components/edit/edit-html/edit-html.component';
 import { EditLayoutComponent }        from './components/edit/edit-layout/edit-layout.component';
+import { EditPostComponent }          from './components/edit/edit-post/edit-post.component';
 import { EditSeriesComponent }        from './components/edit/edit-series/edit-series.component';
 import { EditUserComponent }          from './components/edit/edit-user/edit-user.component';
 
@@ -76,8 +78,9 @@ import { ListViewSeriesComponent }    from './components/views-list/list-view-se
 /* Table-View Components */
 import { TableViewComponent }         from './components/views-table/table-view/table-view.component';
 import { TableViewEpisodesComponent } from './components/views-table/table-view-episodes/table-view-episodes.component';
-import { TableViewSeriesComponent }   from './components/views-table/table-view-series/table-view-series.component';
 import { TableViewPeopleComponent }   from './components/views-table/table-view-people/table-view-people.component';
+import { TableViewSeriesComponent }   from './components/views-table/table-view-series/table-view-series.component';
+import { TableViewPostsComponent }    from './components/views-table/table-view-posts/table-view-posts.component';
 
 /* Tile-View Components */
 import { TileEpisodeComponent }       from './components/views-tile/tile-episode/tile-episode.component';
@@ -100,16 +103,17 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MultiselectListComponent,
     YearCalendarComponent,
     EditEpisodeComponent,
-    EditHtmlComponent,
     EditLayoutComponent,
+    EditPostComponent,
     EditSeriesComponent,
     EditUserComponent,
     ListViewSeriesComponent,
     ListViewPeopleComponent,
+    TableViewComponent,
+    TableViewEpisodesComponent,
     TableViewPeopleComponent,
     TableViewSeriesComponent,
-    TableViewEpisodesComponent,
-    TableViewComponent,
+    TableViewPostsComponent,
     TileEpisodeComponent,
     TileSeriesComponent,
     TileUserComponent
@@ -128,7 +132,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatButtonModule,
     AppRoutingModule,
     StoreModule.forRoot(appReducers),
-    EffectsModule.forRoot([UserEffects, EventEffects, AppEffects]),
+    EffectsModule.forRoot([AppEffects, EventEffects, PostEffects, UserEffects]),
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
     AppRoutingModule,
@@ -137,13 +141,13 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   exports: [
     AppComponent
   ],
-  providers: [EventService, UserService],
+  providers: [EventService, PostService, UserService],
   entryComponents: [
-    EditHtmlComponent,
-    EditLayoutComponent,
-    EditUserComponent,
-    EditSeriesComponent,
     EditEpisodeComponent,
+    EditLayoutComponent,
+    EditPostComponent,
+    EditSeriesComponent,
+    EditUserComponent,
     MultiselectListComponent],
   bootstrap: [AppComponent]
 })
