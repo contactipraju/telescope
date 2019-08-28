@@ -3,11 +3,13 @@ import { routerReducer }    from '@ngrx/router-store';
 
 import { IAppState }        from '../state/app.state';
 
-import { userReducers }     from './user.reducers';
 import { eventReducers }    from './event.reducers';
+import { postReducers }     from './post.reducers';
+import { userReducers }     from './user.reducers';
 
 export const appReducers: ActionReducerMap<IAppState, any> = {
   router: routerReducer,
-  users: userReducers,
-  events: eventReducers
+  events: eventReducers,
+  posts: postReducers,
+  users: userReducers
 };
