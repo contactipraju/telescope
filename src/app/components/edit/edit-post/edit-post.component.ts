@@ -17,6 +17,12 @@ import { IPost }             from '../../../models/post.interface';
 export class EditPostComponent implements OnInit {
   mode: string;
   post: IPost;
+  postTypes = [
+    { value: "none", text: "Select Post Type" },
+    { value: "news", text: "News" },
+    { value: "comment", text: "Comment" },
+    { value: "special", text: "Special" }
+  ];
 
   showDeleteConfirmation: boolean = false;
 
@@ -27,6 +33,9 @@ export class EditPostComponent implements OnInit {
 
   ngOnInit() {
     console.log('EditPostComponent - ngOnInit: ', this.post);
+    if(!this.post.type) {
+      this.post.type = this.postTypes[0].value;
+    }
   }
 
   savePost() {
