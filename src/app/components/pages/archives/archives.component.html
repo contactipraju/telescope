@@ -1,9 +1,11 @@
-<div class="calendar-page outer-container">
+<div class="archives-component">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="col-sm-3 col-md-3 col-lg-2">
         <app-to-implement page="archives"></app-to-implement>
-        <!-- <app-list-view-series [seriesList]="events$ | async"></app-list-view-series> -->
+      </div>
+      <div class="col-sm-9 col-md-9 col-lg-10">
+        <app-list-view-series [seriesList]="events$ | async"></app-list-view-series>
       </div>
     </div>
   </div>

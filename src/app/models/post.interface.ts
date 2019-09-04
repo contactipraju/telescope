@@ -4,8 +4,8 @@ export interface IPost {
   author?: string;
   email?: string;
   description?: string;
-  content: string;
-  type: string;
+  content?: string;
+  type?: string;
   dateWritten?: Date;
   datePosted?: Date;
   dateWrittenFormatted?: string;
