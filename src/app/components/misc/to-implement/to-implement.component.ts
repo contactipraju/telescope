@@ -16,9 +16,13 @@ export class ToImplementComponent implements OnInit {
       { text: "Want to contribute? Join us.."}
     ],
     newsletter: [
-      { text: "Monthly Newsletter", children: [{ text: "BG's Comment"}, { text: "Events"},
-      { text: "This month in Science"}]},
+      { text: "Monthly Newsletter", children: [{ text: "BG's Comment"}, { text: "Events"}, { text: "This month in Science"}]},
       { text: "Archives"}
+    ],
+    qanda: [
+      { text: "Physics"},
+      { text: "Chemistry"},
+      { text: "Botany"}
     ],
     events: [
     ],
@@ -34,10 +38,10 @@ export class ToImplementComponent implements OnInit {
         { text: "Ride for Reason"}
       ]}
     ],
-    knowledgehub: [
-      { text: "Reading",   children: [{ text: "Books"}, { text: "PDFs"}, { text: "Blogs"}, { text: "Websites"}]},
+    resources: [
+      { text: "Reading",      children: [{ text: "Books"}, { text: "PDFs"}, { text: "Blogs"}, { text: "Websites"}]},
       { text: "Infotainment", children: [{ text: "Documentaries"}, { text: "Feature Films"}, { text: "The Big Question with BG"}]},
-      { text: "Resources", children: [{ text: "Social Media"}, { text: "Glossary"}]}
+      { text: "Resources",    children: [{ text: "Social Media"}, { text: "Glossary"}]}
     ],
     team: [
       { text: "Science for Society (SfS)"},
