@@ -3,7 +3,9 @@
     <button mat-icon-button>
       <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
     </button>
-    <img width="50" alt="Science For Society" src="assets/images/logo.jpg">
+    <span class="logo-container">
+      <img width="50" alt="Telescope" src="assets/images/logo-telescope.png">
+    </span>
     <span class="menu-spacer"></span>
     <div>
       <a mat-button *ngFor="let nav of navList" [routerLink]="nav.url"> {{nav.name}} </a>

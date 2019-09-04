@@ -65,6 +65,7 @@ import { ToImplementComponent }       from './components/misc/to-implement/to-im
 /* Page Components */
 import { HomeComponent }              from './components/pages/home/home.component';
 import { NewsComponent }              from './components/pages/news/news.component';
+import { QAndAComponent }             from './components/pages/q-and-a/q-and-a.component';
 import { EventsComponent }            from './components/pages/events/events.component';
 import { ArchivesComponent }          from './components/pages/archives/archives.component';
 import { ResourcesComponent }         from './components/pages/resources/resources.component';
@@ -86,6 +87,7 @@ import { TableViewPostsComponent }    from './components/views-table/table-view-
 import { TileEpisodeComponent }       from './components/views-tile/tile-episode/tile-episode.component';
 import { TileSeriesComponent }        from './components/views-tile/tile-series/tile-series.component';
 import { TileUserComponent }          from './components/views-tile/tile-user/tile-user.component';
+import { TilePostComponent }          from './components/views-tile/tile-post/tile-post.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +97,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     ArchivesComponent,
     ResourcesComponent,
     NewsComponent,
+    QAndAComponent,
     PeopleComponent,
     AdminComponent,
     ArticleComponent,
@@ -116,7 +119,8 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     TableViewPostsComponent,
     TileEpisodeComponent,
     TileSeriesComponent,
-    TileUserComponent
+    TileUserComponent,
+    TilePostComponent
   ],
   imports: [
     CommonModule,
