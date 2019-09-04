@@ -1,10 +1,15 @@
 .item {
-    margin: 5px;
-    padding: 5px;
-    background-color: lightgray;
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    color: slategrey;
 }
 
 .children {
     padding-left: 20px;
     padding-bottom: 5px;
+
+    .item {
+        color: #0645ad;
+    }
 }

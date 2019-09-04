@@ -8,14 +8,20 @@
     <div class="modal-body">
         <form class="form-horizontal">
             <div class="form-group">
-                <label for="min-date" class="col-12 control-label">Title</label>
                 <div class="col-12">
-                    <input type="text" name="post-title" class="form-control modal-input" [(ngModel)]="post.title" />
+                    <select name="post-type" class="form-control modal-input" [(ngModel)]="post.type">
+                        <option *ngFor="let type of postTypes" [ngValue]="type.value">{{type.text}}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
-                <label for="min-date" class="col-12 control-label">Post Type</label>
                 <div class="col-12">
+                    <input type="text" name="post-title" class="form-control modal-input" [(ngModel)]="post.title" placeholder="add title"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-12">
+                    <angular-editor name="post-content" [placeholder]="'Start typing...'" [(ngModel)]="post.content"></angular-editor>
                 </div>
             </div>
             <div class="form-group">
@@ -24,13 +30,6 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="min-date" class="col-12 control-label">Post</label>
-                <div class="col-12">
-                    <angular-editor name="post-content" [placeholder]="'Enter text here...'" [(ngModel)]="post.content"></angular-editor>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="weekly-rate" class="col-12 control-label">Comments</label>
                 <div class="col-12">
                     <textarea name="notes" rows="2" cols="50" [(ngModel)]="post.notes" placeholder="Comments go here..."></textarea>
                 </div>
