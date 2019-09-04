@@ -87,7 +87,6 @@ import { TableViewPostsComponent }    from './components/views-table/table-view-
 import { TileEpisodeComponent }       from './components/views-tile/tile-episode/tile-episode.component';
 import { TileSeriesComponent }        from './components/views-tile/tile-series/tile-series.component';
 import { TileUserComponent }          from './components/views-tile/tile-user/tile-user.component';
-import { TilePostComponent }          from './components/views-tile/tile-post/tile-post.component';
 
 @NgModule({
   declarations: [
@@ -119,8 +118,7 @@ import { TilePostComponent }          from './components/views-tile/tile-post/ti
     TableViewPostsComponent,
     TileEpisodeComponent,
     TileSeriesComponent,
-    TileUserComponent,
-    TilePostComponent
+    TileUserComponent
   ],
   imports: [
     CommonModule,
