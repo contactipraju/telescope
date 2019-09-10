@@ -15,4 +15,6 @@
   <app-button-group (emitter)="filterEventHandler($event)" [data]='allFilters.gender'></app-button-group>
 
   <app-button-group (emitter)="filterEventHandler($event)" [data]='allFilters.area'></app-button-group>
+
+  <button id="reset-filters" class="btn btn-block" (click)="onResetFilters()">Reset Filters</button>
 </div>

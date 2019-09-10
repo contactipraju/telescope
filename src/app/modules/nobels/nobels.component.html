@@ -15,7 +15,6 @@
         <div *ngIf="filteredLaureates.length && filteredLaureates.length === laureates.length" class="filtered-laureate-count">{{laureates?.length}} laureates in total</div>
         <div *ngIf="filteredLaureates.length && filteredLaureates.length !== laureates.length" class="filtered-laureate-count">
           {{filteredLaureates?.length}} laureates filtered out of {{laureates?.length}}
-          <span id="reset-filters" (click)="onResetFilters()">Reset Filters</span>
         </div>
 
         <div class="card-deck">
