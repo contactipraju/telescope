@@ -1,0 +1,9 @@
+<div class="sort-button-container">
+  <div *ngIf="data.title" class="sort-button-container-label">
+    {{data.title}}
+  </div>
+  <button class="btn btn-primary btn-block" [class.active]="selected.key === data.key" (click)="onSortButton()">
+    <i class="fas" [ngClass]="{'fa-angle-up': order, 'fa-angle-down': !order}"></i>
+    {{data.label}}
+  </button>
+</div>
