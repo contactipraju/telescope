@@ -57,8 +57,8 @@ export class ToImplementComponent implements OnInit {
         { text: "Books"},
         { text: "PDFs"},
         { text: "Blogs"},
-        { text: "Nobels", link: "/resources/nobels"},
-        { text: "Websites"}
+        { text: "Websites"},
+        { text: "Nobel Laureates", link: "resources/nobels"}
       ]},
       { text: "Infotainment", children: [{ text: "Documentaries"}, { text: "Feature Films"}, { text: "The Big Question with BG"}]},
       { text: "Resources",    children: [{ text: "Social Media"}, { text: "Glossary"}]}
