@@ -1,0 +1,17 @@
+@import '../../../variables';
+
+.container-fluid {
+  padding: 10px;
+}
+
+.filtered-laureate-count {
+  padding: 2px;
+
+  #reset-filters {
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    background-color: $BrightColor;
+    border-radius: 4px;
+  }
+}
