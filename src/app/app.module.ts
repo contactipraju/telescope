@@ -20,6 +20,7 @@ import { AngularEditorModule }      from '@kolkov/angular-editor';
 
 /* Routing Module */
 import { AppRoutingModule }         from './app-routing.module';
+import { NobelsModule }             from './modules/nobels/nobels.module';
 
 import { environment }              from 'src/environments/environment';
 
@@ -132,12 +133,13 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    AppRoutingModule,
+    RouterModule,
     StoreModule.forRoot(appReducers),
     EffectsModule.forRoot([AppEffects, EventEffects, PostEffects, UserEffects]),
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
     AppRoutingModule,
+    NobelsModule,
     BrowserAnimationsModule
   ],
   exports: [

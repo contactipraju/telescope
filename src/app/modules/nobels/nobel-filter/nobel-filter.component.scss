@@ -1,0 +1,17 @@
+.sort-group {
+    display: flex;
+    flex-direction: row;
+
+    .sort-component {
+        padding: 2px;
+        width: 50%;
+    }
+}
+
+.nobel-filter-container {
+    padding-top: 25px;
+
+    .group-container-label {
+        font-style: italic;
+    }
+}
