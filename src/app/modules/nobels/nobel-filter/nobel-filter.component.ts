@@ -29,7 +29,7 @@ export class NobelFilterComponent implements OnInit {
   }
 
   filterEventHandler($event) {
-    console.log("filterEventHandler", $event);
+    console.log("NobelFilterComponent - filterEventHandler: ", $event);
 
     switch($event.id) {
       case 'name':
@@ -55,16 +55,21 @@ export class NobelFilterComponent implements OnInit {
   }
 
   onSearchChange() {
-    console.log("onSearchChange");
+    console.log("NobelFilterComponent - onSearchChange: ");
     this.emitFilters();
   }
 
   onResetFilters() {
-    console.log("onResetFilters");
+    console.log("NobelFilterComponent - onResetFilters: ");
+    this.filterInputs.Reset();
+    this.allFilters = this.filterInputs.allOptions();
+    this.emitFilters();
+
+    this.filterService.broadcastMessage('reset');
   }
 
   emitFilters() {
-    console.log("emitFilters");
+    console.log("NobelFilterComponent - emitFilters: ");
     this.searchUpdated.next(this.filterInputs);
   }
 }
