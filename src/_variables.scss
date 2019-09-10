@@ -9,3 +9,31 @@ $PrimaryColor: #1a345b;
     background-color: $PrimaryColor;
     border-color: #fff;
 }
+
+
+/* Nobel Laureats */
+$SelectedColor: #3fb498;
+$DefaultColor: #1a345b;
+$BrightColor: #e0338a;
+
+@mixin nobel-form-group() {
+    display: flex;
+    cursor: pointer;
+
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+@mixin nobel-form-control-icon() {
+    color: #555;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+@mixin nobel-form-control() {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
