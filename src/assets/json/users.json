@@ -30,5 +30,8 @@
     {"id": 29, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Mahesh",         "lastname": "Katti",     "profile": "people/katti.jpg",     "email": "katti@gmail.com"},
     {"id": 30, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Sumana",         "lastname": "Gangineni", "profile": "people/gangineni.jpg", "email": "gangineni@gmail.com"},
     {"id": 31, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Sravanthi",      "lastname": "Vutukuru",  "profile": "people/vutukuru.jpg",  "email": "vutukuri@gmail.com"},
-    {"id": 32, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Nastik",         "lastname": "Surya",     "profile": "people/surya.jpg",     "email": "surya@gmail.com"}
+    {"id": 32, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Nastik",         "lastname": "Surya",     "profile": "people/surya.jpg",     "email": "surya@gmail.com"},
+    {"id": 33, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Sambasivarao",   "lastname": "Mutyala",   "profile": "people/samba.jpg",     "email": "samba@gmail.com"},
+    {"id": 34, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Ramachandraiah", "lastname": "A",         "profile": "people/ramac.jpg",     "email": "ramachandra@gmail.com"},
+    {"id": 35, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Devraj",         "lastname": "Maharaju",  "profile": "people/devaraj.jpg",   "email": "devaraj@gmail.com"}
 ]
