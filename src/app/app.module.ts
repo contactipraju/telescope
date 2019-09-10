@@ -133,7 +133,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    AppRoutingModule,
+    RouterModule,
     StoreModule.forRoot(appReducers),
     EffectsModule.forRoot([AppEffects, EventEffects, PostEffects, UserEffects]),
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
