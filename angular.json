@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "science-for-society": {
+    "Telescope": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/science-for-society",
+            "outputPath": "dist/Telescope",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "science-for-society:build"
+            "browserTarget": "Telescope:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "science-for-society:build:production"
+              "browserTarget": "Telescope:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "science-for-society:build"
+            "browserTarget": "Telescope:build"
           }
         },
         "test": {
@@ -111,7 +111,7 @@
         }
       }
     },
-    "science-for-society-e2e": {
+    "Telescope-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -120,11 +120,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "science-for-society:serve"
+            "devServerTarget": "Telescope:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "science-for-society:serve:production"
+              "devServerTarget": "Telescope:serve:production"
             }
           }
         },
@@ -140,5 +140,5 @@
       }
     }
   },
-  "defaultProject": "science-for-society"
+  "defaultProject": "Telescope"
 }

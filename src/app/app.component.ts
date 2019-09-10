@@ -7,7 +7,7 @@ import { Router }           from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'science-for-society';
+  title = 'Telescope';
   navList: any = [];
 
   constructor(private router: Router) {
