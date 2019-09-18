@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deployed at
 
-https://contactipraju.github.io/Telescope/
+https://contactipraju.github.io/telescope/
 
 ## Development server
 

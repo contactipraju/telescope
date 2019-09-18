@@ -1,5 +1,5 @@
 {
-  "name": "Telescope",
+  "name": "telescope",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
