@@ -4,7 +4,31 @@
       <div class="col-sm-3 col-md-3 col-lg-2">
         <app-to-implement page="newsletter"></app-to-implement>
       </div>
-      <div class="col-sm-9 col-md-9 col-lg-10">
+      <div class="col-sm-9 col-md-9 col-lg-10 grid-stack-container">
+        <div class="heading clearfix" *ngIf="editing">
+          <div class="widget-picker-controls pull-left">
+            <button (click)="addWidget()"><i class="icon-add"></i>Add an Article</button>
+          </div>
+          <div class="widget-picker-controls pull-right">
+            <button (click)="saveLayout()"><i class="icon-edit"></i>Save Layout</button>
+          </div>
+        </div>
+        <div class="heading clearfix" *ngIf="!editing">
+          <div class="widget-picker-controls pull-right">
+            <button (click)="editLayout()"><i class="icon-edit"></i>Edit Layout</button>
+          </div>
+        </div>
+
+        <ngx-grid-stack #gridStackMain id="gridStackMain" class="grid-stack" [options]="options">
+            <ngx-grid-stack-item *ngFor="let widget of widgets" id="widget-{{widget.customId}}" [option]="widget" class="grid-stack-item">
+              <div class="grid-item-header">
+                Article Header
+              </div>
+              <div class="grid-item-body">
+
+              </div>
+          </ngx-grid-stack-item>
+        </ngx-grid-stack>
       </div>
     </div>
   </div>
