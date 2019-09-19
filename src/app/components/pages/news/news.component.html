@@ -5,6 +5,17 @@
         <app-to-implement page="newsletter"></app-to-implement>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
+        <button (click)="AddWidget()">Add Widget</button>
+        <ngx-grid-stack #gridStackMain id="gridStackMain" class="grid-stack" [options]="options">
+            <ngx-grid-stack-item *ngFor="let widget of widgets" id="widget-{{widget.customId}}" [option]="widget" class="grid-stack-item">
+              <div class="widget-header">
+                <div class="widget-header-text">Test</div>
+              </div>
+              <div class="widget-content">
+
+              </div>
+          </ngx-grid-stack-item>
+        </ngx-grid-stack>
       </div>
     </div>
   </div>

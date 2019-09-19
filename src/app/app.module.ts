@@ -16,6 +16,7 @@ import { MatButtonModule }  from '@angular/material';
 
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
+import { GridStackModule }          from 'ngx-grid-stack';
 import { AngularEditorModule }      from '@kolkov/angular-editor';
 
 /* Routing Module */
@@ -126,6 +127,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    GridStackModule,
     AngularEditorModule,
     StoreDevtoolsModule.instrument(),
     MatToolbarModule,

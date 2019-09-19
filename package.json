@@ -33,6 +33,7 @@
     "js-year-calendar": "^1.0.0-alpha.7",
     "moment": "^2.24.0",
     "ngx-bootstrap": "^5.1.1",
+    "ngx-grid-stack": "^0.4.1",
     "noty": "^3.2.0-beta",
     "rxjs": "~6.5.2",
     "tslib": "^1.10.0",
