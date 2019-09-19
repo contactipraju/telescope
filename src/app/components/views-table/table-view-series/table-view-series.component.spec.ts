@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TableViewSeriesComponent } from './table-view.component';
+import { TableViewSeriesComponent } from './table-view-series.component';
 
 describe('TableViewSeriesComponent', () => {
   let component: TableViewSeriesComponent;
