@@ -40,6 +40,17 @@ export class NewsComponent implements OnInit {
     }
   };
 
+  deleteWidget(widget) {
+    console.log("deleteWidget: ", widget);
+
+    for(let i=0; i<this.widgets.length; i++) {
+      if(widget.customId == this.widgets[i].customId) {
+        this.widgets.splice(i, 1);
+        break;
+      }
+    }
+  }
+
   addWidget() {
     const widgetItem = new GridStackItem();
 
