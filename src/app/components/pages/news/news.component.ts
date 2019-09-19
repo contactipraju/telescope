@@ -10,21 +10,44 @@ export class NewsComponent implements OnInit {
   @ViewChildren(GridStackItemComponent) items: QueryList<GridStackItemComponent>;
   @ViewChild('gridStackMain', { static: false}) gridStackMain: GridStackComponent;
 
+  editing: boolean;
   options: GridStackOptions = new GridStackOptions();
   widgets: GridStackItem[] = [];
 
   constructor(private cd: ChangeDetectorRef) { }
 
   ngOnInit() {
+    this.editing = true;
   }
 
-  AddWidget() {
+  editLayout() {
+    this.setEditMode(true);
+  }
+
+  saveLayout() {
+    this.setEditMode(false);
+  }
+
+  setEditMode = function(mode) {
+    this.editing = mode;
+
+    if(mode) {
+      this.gridStackMain.grid.enableMove(true, true);
+      this.gridStackMain.grid.enableResize(true, true);
+    } else {
+      this.gridStackMain.grid.enableMove(false, true);
+      this.gridStackMain.grid.enableResize(false, true);
+    }
+  };
+
+  addWidget() {
     const widgetItem = new GridStackItem();
 
     widgetItem.width = 6;
     widgetItem.height = 4;
     widgetItem.x = 0;
     widgetItem.y = 0;
+    widgetItem.marginWidth = "0";
     widgetItem.customId = this.widgets.length.toString();
 
     this.widgets.push(widgetItem);
