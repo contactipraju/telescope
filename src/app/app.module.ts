@@ -61,6 +61,9 @@ import { EditSeriesComponent }        from './components/edit/edit-series/edit-s
 import { EditUserComponent }          from './components/edit/edit-user/edit-user.component';
 
 /* Misc Components */
+import { FooterComponent }            from './components/common/footer/footer.component';
+
+/* Misc Components */
 import { ArticleComponent }           from './components/misc/article/article.component';
 import { ToImplementComponent }       from './components/misc/to-implement/to-implement.component';
 
@@ -101,6 +104,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     QAndAComponent,
     PeopleComponent,
     AdminComponent,
+    FooterComponent,
     ArticleComponent,
     ToImplementComponent,
     CalendarViewComponent,
