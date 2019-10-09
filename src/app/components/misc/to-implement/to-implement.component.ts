@@ -26,8 +26,8 @@ export class ToImplementComponent implements OnInit {
         { text: "Philosophy" },
         { text: "Person" },
         { text: "Quotes" },
-        { text: "PseudoScience/Superstition" },
-        { text: "Law and Constitution" }
+        { text: "Law and Constitution" },
+        { text: "PseudoScience/Superstition/Hoaxes" }
       ]},
       { text: "Last Month" },
       { text: "Archives"},
