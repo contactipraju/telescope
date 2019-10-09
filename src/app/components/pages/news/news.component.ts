@@ -40,12 +40,20 @@ export class NewsComponent implements OnInit {
     }
   };
 
-  deleteWidget(widget) {
+  deleteWidget = function(widget) {
     console.log("deleteWidget: ", widget);
 
     for(let i=0; i<this.widgets.length; i++) {
       if(widget.customId == this.widgets[i].customId) {
         this.widgets.splice(i, 1);
+        break;
+      }
+    }
+
+    const arr = this.items.toArray();
+    for (let j=0; j<arr.length; j++) {
+      if(arr[j].option && arr[j].option.customId === widget.customId) {
+        this.gridStackMain.RemoveWidget(arr[j]);
         break;
       }
     }
@@ -59,7 +67,7 @@ export class NewsComponent implements OnInit {
     widgetItem.x = 0;
     widgetItem.y = 0;
     widgetItem.marginWidth = "0";
-    widgetItem.customId = this.widgets.length.toString();
+    widgetItem.customId = Math.floor((Math.random() * 100000) + 10000).toString();
 
     this.widgets.push(widgetItem);
     this.cd.detectChanges();
