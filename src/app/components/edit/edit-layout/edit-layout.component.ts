@@ -1,12 +1,21 @@
-import { Component, OnInit, ViewChildren, QueryList, ViewChild, ChangeDetectorRef }    from '@angular/core';
-import { GridStackItem, GridStackOptions, GridStackItemComponent, GridStackComponent } from 'ngx-grid-stack';
+import { Component, OnInit, Input }     from '@angular/core';
+import { OnChanges, SimpleChange  }     from '@angular/core';
+import { ViewChildren, ViewChild }      from '@angular/core';
+import { QueryList, ChangeDetectorRef } from '@angular/core';
+
+import { GridStackItem, GridStackItemComponent } from 'ngx-grid-stack';
+import { GridStackOptions, GridStackComponent }  from 'ngx-grid-stack';
+
+import { IConfig } from 'src/app/models/config.interface';
 
 @Component({
   selector: 'app-edit-layout',
   templateUrl: './edit-layout.component.html',
   styleUrls: ['./edit-layout.component.scss']
 })
-export class EditLayoutComponent implements OnInit {
+export class EditLayoutComponent implements OnInit, OnChanges {
+  @Input() data: IConfig;
+
   @ViewChildren(GridStackItemComponent) items: QueryList<GridStackItemComponent>;
   @ViewChild('gridStackMain', { static: false}) gridStackMain: GridStackComponent;
 
@@ -18,6 +27,12 @@ export class EditLayoutComponent implements OnInit {
 
   ngOnInit() {
     this.editing = true;
+  }
+
+  ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
+    if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue) {
+      this.loadWidgets(this.data);
+    }
   }
 
   setEditMode = function(mode) {
@@ -32,7 +47,8 @@ export class EditLayoutComponent implements OnInit {
     }
   };
 
-  loadWidgets() {
+  loadWidgets(config: IConfig) {
+    console.log("EditLayoutComponent - loadWidgets: ", config.layout);
   }
 
   saveWidgets() {
