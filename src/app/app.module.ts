@@ -62,7 +62,7 @@ import { EditPostComponent }          from './components/edit/edit-post/edit-pos
 import { EditSeriesComponent }        from './components/edit/edit-series/edit-series.component';
 import { EditUserComponent }          from './components/edit/edit-user/edit-user.component';
 
-/* Misc Components */
+/* Common Components */
 import { FooterComponent }            from './components/common/footer/footer.component';
 
 /* Misc Components */
