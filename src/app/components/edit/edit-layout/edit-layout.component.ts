@@ -49,6 +49,10 @@ export class EditLayoutComponent implements OnInit, OnChanges {
 
   loadWidgets(config: IConfig) {
     console.log("EditLayoutComponent - loadWidgets: ", config.layout);
+
+    for(let i=0; i<config.layout.length; i++) {
+      this.addWidgetToLayout(config.layout[i]);
+    }
   }
 
   saveWidgets() {
@@ -56,8 +60,8 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   }
 
   saveLayout() {
-    this.saveWidgets();
     this.setEditMode(false);
+    this.saveWidgets();
   }
 
   editLayout() {
@@ -83,16 +87,20 @@ export class EditLayoutComponent implements OnInit, OnChanges {
     }
   }
 
-  addWidget() {
-    const widgetItem = new GridStackItem();
+  createNewWidget() {
+    const widgetItem: GridStackItem = new GridStackItem();
 
-    widgetItem.width = 6;
-    widgetItem.height = 4;
     widgetItem.x = 0;
     widgetItem.y = 0;
+    widgetItem.width = 6;
+    widgetItem.height = 4;
     widgetItem.marginWidth = "0";
     widgetItem.customId = Math.floor((Math.random() * 100000) + 10000).toString();
 
+    return widgetItem;
+  }
+
+  addWidgetToLayout(widgetItem) {
     this.widgets.push(widgetItem);
     this.cd.detectChanges();
     const arr = this.items.toArray();
@@ -110,5 +118,10 @@ export class EditLayoutComponent implements OnInit, OnChanges {
         widget.nativeElement.setAttribute('data-gs-init', 'true');
       }
     }
+  }
+
+  addWidget() {
+    let widgetItem: GridStackItem = this.createNewWidget();
+    this.addWidgetToLayout(widgetItem);
   }
 }
