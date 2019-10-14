@@ -12,7 +12,7 @@ import { IConfig }                 from '../models/config.interface';
 export class ConfigService {
 
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl) {
-    console.log("ConfigService: ");
+    //console.log("ConfigService: ");
   }
 
   private getConfigUrl() {

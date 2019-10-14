@@ -21,7 +21,7 @@ export class GetConfigSuccess implements Action {
 
 export class SetConfig implements Action {
   public readonly type = EConfigActions.SetConfig;
-  constructor(public payload: number) {}
+  constructor(public payload: IConfig) {}
 }
 
 export class SetConfigSuccess implements Action {
