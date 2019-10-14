@@ -36,11 +36,13 @@ import { appReducers }     from './store/reducers/app.reducers';
 
 /* Store Effects */
 import { AppEffects }      from './app.effects';
+import { ConfigEffects }   from './store/effects/config.effects';
 import { EventEffects }    from './store/effects/event.effects';
 import { PostEffects }     from './store/effects/post.effects';
 import { UserEffects }     from './store/effects/user.effects';
 
 /* Services */
+import { ConfigService }   from './services/config.service';
 import { EventService }    from './services/event.service';
 import { PostService }     from './services/post.service';
 import { UserService }     from './services/user.service';
@@ -141,7 +143,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatButtonModule,
     RouterModule,
     StoreModule.forRoot(appReducers),
-    EffectsModule.forRoot([AppEffects, EventEffects, PostEffects, UserEffects]),
+    EffectsModule.forRoot([AppEffects, ConfigEffects, EventEffects, PostEffects, UserEffects]),
     StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
     ModalModule.forRoot(),
     AppRoutingModule,
@@ -151,7 +153,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   exports: [
     AppComponent
   ],
-  providers: [EventService, PostService, UserService],
+  providers: [ConfigService, EventService, PostService, UserService],
   entryComponents: [
     EditEpisodeComponent,
     EditLayoutComponent,
