@@ -1,20 +1,23 @@
 import { RouterReducerState } from '@ngrx/router-store';
 
-import { IUserState,  initialUserState }  from './user.state';
-import { IEventState, initialEventState } from './event.state';
-import { IPostState,  initialPostState }  from './post.state';
+import { IConfigState, initialConfigState } from './config.state';
+import { IEventState,  initialEventState }  from './event.state';
+import { IPostState,   initialPostState }   from './post.state';
+import { IUserState,   initialUserState }   from './user.state';
 
 export interface IAppState {
   router?: RouterReducerState;
-  users: IUserState;
-  events: IEventState;
-  posts: IPostState;
+  config:  IConfigState;
+  events:  IEventState;
+  posts:   IPostState;
+  users:   IUserState;
 }
 
 export const initialAppState: IAppState = {
-  users: initialUserState,
+  config: initialConfigState,
   events: initialEventState,
-  posts: initialPostState
+  posts:  initialPostState,
+  users:  initialUserState
 }
 
 export function getInitialState(): IAppState {
