@@ -5,7 +5,7 @@
         <app-to-implement page="newsletter"></app-to-implement>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10 layout-editor-container">
-        <app-edit-layout></app-edit-layout>
+        <app-edit-layout [data]="config$ | async"></app-edit-layout>
       </div>
     </div>
   </div>
