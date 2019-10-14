@@ -12,7 +12,7 @@ import { IPost }                   from '../models/post.interface';
 export class PostService {
 
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl) {
-    console.log("PostService: ");
+    //console.log("PostService: ");
   }
 
   private getUrl() {
