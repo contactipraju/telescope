@@ -31,7 +31,14 @@ export class EditLayoutComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue) {
+      this.setGridOptions();
       this.loadWidgets(this.data);
+    }
+  }
+
+  setGridOptions = function() {
+    if(this.gridStackMain && this.gridStackMain.grid && this.gridStackMain.grid.opts) {
+      this.gridStackMain.grid.opts.verticalMargin = 0;
     }
   }
 
@@ -47,13 +54,13 @@ export class EditLayoutComponent implements OnInit, OnChanges {
     }
   };
 
-  loadWidgets(config: IConfig) {
+  loadWidgets = function(config: IConfig) {
     console.log("EditLayoutComponent - loadWidgets: ", config.layout);
 
     for(let i=0; i<config.layout.length; i++) {
       this.addWidgetToLayout(config.layout[i]);
     }
-  }
+  };
 
   saveWidgets() {
     console.log(JSON.stringify(this.widgets));
