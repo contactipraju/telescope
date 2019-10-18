@@ -12,8 +12,7 @@ export class ToImplementComponent implements OnInit {
     home: [
       { text: "Updates"},
       { text: "News & Events"},
-      { text: "Radio", children: [{ text: "Recent episodes"}, { text: "What's coming"}, { text: "Archives"}]},
-      { text: "Want to contribute? Join us.."}
+      { text: "Radio", children: [{ text: "Recent episodes"}, { text: "What's coming"}, { text: "Archives"}]}
     ],
     newsletter: [
       { text: "This Month", children: [
