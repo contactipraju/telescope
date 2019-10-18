@@ -4,12 +4,15 @@
     <div class="options pull-right">
       <button (click)="addItem($event)">Add</button>
     </div>
+    <div class="options pull-right">
+      <input class="text-search" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="search" />
+    </div>
   </div>
   <table class="h-100 w-100">
     <tr>
       <td *ngFor="let columnTitle of data.columnTitles"><b>{{columnTitle}}</b></td>
     </tr>
-    <tr class="weekly-row" *ngFor="let item of data.data" (click)="selectItem(item)">
+    <tr class="weekly-row" *ngFor="let item of data.data | filter:searchText" (click)="selectItem(item)">
       <td *ngFor="let prop of data.props" [innerHTML]="item[prop]"></td>
     </tr>
   </table>
