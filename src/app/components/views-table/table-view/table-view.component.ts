@@ -14,6 +14,8 @@ export class TableViewComponent implements OnInit, OnChanges {
   @Output() addEmitter = new EventEmitter<object>();
   @Output() selectEmitter = new EventEmitter<object>();
 
+  searchText: string = "";
+
   constructor() { }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
