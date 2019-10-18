@@ -47,6 +47,9 @@ import { EventService }    from './services/event.service';
 import { PostService }     from './services/post.service';
 import { UserService }     from './services/user.service';
 
+/* Pipes */
+import { FilterPipe }      from './pipes/filter.pipe';
+
 /* App Components */
 import { AppComponent }    from './app.component';
 
@@ -97,6 +100,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
 
 @NgModule({
   declarations: [
+    FilterPipe,
     AppComponent,
     HomeComponent,
     EventsComponent,
