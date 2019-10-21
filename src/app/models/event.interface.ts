@@ -15,6 +15,7 @@ export interface IEvent {
   flyer?: string;
   images?: IImage[];
   seriesId?: number; // TODO: Cleanup later
+  youtubeKey?: string;
 
   startDate?: Date;
   endDate?: Date;
