@@ -48,6 +48,7 @@ import { PostService }     from './services/post.service';
 import { UserService }     from './services/user.service';
 
 /* Pipes */
+import { SafePipe }        from './pipes/safe.pipe';
 import { FilterPipe }      from './pipes/filter.pipe';
 
 /* App Components */
@@ -100,6 +101,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
 
 @NgModule({
   declarations: [
+    SafePipe,
     FilterPipe,
     AppComponent,
     HomeComponent,
