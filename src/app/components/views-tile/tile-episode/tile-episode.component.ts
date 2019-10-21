@@ -1,7 +1,8 @@
 import { Component, OnInit, Input }   from '@angular/core';
 import { OnChanges, SimpleChange  }   from '@angular/core';
 
-import { IEpisode } from '../../../models/episode.interface';
+import { IEpisode } from 'src/app/models/episode.interface';
+import { ISeries }  from 'src/app/models/series.interface';
 
 @Component({
   selector: 'app-tile-episode',
@@ -10,6 +11,7 @@ import { IEpisode } from '../../../models/episode.interface';
 })
 export class TileEpisodeComponent implements OnInit, OnChanges {
   @Input() episode: IEpisode;
+  @Input() series: ISeries;
 
   constructor() { }
 

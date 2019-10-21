@@ -1,8 +1,8 @@
 <div class="tile-series" *ngIf="series && series.episodes && series.episodes.length">
-    <div> {{series.name}} </div>
+  <div> {{series.name}} </div>
 
-    <div class="card-deck">
-        <app-tile-episode *ngFor="let episode of series.episodes" [episode]="episode"></app-tile-episode>
-    </div>
+  <div class="card-deck">
+    <app-tile-episode *ngFor="let episode of series.episodes" [episode]="episode" [series]="series"></app-tile-episode>
+  </div>
 </div>
 
