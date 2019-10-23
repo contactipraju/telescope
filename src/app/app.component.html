@@ -16,7 +16,7 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav>
     <mat-nav-list>
-      <a mat-list-item *ngFor="let nav of navList" [routerLink]="nav.url"> {{nav.name}} </a>
+      <a mat-list-item *ngFor="let nav of navList" [routerLink]="nav.url" (click)="sidenav.toggle()"> {{nav.name}} </a>
       <a mat-list-item (click)="sidenav.toggle()" href="">Close</a>
     </mat-nav-list>
   </mat-sidenav>
