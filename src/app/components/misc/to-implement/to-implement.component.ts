@@ -10,45 +10,71 @@ export class ToImplementComponent implements OnInit {
 
   toImplement = {
     home: [
-      { text: "Updates"},
-      { text: "News & Events"},
-      { text: "Radio", children: [{ text: "Recent episodes"}, { text: "What's coming"}, { text: "Archives"}]}
+      { text: "News, Updates & Events" }
     ],
     newsletter: [
-      { text: "This Month", children: [
-        { text: "Current Affairs" },
-        { text: "Physics" },
-        { text: "Astronomy" },
-        { text: "History" },
-        { text: "Biology" },
-        { text: "Chemistry" },
-        { text: "Philosophy" },
-        { text: "Person" },
-        { text: "Quotes" },
-        { text: "Law and Constitution" },
-        { text: "PseudoScience/Superstition/Hoaxes" }
-      ]},
-      { text: "Last Month" },
-      { text: "Archives"},
-      { text: "Subscribe for Email Newsletter"}
+      { text: "This Month" },
+      { text: "Archives", children: [
+        { text: "October 2019" },
+        { text: "September 2019" },
+        { text: "August 2019" },
+        { text: "July 2019" },
+        { text: "June 2019" },
+        { text: "May 2019" },
+        { text: "April 2019" },
+        { text: "March 2019" },
+        { text: "February 2019" },
+        { text: "January 2019" },
+        { text: "Older...", children: [
+          { text: "2018" },
+          { text: "2017" }
+        ]}
+      ]}
     ],
     qanda: [
-      { text: "Physics"},
-      { text: "Chemistry"},
-      { text: "Botany"}
+      { text: "Current Affairs" },
+      { text: "History" },
+      { text: "Science", children: [
+        { text: "Astronomy" },
+        { text: "Physics" },
+        { text: "Chemistry" },
+        { text: "Biology" },
+        { text: "Botany" },
+        { text: "Zoology" }
+      ]},
+      { text: "Philosophy" },
+      { text: "People" },
+      { text: "Events" },
+      { text: "Quotes" },
+      { text: "Law and Constitution" },
+      { text: "Non-Sense", children: [
+        { text: "PseudoScience" },
+        { text: "Superstition" },
+        { text: "Hoaxes" }
+      ]}
     ],
     events: [
     ],
     archives: [
-      { text: "On Telugu Radio", children: [{ text: "Tori - Science Hour"}, { text: "Tori - Humanist Hour"}, { text: "YouTube - Manavavaani"}]},
-      { text: "Visual Media",  children: [{ text: "Debates"}, { text: "Speeches"}, { text: "Interviews"}]},
+      { text: "On Telugu Radio", children: [
+        { text: "Tori - Science Hour" },
+        { text: "Tori - Humanist Hour" },
+        { text: "YouTube - Manavavaani" },
+        { text: "YouTube - Vignaanavaani" },
+        { text: "What's coming..." }
+      ]},
+      { text: "Visual Media", children: [
+        { text: "Debates" },
+        { text: "Speeches" },
+        { text: "Interviews" }
+      ]},
       { text: "Major Events", children: [
-        { text: "Selfie with Ghost"},
-        { text: "SAHA and SfS Launch at NSW Parliament House, Sydney"},
-        { text: "Babu Gogineni's Keynote at Humanist House, for NSW Humanists"},
-        { text: "Why I'm a Humanist"},
-        { text: "Humanist Cartoon Competition"},
-        { text: "Ride for Reason"}
+        { text: "Selfie with Ghost" },
+        { text: "SAHA and SfS Launch at NSW Parliament House, Sydney" },
+        { text: "Babu Gogineni's Keynote at Humanist House, for NSW Humanists" },
+        { text: "Why I'm a Humanist" },
+        { text: "Humanist Cartoon Competition" },
+        { text: "Ride for Reason" }
       ]}
     ],
     resources: [
@@ -67,6 +93,7 @@ export class ToImplementComponent implements OnInit {
       { text: "South Asian Humanist Association (SAHA)"},
       { text: "Jana Vignaana Vedika"},
       { text: "Rationalist Forum"},
+      { text: "Indian Humanists" },
       { text: "NSW Humanists" }
     ]
   };
