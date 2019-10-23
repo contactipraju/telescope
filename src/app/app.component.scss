@@ -5,6 +5,16 @@
     background: gainsboro;
 }
 
+.mobile-navbar {
+    display: block;
+}
+
+@media (max-width:550px) {
+    .mobile-navbar {
+        display: none;
+    }
+}
+
 .logo-container {
     padding-left: 10px;
     padding-right: 10px;
