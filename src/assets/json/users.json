@@ -34,5 +34,7 @@
     {"id": 33, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Sambasivarao",   "lastname": "Mutyala",   "profile": "people/samba.jpg",     "email": "samba@gmail.com"},
     {"id": 34, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Ramachandraiah", "lastname": "A",         "profile": "people/ramac.jpg",     "email": "ramachandra@gmail.com"},
     {"id": 35, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Devraj",         "lastname": "Maharaju",  "profile": "people/devaraj.jpg",   "email": "devaraj@gmail.com"},
-    {"id": 36, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Rama Brahmam",   "lastname": "Madivada",  "profile": "people/madivada.jpg",  "email": "madivada@gmail.com"}
+    {"id": 36, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Rama Brahmam",   "lastname": "Madivada",  "profile": "people/madivada.jpg",  "email": "madivada@gmail.com"},
+    {"id": 37, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Viswanath",      "lastname": "Jayanti",   "profile": "people/viswanath.jpg", "email": "viswanathj@gmail.com"},
+    {"id": 38, "designation": "Volunteer", "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Prasad",         "lastname": "Sivareddy", "profile": "people/madivada.jpg",  "email": "prasad@gmail.com"}
 ]
