@@ -18,8 +18,9 @@
   <ngx-grid-stack #gridStackMain id="gridStackMain" class="grid-stack" [options]="options">
     <ngx-grid-stack-item *ngFor="let widget of widgets" id="widget-{{widget.customId}}" [option]="widget" class="grid-stack-item">
       <div class="grid-item-header clearfix">
-        <div class="pull-left">{{widget.header}}</div>
-        <div class="pull-right" *ngIf="editing">
+        <div class="title pull-left">{{widget.header}}</div>
+
+        <div class="menu-button pull-right" *ngIf="editing">
           <button (click)="deleteWidget(widget)">X</button>
         </div>
       </div>

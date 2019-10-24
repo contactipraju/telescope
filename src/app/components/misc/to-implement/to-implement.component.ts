@@ -48,6 +48,9 @@ export class ToImplementComponent implements OnInit {
       ]},
       { text: "Misc", children: [
         { text: "History" },
+        { text: "Culture" },
+        { text: "Languages" },
+        { text: "Literature" },
         { text: "Philosophy" },
         { text: "People" },
         { text: "Events" },
@@ -81,20 +84,20 @@ export class ToImplementComponent implements OnInit {
     ],
     resources: [
       { text: "Reading", children: [
-        { text: "Books"},
-        { text: "PDFs"},
-        { text: "Blogs"},
-        { text: "Websites"},
-        { text: "Nobel Laureates", link: "resources/nobels"}
+        { text: "Books" },
+        { text: "PDFs" },
+        { text: "Blogs" },
+        { text: "Websites" },
+        { text: "Nobel Laureates", link: "resources/nobels" }
       ]},
-      { text: "Infotainment", children: [{ text: "Documentaries"}, { text: "Feature Films"}, { text: "The Big Question with BG"}]},
-      { text: "Resources",    children: [{ text: "Social Media"}, { text: "Glossary"}]}
+      { text: "Infotainment", children: [{ text: "Documentaries" }, { text: "Feature Films" }, { text: "The Big Question with BG" }]},
+      { text: "Resources",    children: [{ text: "Social Media" }, { text: "Glossary" }]}
     ],
     team: [
-      { text: "Science for Society (SfS)"},
-      { text: "South Asian Humanist Association (SAHA)"},
-      { text: "Jana Vignaana Vedika"},
-      { text: "Rationalist Forum"},
+      { text: "Science for Society (SfS)" },
+      { text: "South Asian Humanist Association (SAHA)" },
+      { text: "Jana Vignaana Vedika" },
+      { text: "Rationalist Forum" },
       { text: "Indian Humanists" },
       { text: "NSW Humanists" }
     ]

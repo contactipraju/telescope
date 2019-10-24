@@ -1,10 +1,27 @@
 .grid-stack-container {
-    .heading {
-        padding-top: 4px;
-        padding-bottom: 4px;
+  .heading {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .grid-stack {
+    .grid-stack-item {
+      .grid-item-header {
+        .title {
+          color: #222;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        .menu-button {
+          button {
+          }
+        }
+      }
     }
+  }
 }
 
 a {
-    cursor: pointer;
+  cursor: pointer;
 }
