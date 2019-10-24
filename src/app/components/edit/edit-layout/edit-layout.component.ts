@@ -26,7 +26,7 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   constructor(private cd: ChangeDetectorRef) { }
 
   ngOnInit() {
-    this.editing = true;
+    this.editLayout();
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
@@ -45,12 +45,14 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   setEditMode = function(mode) {
     this.editing = mode;
 
-    if(mode) {
-      this.gridStackMain.grid.enableMove(true, true);
-      this.gridStackMain.grid.enableResize(true, true);
-    } else {
-      this.gridStackMain.grid.enableMove(false, true);
-      this.gridStackMain.grid.enableResize(false, true);
+    if(this.gridStackMain && this.gridStackMain.grid) {
+      if(mode) {
+        this.gridStackMain.grid.enableMove(true, true);
+        this.gridStackMain.grid.enableResize(true, true);
+      } else {
+        this.gridStackMain.grid.enableMove(false, true);
+        this.gridStackMain.grid.enableResize(false, true);
+      }
     }
   };
 
