@@ -32,6 +32,7 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue) {
       this.setGridOptions();
+      this.deleteAllWidgets();
       this.loadWidgets(this.data);
     }
   }
@@ -55,6 +56,20 @@ export class EditLayoutComponent implements OnInit, OnChanges {
       }
     }
   };
+
+  deleteAllWidgets = function() {
+    console.log("EditLayoutComponent - deleteAllWidgets: ");
+
+    if(this.items && this.items.length) {
+      const arr = this.items.toArray();
+
+      for (let j=0; j<arr.length; j++) {
+        this.gridStackMain.RemoveWidget(arr[j]);
+      }
+    }
+
+    this.widgets = [];
+  }
 
   loadWidgets = function(config: IConfig) {
     console.log("EditLayoutComponent - loadWidgets: ", config.layout);
