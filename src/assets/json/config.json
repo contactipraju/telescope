@@ -1,8 +1,9 @@
 {
     "layout": [
-        {"x":0,"y":0, "height":4,"width":3, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"61809", "header":"one"},
-        {"x":3,"y":0, "height":6,"width":3, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"90324", "header":"two"},
-        {"x":6,"y":0, "height":6,"width":6, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"48051", "header":"three"},
-        {"x":0,"y":4, "height":2,"width":3, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"25179", "header":"four"}
+        {"x":0, "y":0, "height":1,  "width":12, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"40579", "header":"Title"},
+        {"x":0, "y":1, "height":10, "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"90324", "header":"History"},
+        {"x":3, "y":1, "height":10, "width":6,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"48051", "header":"Science Column"},
+        {"x":9, "y":1, "height":5,  "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"25179", "header":"Astronomy"},
+        {"x":9, "y":6, "height":5,  "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"61809", "header":"Chitti"}
     ]
 }
