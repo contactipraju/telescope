@@ -4,9 +4,10 @@
 
 @import './variables';
 
+@import './assets/styles/common';
 @import './assets/styles/nobles';
 @import './assets/styles/grid-stack';
-@import './assets/styles/common';
+@import './assets/styles/modal-dialog';
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
