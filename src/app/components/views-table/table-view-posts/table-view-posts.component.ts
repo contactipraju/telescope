@@ -18,8 +18,8 @@ export class TableViewPostsComponent implements OnInit, OnChanges {
 
   table: ITable = {
     header: "Posts",
-    columnTitles: ["Title", "Type", "Description", "Author", "Date"],
-    props: ["title", "type", "description", "author", "datePostedFormatted"],
+    columnTitles: ["Title", "Category", "Author", "Date"],
+    props: ["title", "category", "author", "datePostedFormatted"],
     data: []
   };
 
