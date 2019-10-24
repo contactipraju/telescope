@@ -1,47 +1,47 @@
 .table-view-component {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    .header {
-        height: 35px;
+  .header {
+    height: 35px;
 
-        .title {
-            font-size: 22px;
-        }
-
-        .search-container {
-            padding: 2px;
-
-            .text-search {
-                width: 160px;
-            }
-        }
-
-        .options {
-            padding: 2px;
-
-            button {
-                border-radius: 5px;
-            }
-        }
+    .title {
+      font-size: 22px;
     }
 
-    table {
-        tr:nth-child(odd) {
-            background-color: #dadada;
-        }
+    .search-container {
+      padding: 2px;
 
-        tr:first-child {
-            background-color: #1a345b;
-            color: #fff;
-        }
-
-        tr.weekly-row {
-            cursor: pointer;
-        }
-
-        td {
-            padding: 5px 0 5px 10px;
-            font-size: 12px;
-        }
+      .text-search {
+        width: 160px;
+      }
     }
+
+    .options {
+      padding: 2px;
+
+      button {
+        border-radius: 5px;
+      }
+    }
+  }
+
+  table {
+    tr:nth-child(odd) {
+      background-color: #dadada;
+    }
+
+    tr:first-child {
+      background-color: #1a345b;
+      color: #fff;
+    }
+
+    tr.weekly-row {
+      cursor: pointer;
+    }
+
+    td {
+      padding: 5px 0 5px 10px;
+      font-size: 12px;
+    }
+  }
 }
