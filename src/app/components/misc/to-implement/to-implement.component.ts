@@ -33,7 +33,6 @@ export class ToImplementComponent implements OnInit {
     ],
     qanda: [
       { text: "Current Affairs" },
-      { text: "History" },
       { text: "Science", children: [
         { text: "Astronomy" },
         { text: "Physics" },
@@ -42,15 +41,18 @@ export class ToImplementComponent implements OnInit {
         { text: "Botany" },
         { text: "Zoology" }
       ]},
-      { text: "Philosophy" },
-      { text: "People" },
-      { text: "Events" },
-      { text: "Quotes" },
-      { text: "Law and Constitution" },
       { text: "Non-Sense", children: [
         { text: "PseudoScience" },
         { text: "Superstition" },
         { text: "Hoaxes" }
+      ]},
+      { text: "Misc", children: [
+        { text: "History" },
+        { text: "Philosophy" },
+        { text: "People" },
+        { text: "Events" },
+        { text: "Quotes" },
+        { text: "Law and Constitution" }
       ]}
     ],
     events: [

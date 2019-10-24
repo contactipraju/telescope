@@ -26,12 +26,13 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   constructor(private cd: ChangeDetectorRef) { }
 
   ngOnInit() {
-    this.editing = true;
+    this.editLayout();
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue) {
       this.setGridOptions();
+      this.deleteAllWidgets();
       this.loadWidgets(this.data);
     }
   }
@@ -45,14 +46,30 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   setEditMode = function(mode) {
     this.editing = mode;
 
-    if(mode) {
-      this.gridStackMain.grid.enableMove(true, true);
-      this.gridStackMain.grid.enableResize(true, true);
-    } else {
-      this.gridStackMain.grid.enableMove(false, true);
-      this.gridStackMain.grid.enableResize(false, true);
+    if(this.gridStackMain && this.gridStackMain.grid) {
+      if(mode) {
+        this.gridStackMain.grid.enableMove(true, true);
+        this.gridStackMain.grid.enableResize(true, true);
+      } else {
+        this.gridStackMain.grid.enableMove(false, true);
+        this.gridStackMain.grid.enableResize(false, true);
+      }
     }
   };
+
+  deleteAllWidgets = function() {
+    console.log("EditLayoutComponent - deleteAllWidgets: ");
+
+    if(this.items && this.items.length) {
+      const arr = this.items.toArray();
+
+      for (let j=0; j<arr.length; j++) {
+        this.gridStackMain.RemoveWidget(arr[j]);
+      }
+    }
+
+    this.widgets = [];
+  }
 
   loadWidgets = function(config: IConfig) {
     console.log("EditLayoutComponent - loadWidgets: ", config.layout);
