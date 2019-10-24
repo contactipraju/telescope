@@ -1,8 +1,8 @@
 {
     "layout": [
-        {"x":0,"y":4,"height":2,"width":3,"noResize":false,"autoPosition":false,"marginWidth":"0","customId":"25179"},
-        {"x":3,"y":0,"height":6,"width":3,"noResize":false,"autoPosition":false,"marginWidth":"0","customId":"90324"},
-        {"x":6,"y":0,"height":6,"width":6,"noResize":false,"autoPosition":false,"marginWidth":"0","customId":"48051"},
-        {"x":0,"y":0,"height":4,"width":3,"noResize":false,"autoPosition":false,"marginWidth":"0","customId":"61809"}
+        {"x":0,"y":0, "height":4,"width":3, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"61809", "header":"one"},
+        {"x":3,"y":0, "height":6,"width":3, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"90324", "header":"two"},
+        {"x":6,"y":0, "height":6,"width":6, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"48051", "header":"three"},
+        {"x":0,"y":4, "height":2,"width":3, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"25179", "header":"four"}
     ]
 }
