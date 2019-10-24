@@ -3,6 +3,22 @@
         padding-top: 4px;
         padding-bottom: 4px;
     }
+
+    .grid-stack {
+        .grid-stack-item {
+            .grid-item-header {
+                .title {
+                    font-size: 12px;
+                    color: #222;
+                }
+
+                .menu-button {
+                    button {
+                    }
+                }
+            }
+        }
+    }
 }
 
 a {
