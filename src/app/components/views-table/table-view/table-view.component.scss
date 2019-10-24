@@ -26,17 +26,21 @@
   }
 
   table {
-    tr:nth-child(odd) {
-      background-color: #dadada;
+    thead {
+      tr:first-child {
+        background-color: #1a345b;
+        color: #fff;
+      }
     }
 
-    tr:first-child {
-      background-color: #1a345b;
-      color: #fff;
-    }
+    tbody {
+      tr:nth-child(odd) {
+        background-color: #dadada;
+      }
 
-    tr.weekly-row {
-      cursor: pointer;
+      tr.weekly-row {
+        cursor: pointer;
+      }
     }
 
     td {
