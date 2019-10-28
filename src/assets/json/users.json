@@ -38,5 +38,8 @@
     {"id": 37, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Viswanath",      "lastname": "Jayanti",   "profile": "people/viswanath.jpg", "email": "viswanathj@gmail.com"},
     {"id": 38, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Prasad",         "lastname": "Sivareddy", "profile": "people/sivareddy.jpg", "email": "psivareddy@gmail.com"},
     {"id": 39, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Paladugu",       "lastname": "Roshan",    "profile": "people/Roshan.jpg",    "email": "proshan@gmail.com"},
-    {"id": 40, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Nishanth",       "lastname": "TH",        "profile": "people/nishanth.jpg",  "email": "nishanth@gmail.com"}
+    {"id": 40, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Nishanth",       "lastname": "TH",        "profile": "people/nishanth.jpg",  "email": "nishanth@gmail.com"},
+    {"id": 41, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Rajeshwer",      "lastname": "Chelimela", "profile": "people/rajeshwer.jpg", "email": "rajeshwer@gmail.com"},
+    {"id": 42, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Sravanthi",      "lastname": "Mutyala",   "profile": "people/sravanthi.jpg", "email": "sravanthi@gmail.com"},
+    {"id": 43, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Rajeshwer",      "lastname": "Chelimela", "profile": "people/rajeshwer.jpg", "email": "rajeshwer@gmail.com"}
 ]

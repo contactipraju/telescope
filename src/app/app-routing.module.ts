@@ -13,7 +13,7 @@ import { AdminComponent }     from './components/pages/admin/admin.component';
 const routes: Routes = [
   { path: 'home',          component: HomeComponent },
   { path: 'newsletter',    component: NewsComponent },
-  { path: 'Q&A',           component: QAndAComponent },
+  { path: 'posts',         component: QAndAComponent },
   { path: 'resources',     component: ResourcesComponent },
   { path: 'archives',      component: ArchivesComponent },
 //  { path: 'events',        component: EventsComponent },
