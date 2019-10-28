@@ -44,7 +44,9 @@ export class ToImplementComponent implements OnInit {
       { text: "Non-Sense", children: [
         { text: "PseudoScience" },
         { text: "Superstition" },
-        { text: "Hoaxes" }
+        { text: "Myth" },
+        { text: "Hoaxe" },
+        { text: "Quakery" }
       ]},
       { text: "Misc", children: [
         { text: "History" },
@@ -56,6 +58,13 @@ export class ToImplementComponent implements OnInit {
         { text: "Events" },
         { text: "Quotes" },
         { text: "Law and Constitution" }
+      ]},
+      { text: "మంచి", children: [
+        { text: "పుస్తకం" },
+        { text: "కవిత" },
+        { text: "సినిమా" },
+        { text: "పాట" },
+        { text: "ప్రయత్నం" }
       ]}
     ],
     events: [
