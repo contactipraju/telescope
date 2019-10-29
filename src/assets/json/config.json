@@ -1,5 +1,5 @@
 {
-    "layout": [
+    "newsletter_layout": [
         {"x":0, "y":0, "height":1,  "width":12, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"40579", "header":"Title"},
         {"x":0, "y":1, "height":10, "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"90324", "header":"History"},
         {"x":3, "y":1, "height":10, "width":6,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"48051", "header":"Science Column"},

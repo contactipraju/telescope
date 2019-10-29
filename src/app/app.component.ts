@@ -1,5 +1,9 @@
-import { Component }        from '@angular/core';
-import { Router }           from '@angular/router';
+import { Component } from '@angular/core';
+import { Router }    from '@angular/router';
+
+import { Store }     from '@ngrx/store';
+import { IAppState } from './store/state/app.state';
+import { GetConfig } from './store/actions/config.actions';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +14,8 @@ export class AppComponent {
   title = 'Telescope';
   navList: any = [];
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private _store: Store<IAppState>) {
+    this._store.dispatch(new GetConfig());
     this.prepareNavLinks();
   }
 
