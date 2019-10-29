@@ -76,6 +76,7 @@ import { ToImplementComponent }       from './components/misc/to-implement/to-im
 /* Page Components */
 import { HomeComponent }              from './components/pages/home/home.component';
 import { NewsComponent }              from './components/pages/news/news.component';
+import { PostsComponent }             from './components/pages/posts/posts.component';
 import { QAndAComponent }             from './components/pages/q-and-a/q-and-a.component';
 import { EventsComponent }            from './components/pages/events/events.component';
 import { ArchivesComponent }          from './components/pages/archives/archives.component';
@@ -109,6 +110,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     ArchivesComponent,
     ResourcesComponent,
     NewsComponent,
+    PostsComponent,
     QAndAComponent,
     PeopleComponent,
     AdminComponent,
