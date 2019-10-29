@@ -33,31 +33,42 @@ export class ToImplementComponent implements OnInit {
     ],
     qanda: [
       { text: "Current Affairs" },
-      { text: "Science", children: [
+      { text: "General Science", children: [
         { text: "Astronomy" },
         { text: "Physics" },
         { text: "Chemistry" },
+        { text: "Geography" },
+        { text: "Geology" },
+        { text: "Psychology" }
+      ]},
+      { text: "Life Sciences", children: [
         { text: "Biology" },
         { text: "Botany" },
         { text: "Zoology" }
       ]},
-      { text: "Non-Sense", children: [
-        { text: "PseudoScience" },
-        { text: "Superstition" },
-        { text: "Myth" },
-        { text: "Hoaxe" },
-        { text: "Quakery" }
+      { text: "Social Sciences", children: [
+        { text: "History" },
+        { text: "Economics" },
+        { text: "Politics" },
+        { text: "Socialogy" },
+        { text: "Economics" },
+        { text: "Law and Constitution" }
       ]},
       { text: "Misc", children: [
-        { text: "History" },
         { text: "Culture" },
         { text: "Languages" },
         { text: "Literature" },
         { text: "Philosophy" },
         { text: "People" },
         { text: "Events" },
-        { text: "Quotes" },
-        { text: "Law and Constitution" }
+        { text: "Quotes" }
+      ]},
+      { text: "Non-Science (Non-sense)", children: [
+        { text: "PseudoScience" },
+        { text: "Superstition" },
+        { text: "Myth" },
+        { text: "Hoax" },
+        { text: "Quakery" }
       ]},
       { text: "మంచి", children: [
         { text: "పుస్తకం" },
