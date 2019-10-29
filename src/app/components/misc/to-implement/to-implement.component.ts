@@ -10,7 +10,11 @@ export class ToImplementComponent implements OnInit {
 
   toImplement = {
     home: [
-      { text: "News, Updates & Events" }
+      { text: "New Posts" },
+      { text: "Activity Log" },
+      { text: "Current Affairs" },
+      { text: "Upcoming Events" },
+      { text: "Recent Events" }
     ],
     newsletter: [
       { text: "This Month" },
@@ -32,7 +36,6 @@ export class ToImplementComponent implements OnInit {
       ]}
     ],
     qanda: [
-      { text: "Current Affairs" },
       { text: "General Science", children: [
         { text: "Astronomy" },
         { text: "Physics" },
@@ -69,13 +72,6 @@ export class ToImplementComponent implements OnInit {
         { text: "Myth" },
         { text: "Hoax" },
         { text: "Quakery" }
-      ]},
-      { text: "మంచి", children: [
-        { text: "పుస్తకం" },
-        { text: "కవిత" },
-        { text: "సినిమా" },
-        { text: "పాట" },
-        { text: "ప్రయత్నం" }
       ]}
     ],
     events: [
@@ -118,6 +114,13 @@ export class ToImplementComponent implements OnInit {
       { text: "Resources", children: [
         { text: "Social Media" },
         { text: "Glossary" }
+      ]},
+      { text: "మంచి", children: [
+        { text: "పుస్తకం" },
+        { text: "కవిత" },
+        { text: "సినిమా" },
+        { text: "పాట" },
+        { text: "ప్రయత్నం" }
       ]}
     ],
     team: [
