@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'newsletter',    component: NewsComponent },
   { path: 'posts',         component: QAndAComponent },
   { path: 'resources',     component: ResourcesComponent },
-  { path: 'media',      component: ArchivesComponent },
+  { path: 'media',         component: ArchivesComponent },
 //  { path: 'events',        component: EventsComponent },
 //  { path: 'team',          component: PeopleComponent },
   { path: 'admin',         component: AdminComponent },
