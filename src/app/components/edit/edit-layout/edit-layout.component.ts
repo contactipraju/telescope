@@ -72,10 +72,10 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   }
 
   loadWidgets = function(config: IConfig) {
-    console.log("EditLayoutComponent - loadWidgets: ", config.layout);
+    console.log("EditLayoutComponent - loadWidgets: ", config.newsletter_layout);
 
-    for(let i=0; i<config.layout.length; i++) {
-      this.addWidgetToLayout(config.layout[i]);
+    for(let i=0; i<config.newsletter_layout.length; i++) {
+      this.addWidgetToLayout(config.newsletter_layout[i]);
     }
   };
 

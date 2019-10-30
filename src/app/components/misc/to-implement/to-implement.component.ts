@@ -41,20 +41,19 @@ export class ToImplementComponent implements OnInit {
         { text: "Physics" },
         { text: "Chemistry" },
         { text: "Geography" },
-        { text: "Geology" },
-        { text: "Psychology" }
+        { text: "Geology" }
       ]},
       { text: "Life Sciences", children: [
         { text: "Biology" },
         { text: "Botany" },
-        { text: "Zoology" }
+        { text: "Zoology" },
+        { text: "Psychology" }
       ]},
       { text: "Social Sciences", children: [
         { text: "History" },
         { text: "Economics" },
         { text: "Politics" },
         { text: "Socialogy" },
-        { text: "Economics" },
         { text: "Law and Constitution" }
       ]},
       { text: "Misc", children: [

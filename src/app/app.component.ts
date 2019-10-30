@@ -1,5 +1,10 @@
-import { Component }        from '@angular/core';
-import { Router }           from '@angular/router';
+import { Component } from '@angular/core';
+import { Router }    from '@angular/router';
+
+import { Store }     from '@ngrx/store';
+import { IAppState } from './store/state/app.state';
+import { GetConfig } from './store/actions/config.actions';
+import { GetPosts }  from './store/actions/post.actions';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +15,14 @@ export class AppComponent {
   title = 'Telescope';
   navList: any = [];
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private _store: Store<IAppState>) {
+    this.loadDataToStore();
     this.prepareNavLinks();
+  }
+
+  loadDataToStore() {
+    this._store.dispatch(new GetConfig());
+    this._store.dispatch(new GetPosts());
   }
 
   navFromPath(path) {
@@ -30,7 +41,7 @@ export class AppComponent {
     for(let i=0; i<this.router.config.length; i++) {
       let path = this.router.config[i].path;
 
-      if(path != '' && path != 'resources/nobels' && path != 'admin') {
+      if(path != '' && path != 'resources/nobels' && path != 'admin' && path != 'home') {
         this.navList.push(this.navFromPath(path));
       }
     }

@@ -1,8 +1,14 @@
 @import '../variables';
 
-.mat-toolbar-row {
-    color: slategrey;
-    background: gainsboro;
+.mat-toolbar {
+    min-height: 56px;
+    background: #007bff;
+
+    .mat-toolbar-row {
+        height: 54px;
+        color: slategrey;
+        background: gainsboro;
+    }
 }
 
 .mobile-navbar {

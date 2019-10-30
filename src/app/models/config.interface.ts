@@ -1,5 +1,5 @@
 export interface IConfig {
-  layout?: any[];
+  newsletter_layout?: any[];
   language?: string;
   country?: string;
 }

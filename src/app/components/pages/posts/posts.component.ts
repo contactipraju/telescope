@@ -7,11 +7,11 @@ import { IAppState }         from './../../../store/state/app.state';
 import { selectPostList }    from './../../../store/selectors/post.selectors';
 
 @Component({
-  selector: 'app-q-and-a',
-  templateUrl: './q-and-a.component.html',
-  styleUrls: ['./q-and-a.component.scss']
+  selector: 'app-posts',
+  templateUrl: './posts.component.html',
+  styleUrls: ['./posts.component.scss']
 })
-export class QAndAComponent implements OnInit {
+export class PostsComponent implements OnInit {
   posts$  = this._store.pipe(select(selectPostList));
 
   constructor(
