@@ -1,1 +1,12 @@
-<p>posts works!</p>
+<div class="qanda-component">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-lg-2">
+        <app-to-implement page="qanda"></app-to-implement>
+      </div>
+      <div class="col-sm-9 col-md-9 col-lg-10">
+        <app-table-view-posts [data]="posts$ | async"></app-table-view-posts>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute }    from '@angular/router';
+
+import { Store, select }     from '@ngrx/store';
+
+import { IAppState }         from './../../../store/state/app.state';
+import { selectPostList }    from './../../../store/selectors/post.selectors';
 
 @Component({
   selector: 'app-posts',
@@ -6,10 +12,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./posts.component.scss']
 })
 export class PostsComponent implements OnInit {
+  posts$  = this._store.pipe(select(selectPostList));
 
-  constructor() { }
+  constructor(
+    private _store: Store<IAppState>,
+    private activatedRoute: ActivatedRoute
+    ) {
+  }
 
   ngOnInit() {
   }
-
 }
