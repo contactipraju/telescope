@@ -14,6 +14,8 @@ import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
 })
 export class TableViewPostsComponent implements OnInit, OnChanges {
   @Input() data: IPost[];
+  @Input() category: string;
+
   modalRef_EditPost: BsModalRef;
 
   table: ITable = {
@@ -67,7 +69,9 @@ export class TableViewPostsComponent implements OnInit, OnChanges {
 
     this.table.data = [];
     for (let i=0; i<posts.length; i++) {
-      this.table.data.push(posts[i]);
+      if(!this.category || this.category === posts[i].category) {
+        this.table.data.push(posts[i]);
+      }
     }
   }
 }
