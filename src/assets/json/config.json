@@ -32,15 +32,15 @@
                 { "text": "Physics" },
                 { "text": "Chemistry" },
                 { "text": "Geography" },
-                { "text": "Geology" },
-                { "text": "Psychology" }
+                { "text": "Geology" }
             ]}
         ],
         "life_sciences": [
             { "text": "Life Sciences", "children": [
                 { "text": "Biology" },
                 { "text": "Botany" },
-                { "text": "Zoology" }
+                { "text": "Zoology" },
+                { "text": "Psychology" }
             ]}
         ],
         "social_sciences": [
@@ -49,7 +49,6 @@
                 { "text": "Economics" },
                 { "text": "Politics" },
                 { "text": "Socialogy" },
-                { "text": "Economics" },
                 { "text": "Law and Constitution" }
             ]}
         ],
