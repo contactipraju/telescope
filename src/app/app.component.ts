@@ -35,7 +35,7 @@ export class AppComponent {
     for(let i=0; i<this.router.config.length; i++) {
       let path = this.router.config[i].path;
 
-      if(path != '' && path != 'resources/nobels' && path != 'admin') {
+      if(path != '' && path != 'resources/nobels' && path != 'admin' && path != 'home') {
         this.navList.push(this.navFromPath(path));
       }
     }
