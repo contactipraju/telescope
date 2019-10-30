@@ -13,6 +13,7 @@ import { selectPostList }    from './../../../store/selectors/post.selectors';
 })
 export class PostsComponent implements OnInit {
   posts$  = this._store.pipe(select(selectPostList));
+  pageid: string = '';
 
   constructor(
     private _store: Store<IAppState>,
@@ -21,5 +22,8 @@ export class PostsComponent implements OnInit {
   }
 
   ngOnInit() {
+    if(this.activatedRoute && this.activatedRoute.snapshot && this.activatedRoute.snapshot.routeConfig && this.activatedRoute.snapshot.routeConfig.path) {
+      this.pageid = this.activatedRoute.snapshot.routeConfig.path;
+    }
   }
 }

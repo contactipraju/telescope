@@ -35,7 +35,7 @@ export class ToImplementComponent implements OnInit {
         ]}
       ]}
     ],
-    qanda: [
+    general_science: [
       { text: "General Science", children: [
         { text: "Astronomy" },
         { text: "Physics" },
@@ -43,12 +43,16 @@ export class ToImplementComponent implements OnInit {
         { text: "Geography" },
         { text: "Geology" }
       ]},
+    ],
+    life_sciences: [
       { text: "Life Sciences", children: [
         { text: "Biology" },
         { text: "Botany" },
         { text: "Zoology" },
         { text: "Psychology" }
       ]},
+    ],
+    social_sciences: [
       { text: "Social Sciences", children: [
         { text: "History" },
         { text: "Economics" },
@@ -56,6 +60,8 @@ export class ToImplementComponent implements OnInit {
         { text: "Socialogy" },
         { text: "Law and Constitution" }
       ]},
+    ],
+    miscellaneous: [
       { text: "Misc", children: [
         { text: "Culture" },
         { text: "Languages" },
@@ -65,6 +71,8 @@ export class ToImplementComponent implements OnInit {
         { text: "Events" },
         { text: "Quotes" }
       ]},
+    ],
+    pseudoscience: [
       { text: "Non-Science (Non-sense)", children: [
         { text: "PseudoScience" },
         { text: "Superstition" },

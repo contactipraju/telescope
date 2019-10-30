@@ -31,7 +31,7 @@ export class AppComponent {
 
     let nav = {
       url: '/' + path,
-      name: name.replace(/-/g, ' ')
+      name: name.replace(/_/g, ' ')
     };
 
     return nav;

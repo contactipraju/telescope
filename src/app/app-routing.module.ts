@@ -14,14 +14,14 @@ import { AdminComponent }       from './components/pages/admin/admin.component';
 const routes: Routes = [
   { path: 'home',       component: HomeComponent },
   { path: 'newsletter', component: NewsComponent },
-  { path: 'all-posts',  component: QAndAComponent },
+  { path: 'all_posts',  component: QAndAComponent },
   { path: 'resources',  component: ResourcesComponent },
   { path: 'media',      component: ArchivesComponent },
 
-  { path: 'general-science', component: PostsComponent },
-  { path: 'social-sciences', component: PostsComponent },
-  { path: 'life-sciences',   component: PostsComponent },
-  { path: 'miscelleneous',   component: PostsComponent },
+  { path: 'general_science', component: PostsComponent },
+  { path: 'social_sciences', component: PostsComponent },
+  { path: 'life_sciences',   component: PostsComponent },
+  { path: 'miscellaneous',   component: PostsComponent },
   { path: 'pseudoscience',   component: PostsComponent },
 
 //  { path: 'events',        component: EventsComponent },
