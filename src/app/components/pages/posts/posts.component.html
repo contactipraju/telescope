@@ -5,7 +5,7 @@
         <app-lhs [page]="pageid"></app-lhs>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
-        <app-table-view-posts [data]="posts$ | async"></app-table-view-posts>
+        <app-table-view-posts [data]="posts$ | async" [category]="pageid"></app-table-view-posts>
       </div>
     </div>
   </div>

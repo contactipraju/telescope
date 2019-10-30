@@ -6,6 +6,8 @@ export interface IPost {
   description?: string;
   content?: string;
   type?: string;
+  category?: string;
+  subcategory?: string;
   dateWritten?: Date;
   datePosted?: Date;
   dateWrittenFormatted?: string;
