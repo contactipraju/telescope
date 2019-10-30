@@ -1,0 +1,5 @@
+<div class="menu-component">
+  <div *ngIf="configAvailable">
+    <app-article *ngFor="let item of config['menu_layout'][page]" [item]="item"></app-article>
+  </div>
+</div>
