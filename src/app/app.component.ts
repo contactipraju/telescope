@@ -4,6 +4,7 @@ import { Router }    from '@angular/router';
 import { Store }     from '@ngrx/store';
 import { IAppState } from './store/state/app.state';
 import { GetConfig } from './store/actions/config.actions';
+import { GetPosts }  from './store/actions/post.actions';
 
 @Component({
   selector: 'app-root',
@@ -15,8 +16,13 @@ export class AppComponent {
   navList: any = [];
 
   constructor(private router: Router, private _store: Store<IAppState>) {
-    this._store.dispatch(new GetConfig());
+    this.loadDataToStore();
     this.prepareNavLinks();
+  }
+
+  loadDataToStore() {
+    this._store.dispatch(new GetConfig());
+    this._store.dispatch(new GetPosts());
   }
 
   navFromPath(path) {

@@ -4,9 +4,6 @@ import { ActivatedRoute }    from '@angular/router';
 import { Store, select }     from '@ngrx/store';
 
 import { IAppState }         from './../../../store/state/app.state';
-
-import { GetPosts }          from './../../../store/actions/post.actions';
-
 import { selectPostList }    from './../../../store/selectors/post.selectors';
 
 @Component({
@@ -24,6 +21,5 @@ export class QAndAComponent implements OnInit {
   }
 
   ngOnInit() {
-    this._store.dispatch(new GetPosts());
   }
 }
