@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ToImplementComponent } from './to-implement.component';
+import { LhsComponent } from './lhs.component';
 
-describe('ToImplementComponent', () => {
-  let component: ToImplementComponent;
-  let fixture: ComponentFixture<ToImplementComponent>;
+describe('LhsComponent', () => {
+  let component: LhsComponent;
+  let fixture: ComponentFixture<LhsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ToImplementComponent ]
+      declarations: [ LhsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ToImplementComponent);
+    fixture = TestBed.createComponent(LhsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

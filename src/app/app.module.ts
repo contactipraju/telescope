@@ -70,8 +70,9 @@ import { EditUserComponent }          from './components/edit/edit-user/edit-use
 import { FooterComponent }            from './components/common/footer/footer.component';
 
 /* Misc Components */
+import { LhsComponent }               from './components/misc/lhs/lhs.component';
+import { MenuComponent }              from './components/misc/menu/menu.component';
 import { ArticleComponent }           from './components/misc/article/article.component';
-import { ToImplementComponent }       from './components/misc/to-implement/to-implement.component';
 
 /* Page Components */
 import { HomeComponent }              from './components/pages/home/home.component';
@@ -115,8 +116,9 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     PeopleComponent,
     AdminComponent,
     FooterComponent,
+    LhsComponent,
+    MenuComponent,
     ArticleComponent,
-    ToImplementComponent,
     CalendarViewComponent,
     MultiselectListComponent,
     YearCalendarComponent,

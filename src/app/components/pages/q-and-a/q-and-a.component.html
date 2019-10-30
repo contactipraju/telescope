@@ -2,11 +2,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-2">
-        <app-to-implement page="general_science"></app-to-implement>
-        <app-to-implement page="life_sciences"></app-to-implement>
-        <app-to-implement page="social_sciences"></app-to-implement>
-        <app-to-implement page="miscellaneous"></app-to-implement>
-        <app-to-implement page="pseudoscience"></app-to-implement>
+        <app-lhs page="general_science"></app-lhs>
+        <app-lhs page="life_sciences"></app-lhs>
+        <app-lhs page="social_sciences"></app-lhs>
+        <app-lhs page="miscellaneous"></app-lhs>
+        <app-lhs page="pseudoscience"></app-lhs>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
         <app-table-view-posts [data]="posts$ | async"></app-table-view-posts>
