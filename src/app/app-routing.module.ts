@@ -12,21 +12,27 @@ import { PeopleComponent }      from './components/pages/people/people.component
 import { AdminComponent }       from './components/pages/admin/admin.component';
 
 const routes: Routes = [
-  { path: 'home',       component: HomeComponent },
-  { path: 'newsletter', component: NewsComponent },
-  { path: 'all_posts',  component: QAndAComponent },
-  { path: 'resources',  component: ResourcesComponent },
-  { path: 'media',      component: ArchivesComponent },
+  { path: 'home',       component: HomeComponent,       data: { showNav: true } },
+  { path: 'newsletter', component: NewsComponent,       data: { showNav: true } },
+  { path: 'all_posts',  component: QAndAComponent,      data: { showNav: true } },
+  { path: 'resources',  component: ResourcesComponent,  data: { showNav: true } },
+  { path: 'media',      component: ArchivesComponent,   data: { showNav: true } },
+  { path: 'admin',      component: AdminComponent,      data: { showNav: false } },
 
-  { path: 'general_science', component: PostsComponent },
-  { path: 'social_sciences', component: PostsComponent },
-  { path: 'life_sciences',   component: PostsComponent },
-  { path: 'miscellaneous',   component: PostsComponent },
-  { path: 'pseudoscience',   component: PostsComponent },
+  { path: 'general_science', component: PostsComponent, data: { showNav: true } },
+  { path: 'life_sciences',   component: PostsComponent, data: { showNav: true } },
+  { path: 'social_sciences', component: PostsComponent, data: { showNav: true } },
+  { path: 'miscellaneous',   component: PostsComponent, data: { showNav: true } },
+  { path: 'pseudoscience',   component: PostsComponent, data: { showNav: true } },
+
+  { path: 'general_science/:subcategory', component: PostsComponent, data: { showNav: false } },
+  { path: 'life_sciences/:subcategory',   component: PostsComponent, data: { showNav: false } },
+  { path: 'social_sciences/:subcategory', component: PostsComponent, data: { showNav: false } },
+  { path: 'miscellaneous/:subcategory',   component: PostsComponent, data: { showNav: false } },
+  { path: 'pseudoscience/:subcategory',   component: PostsComponent, data: { showNav: false } },
 
 //  { path: 'events',        component: EventsComponent },
 //  { path: 'team',          component: PeopleComponent },
-  { path: 'admin',         component: AdminComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 

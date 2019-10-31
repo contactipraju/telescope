@@ -40,8 +40,9 @@ export class AppComponent {
   prepareNavLinks() {
     for(let i=0; i<this.router.config.length; i++) {
       let path = this.router.config[i].path;
+      let showInNavigation = this.router.config[i].data ? this.router.config[i].data["showNav"] : false;
 
-      if(path != '' && path != 'resources/nobels' && path != 'admin' && path != 'home') {
+      if(path != '' && showInNavigation) {
         this.navList.push(this.navFromPath(path));
       }
     }
