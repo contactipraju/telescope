@@ -1,36 +1,35 @@
-A platform that compiles questions on Science and encourages Rationalism and Critical Thinking.
+Edit content
+  Upload image in post
+  Add video links
+  Add source links (urls)
+  Add tags
+  Mark-topic-complete
+  Mark-topic-incomplete (need cleanup)
 
-This is a colloborative effort and needs committed volunteers.  You can Contribute.
+View Post
+  List related topics
+  Share in social-media channels
+  Topics from same category/subcategory
+  Topics from same author
 
-Have a Question? Post it..
-Want to Answer a Question? Please do..
-Want to correct/enhance an answer? Welcome..
-Learn/Read facts? Start here..
-Share a topic?
-Subscribe to Weekly NewsLetter
+Deployment:
+  Backend support
+  CI/CD (AWS)
+
+Admin
+  Create gmail account
+  Create social media accounts
+  Add social media links to footer (YouTube | Facebook | Twitter | Instagram | Blogs | Websites)
+  Join Us & Subscribe for NewsLetter
+  Add Footer Pages (Privacy, Terms, Site Map, About, Contact us)
+  Language support (i18n)
+
+Marketing
+  Talk to and invite contributors
+  Seek feedback
 
 
-upload image
-add video links
-edit content
-add tags
-select related topics
-topics by same category/subcategory/author
-create gmail account, create social media accounts
-mark-topic-complete, post in social-media channels
-language support
-backend
-talk to contributors, seek feedback
-
-
-Links / Channels:
- YouTube
- Facebook
- Twitter
- Instagram
- Blogs
- Websites
-
+----
 Humanist Legends:
  Humanists
  Scientists
@@ -50,4 +49,3 @@ Activism:
 Meetups:
  Annual Meeting:
  Special Meetings:
- Portafilter:
