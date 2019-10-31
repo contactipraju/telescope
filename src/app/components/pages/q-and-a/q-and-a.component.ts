@@ -12,7 +12,7 @@ import { selectPostList }    from './../../../store/selectors/post.selectors';
   styleUrls: ['./q-and-a.component.scss']
 })
 export class QAndAComponent implements OnInit {
-  posts$  = this._store.pipe(select(selectPostList));
+  posts$ = this._store.pipe(select(selectPostList));
 
   constructor(
     private _store: Store<IAppState>,

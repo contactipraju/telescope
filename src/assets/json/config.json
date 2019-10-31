@@ -27,49 +27,49 @@
             ]}
         ],
         "general_science": [
-            { "text": "General Science", "children": [
-                { "text": "Astronomy" },
-                { "text": "Physics" },
-                { "text": "Chemistry" },
-                { "text": "Geography" },
-                { "text": "Geology" }
+            { "text": "General Science", "link": "general_science", "children": [
+                { "text": "Astronomy", "link": "astronomy" },
+                { "text": "Physics", "link": "physics" },
+                { "text": "Chemistry", "link": "chemistry" },
+                { "text": "Geography", "link": "geography" },
+                { "text": "Geology", "link": "geology" }
             ]}
         ],
         "life_sciences": [
-            { "text": "Life Sciences", "children": [
-                { "text": "Biology" },
-                { "text": "Botany" },
-                { "text": "Zoology" },
-                { "text": "Psychology" }
+            { "text": "Life Sciences", "link": "life_sciences", "children": [
+                { "text": "Biology", "link": "biology" },
+                { "text": "Botany", "link": "botany" },
+                { "text": "Zoology", "link": "zoology" },
+                { "text": "Psychology", "link": "psychology" }
             ]}
         ],
         "social_sciences": [
-            { "text": "Social Sciences", "children": [
-                { "text": "History" },
-                { "text": "Economics" },
-                { "text": "Politics" },
-                { "text": "Socialogy" },
-                { "text": "Law and Constitution" }
+            { "text": "Social Sciences", "link": "social_sciences", "children": [
+                { "text": "History", "link": "history" },
+                { "text": "Economics", "link": "economics" },
+                { "text": "Politics", "link": "politics" },
+                { "text": "Socialogy", "link": "socialogy" },
+                { "text": "Law and Constitution", "link": "constitution" }
             ]}
         ],
         "miscellaneous": [
-            { "text": "Misc", "children": [
-                { "text": "Culture" },
-                { "text": "Languages" },
-                { "text": "Literature" },
-                { "text": "Philosophy" },
-                { "text": "People" },
-                { "text": "Events" },
-                { "text": "Quotes" }
+            { "text": "Miscellaneous", "link": "miscellaneous", "children": [
+                { "text": "Culture", "link": "culture" },
+                { "text": "Languages", "link": "languages" },
+                { "text": "Literature", "link": "literature" },
+                { "text": "Philosophy", "link": "philosophy" },
+                { "text": "People", "link": "people" },
+                { "text": "Events", "link": "events" },
+                { "text": "Quotes", "link": "quotes" }
             ]}
         ],
         "pseudoscience": [
-            { "text": "Non-Science (Non-sense)", "children": [
-                { "text": "PseudoScience" },
-                { "text": "Superstition" },
-                { "text": "Myth" },
-                { "text": "Hoax" },
-                { "text": "Quakery" }
+            { "text": "Non-Science (Non-sense)", "link": "pseudoscience", "children": [
+                { "text": "PseudoScience", "link": "pseudoScience" },
+                { "text": "Superstition", "link": "superstition" },
+                { "text": "Myths", "link": "myths" },
+                { "text": "Hoaxes", "link": "hoaxes" },
+                { "text": "Quakery", "link": "quakery" }
             ]}
         ],
         "events": [
@@ -97,28 +97,28 @@
             ]}
         ],
         "resources": [
-            { "text": "Reading", "children": [
-                { "text": "Books" },
-                { "text": "PDFs" },
-                { "text": "Blogs" },
-                { "text": "Websites" },
-                { "text": "Nobel Laureates", "link": "resources/nobels" }
+            { "text": "Reading", "link": "reading", "children": [
+                { "text": "Books", "link": "books" },
+                { "text": "PDFs", "link": "pdfs" },
+                { "text": "Blogs", "link": "blogs" },
+                { "text": "Websites", "link": "websites" },
+                { "text": "Nobel Laureates", "link": "nobels" }
             ]},
-            { "text": "Infotainment", "children": [
-                { "text": "Documentaries" },
-                { "text": "Feature Films" },
-                { "text": "The Big Question with BG" }
+            { "text": "Infotainment", "link": "infotainment", "children": [
+                { "text": "Documentaries", "link": "documentaries" },
+                { "text": "Feature Films", "link": "films" },
+                { "text": "The Big Question with BG", "link": "bigquestion" }
             ]},
-            { "text": "Resources", "children": [
-                { "text": "Social Media" },
-                { "text": "Glossary" }
+            { "text": "Resources", "link": "resources", "children": [
+                { "text": "Social Media", "link": "socialmedia" },
+                { "text": "Glossary", "link": "glossary" }
             ]},
-            { "text": "మంచి", "children": [
-                { "text": "పుస్తకం" },
-                { "text": "కవిత" },
-                { "text": "సినిమా" },
-                { "text": "పాట" },
-                { "text": "ప్రయత్నం" }
+            { "text": "మంచి", "link": "manchi", "children": [
+                { "text": "పుస్తకం", "link": "pustakam" },
+                { "text": "కవిత", "link": "kavita" },
+                { "text": "సినిమా", "link": "cinema" },
+                { "text": "పాట", "link": "paata" },
+                { "text": "ప్రయత్నం", "link": "prayatnam" }
             ]}
         ],
         "team": [
