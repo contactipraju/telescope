@@ -1,7 +1,7 @@
 <div class="article-component">
-  <div class="item"><a href='{{item.link}}'>{{item.text}}</a></div>
+  <div class="item"><a href='{{parent + "/" + item.link}}'>{{item.text}}</a></div>
 
   <div class="children" *ngIf="item && item.children && item.children.length">
-    <app-article *ngFor="let child of item.children" [item]="child"></app-article>
+    <app-article *ngFor="let child of item.children" [item]="child" [parent]="item.link"></app-article>
   </div>
 </div>
