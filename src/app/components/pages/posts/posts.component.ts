@@ -12,8 +12,10 @@ import { selectPostList }    from './../../../store/selectors/post.selectors';
   styleUrls: ['./posts.component.scss']
 })
 export class PostsComponent implements OnInit {
-  posts$  = this._store.pipe(select(selectPostList));
+  posts$ = this._store.pipe(select(selectPostList));
+
   pageid: string = '';
+  subcategory: string = '';
 
   constructor(
     private _store: Store<IAppState>,
@@ -22,8 +24,9 @@ export class PostsComponent implements OnInit {
   }
 
   ngOnInit() {
-    if(this.activatedRoute && this.activatedRoute.snapshot && this.activatedRoute.snapshot.routeConfig && this.activatedRoute.snapshot.routeConfig.path) {
-      this.pageid = this.activatedRoute.snapshot.routeConfig.path;
+    if(this.activatedRoute && this.activatedRoute.snapshot && this.activatedRoute.snapshot.url && this.activatedRoute.snapshot.url.length) {
+      this.pageid      = this.activatedRoute.snapshot.url[0].path;
+      this.subcategory = this.activatedRoute.snapshot.url[1] ? this.activatedRoute.snapshot.url[1].path : undefined;
     }
   }
 }
