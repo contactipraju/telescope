@@ -1,3 +1,5 @@
+@import '../../../../variables';
+
 .table-view-component {
   margin-bottom: 10px;
 
@@ -28,7 +30,7 @@
   table {
     thead {
       tr:first-child {
-        background-color: #1a345b;
+        background-color: $DefaultColor;
         color: #fff;
       }
     }
@@ -43,7 +45,7 @@
       }
 
       tr.answered {
-        color: #1a345b;
+        color: $DefaultColor;
       }
     }
 
