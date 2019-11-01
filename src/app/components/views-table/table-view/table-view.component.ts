@@ -2,8 +2,6 @@ import { Component, EventEmitter }  from '@angular/core';
 import { OnInit, Input, Output }    from '@angular/core';
 import { OnChanges, SimpleChange  } from '@angular/core';
 
-import { IEvent } from '../../../models/event.interface';
-
 @Component({
   selector: 'app-table-view',
   templateUrl: './table-view.component.html',
@@ -26,18 +24,18 @@ export class TableViewComponent implements OnInit, OnChanges {
     //console.log("TableViewComponent - data: ", this.data);
   }
 
-  addItem(event: IEvent) {
+  addItem(event: any) {
     this.addEmitter.emit(event);
   }
 
-  viewItem(event: IEvent) {
+  viewItem(event: any) {
     if(event.description && event.description.length) {
       let url = "assets/posts/" + event.description;
       window.open(url);
     }
   }
 
-  selectItem($event, item: IEvent) {
+  selectItem($event, item: any) {
     this.selectEmitter.emit(item);
     $event.stopPropagation();
   }

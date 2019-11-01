@@ -7,6 +7,7 @@ import { PostsComponent }       from './components/pages/posts/posts.component';
 import { QAndAComponent }       from './components/pages/q-and-a/q-and-a.component';
 import { ArchivesComponent }    from './components/pages/archives/archives.component';
 import { ResourcesComponent }   from './components/pages/resources/resources.component';
+import { NobelsPageComponent }  from './components/pages/nobels-page/nobels-page.component';
 import { EventsComponent }      from './components/pages/events/events.component';
 import { PeopleComponent }      from './components/pages/people/people.component';
 import { AdminComponent }       from './components/pages/admin/admin.component';
@@ -24,6 +25,8 @@ const routes: Routes = [
   { path: 'social_sciences', component: PostsComponent, data: { showNav: true } },
   { path: 'miscellaneous',   component: PostsComponent, data: { showNav: true } },
   { path: 'pseudoscience',   component: PostsComponent, data: { showNav: true } },
+
+  { path: 'reading/nobels',  component: NobelsPageComponent,  data: { showNav: true } },
 
   { path: 'general_science/:subcategory', component: PostsComponent, data: { showNav: false } },
   { path: 'life_sciences/:subcategory',   component: PostsComponent, data: { showNav: false } },

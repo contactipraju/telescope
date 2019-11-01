@@ -47,9 +47,7 @@ import { SortButtonComponent }   from './nobel-filter/sort-button/sort-button.co
     HttpClientModule,
     FormsModule,
     ButtonsModule.forRoot(),
-    RouterModule.forChild([
-      { path: 'reading/nobels', component: NobelsComponent }
-    ])
+    RouterModule.forChild([])
   ],
   exports: [
     NobelsComponent

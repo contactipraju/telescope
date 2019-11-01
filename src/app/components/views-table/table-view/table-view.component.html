@@ -20,7 +20,7 @@
     </thead>
 
     <tbody>
-      <tr class="weekly-row" [ngClass]="{'answered': item.description.length, 'unanswered': !item.description.length}" *ngFor="let item of data.data | filter:searchText" (click)="viewItem(item)">
+      <tr class="weekly-row" [ngClass]="{'answered': item.description && item.description.length, 'unanswered': !item.description || !item.description.length}" *ngFor="let item of data.data | filter:searchText" (click)="viewItem(item)">
         <td (click)="selectItem($event, item)"><i class="fas fa-edit"></i></td>
         <td *ngFor="let prop of data.props" [innerHTML]="item[prop]"></td>
       </tr>

@@ -82,6 +82,7 @@ import { QAndAComponent }             from './components/pages/q-and-a/q-and-a.c
 import { EventsComponent }            from './components/pages/events/events.component';
 import { ArchivesComponent }          from './components/pages/archives/archives.component';
 import { ResourcesComponent }         from './components/pages/resources/resources.component';
+import { NobelsPageComponent }        from './components/pages/nobels-page/nobels-page.component';
 import { PeopleComponent }            from './components/pages/people/people.component';
 import { AdminComponent }             from './components/pages/admin/admin.component';
 
@@ -110,6 +111,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     EventsComponent,
     ArchivesComponent,
     ResourcesComponent,
+    NobelsPageComponent,
     NewsComponent,
     PostsComponent,
     QAndAComponent,

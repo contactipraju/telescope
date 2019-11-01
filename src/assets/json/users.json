@@ -42,5 +42,5 @@
     {"id": 41, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Rajeshwer",      "lastname": "Chelimela", "profile": "people/rajeshwer.jpg", "email": "rajeshwer@gmail.com"},
     {"id": 42, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Sravanthi",      "lastname": "Mutyala",   "profile": "people/sravanthi.jpg", "email": "sravanthi@gmail.com"},
     {"id": 43, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Rajeshwer",      "lastname": "Chelimela", "profile": "people/rajeshwer.jpg", "email": "rajeshwer@gmail.com"},
-    {"id": 43, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Srinivasa",      "lastname": "Chary",     "profile": "people/srinivasc.jpg", "email": "srinivasachary@gmail.com"}
+    {"id": 44, "country": "India",     "timezone": "+5:30", "role": "manager", "firstname": "Srinivasa",      "lastname": "Chary",     "profile": "people/srinivasc.jpg", "email": "srinivasachary@gmail.com"}
 ]
