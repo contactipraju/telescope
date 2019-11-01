@@ -30,7 +30,15 @@ export class TableViewComponent implements OnInit, OnChanges {
     this.addEmitter.emit(event);
   }
 
-  selectItem(event: IEvent) {
-    this.selectEmitter.emit(event);
+  viewItem(event: IEvent) {
+    if(event.description && event.description.length) {
+      let url = "assets/posts/" + event.description;
+      window.open(url);
+    }
+  }
+
+  selectItem($event, item: IEvent) {
+    this.selectEmitter.emit(item);
+    $event.stopPropagation();
   }
 }

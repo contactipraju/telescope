@@ -41,6 +41,10 @@
       tr.weekly-row {
         cursor: pointer;
       }
+
+      tr.answered {
+        color: #1a345b;
+      }
     }
 
     td {

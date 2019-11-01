@@ -14,12 +14,14 @@
   <table class="h-100 w-100">
     <thead>
       <tr>
+        <td><b>Actions</b></td>
         <td *ngFor="let columnTitle of data.columnTitles"><b>{{columnTitle}}</b></td>
       </tr>
     </thead>
 
     <tbody>
-      <tr class="weekly-row" *ngFor="let item of data.data | filter:searchText" (click)="selectItem(item)">
+      <tr class="weekly-row" [ngClass]="{'answered': item.description.length, 'unanswered': !item.description.length}" *ngFor="let item of data.data | filter:searchText" (click)="viewItem(item)">
+        <td (click)="selectItem($event, item)"><i class="fas fa-edit"></i></td>
         <td *ngFor="let prop of data.props" [innerHTML]="item[prop]"></td>
       </tr>
     </tbody>
