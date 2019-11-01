@@ -4,7 +4,8 @@ Edit content
   Add source links (urls)
   Add tags
   Mark-topic-complete
-  Mark-topic-incomplete (need cleanup)
+  Mark-topic-incomplete (need cleanup -> to active state)
+  Topic states (new, active, complete, published, deleted)
 
 View Post
   List related topics
@@ -28,6 +29,12 @@ Marketing
   Talk to and invite contributors
   Seek feedback
 
+----
+Articles must be impartial in tone and content
+Articles cannot be author's opinions
+Articles should include the source where necessary and possible (links)
+Articles need to be peer-reviewed by at least one other author before being able to be published
+Attached media (Images and Videos) should be professional, appropriate and decent enough for everyone to read
 
 ----
 Humanist Legends:
