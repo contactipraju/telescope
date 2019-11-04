@@ -1,0 +1,9 @@
+<div class="list-view-posts" *ngIf="posts && posts.length">
+    <h4 class="list-view-posts-heading">{{title}}</h4>
+
+    <ul class="list-view-posts-body">
+        <li *ngFor="let post of posts">
+            <a [href]="'/' + post.category + '/' + post.subcategory + '/' + post.id">{{post.title}}</a>
+        </li>
+    </ul>
+</div>

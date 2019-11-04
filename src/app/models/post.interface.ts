@@ -1,5 +1,5 @@
 export interface IPost {
-  id?: number,
+  id?: string,
   title: string;
   author?: string;
   email?: string;
@@ -8,6 +8,7 @@ export interface IPost {
   type?: string;
   category?: string;
   subcategory?: string;
+  related?: string[];
   dateWritten?: Date;
   datePosted?: Date;
   dateWrittenFormatted?: string;

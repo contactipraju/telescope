@@ -14,8 +14,9 @@ import { selectPostList }    from './../../../store/selectors/post.selectors';
 export class PostsComponent implements OnInit {
   posts$ = this._store.pipe(select(selectPostList));
 
-  pageid: string = '';
+  category: string = '';
   subcategory: string = '';
+  id: string = '';
 
   constructor(
     private _store: Store<IAppState>,
@@ -25,8 +26,9 @@ export class PostsComponent implements OnInit {
 
   ngOnInit() {
     if(this.activatedRoute && this.activatedRoute.snapshot && this.activatedRoute.snapshot.url && this.activatedRoute.snapshot.url.length) {
-      this.pageid      = this.activatedRoute.snapshot.url[0].path;
+      this.category    = this.activatedRoute.snapshot.url[0].path;
       this.subcategory = this.activatedRoute.snapshot.url[1] ? this.activatedRoute.snapshot.url[1].path : undefined;
+      this.id          = this.activatedRoute.snapshot.url[2] ? this.activatedRoute.snapshot.url[2].path : undefined;
     }
   }
 }

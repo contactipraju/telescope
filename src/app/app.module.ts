@@ -86,9 +86,13 @@ import { NobelsPageComponent }        from './components/pages/nobels-page/nobel
 import { PeopleComponent }            from './components/pages/people/people.component';
 import { AdminComponent }             from './components/pages/admin/admin.component';
 
+/* Detail-View Components */
+import { ViewPostComponent }          from './components/views-detail/view-post/view-post.component';
+
 /* List-View Components */
 import { ListViewPeopleComponent }    from './components/views-list/list-view-people/list-view-people.component';
 import { ListViewSeriesComponent }    from './components/views-list/list-view-series/list-view-series.component';
+import { ListViewPostsComponent }     from './components/views-list/list-view-posts/list-view-posts.component';
 
 /* Table-View Components */
 import { TableViewComponent }         from './components/views-table/table-view/table-view.component';
@@ -121,6 +125,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     LhsComponent,
     MenuComponent,
     ArticleComponent,
+    ViewPostComponent,
     CalendarViewComponent,
     MultiselectListComponent,
     YearCalendarComponent,
@@ -131,6 +136,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     EditUserComponent,
     ListViewSeriesComponent,
     ListViewPeopleComponent,
+    ListViewPostsComponent,
     TableViewComponent,
     TableViewEpisodesComponent,
     TableViewPeopleComponent,
