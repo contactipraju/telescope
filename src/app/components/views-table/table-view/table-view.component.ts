@@ -28,10 +28,17 @@ export class TableViewComponent implements OnInit, OnChanges {
     this.addEmitter.emit(event);
   }
 
-  viewItem(event: any) {
+  // TODO: will use if the posts are Server-side Rendered
+  viewItemAsHtmlPage(event: any) {
     if(event.description && event.description.length) {
       let url = "assets/posts/" + event.description;
       window.open(url);
+    }
+  }
+
+  viewItem(event: any) {
+    if(event.description && event.description.length) {
+      window.location.href = event.category + "/" + event.subcategory + "/" + event.id;
     }
   }
 
