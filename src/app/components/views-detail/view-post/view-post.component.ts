@@ -63,6 +63,7 @@ export class ViewPostComponent implements OnInit, OnChanges {
     console.log("ViewPostComponent - editPost: ", this.post);
     const initialState = {
       mode: "edit",
+      postsList: this.data,
       post: this.post
     };
 
