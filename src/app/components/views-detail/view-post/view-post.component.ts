@@ -1,6 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { OnChanges, SimpleChange  } from '@angular/core';
+
+import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
+
 import { IPost }    from '../../../models/post.interface';
+
+import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
 
 @Component({
   selector: 'app-view-post',
@@ -18,7 +23,9 @@ export class ViewPostComponent implements OnInit, OnChanges {
   relatedPosts: IPost[] = [];
   postsFromSameAuthor: IPost[] = [];
 
-  constructor() { }
+  modalRef_EditPost: BsModalRef;
+
+  constructor(private modalService: BsModalService) { }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue != null) {
@@ -52,4 +59,14 @@ export class ViewPostComponent implements OnInit, OnChanges {
     console.log("ViewPostComponent - ngOnInit: ", this.category, this.subcategory, this.id, this.data);
   }
 
+  editPost() {
+    console.log("ViewPostComponent - editPost: ", this.post);
+    const initialState = {
+      mode: "edit",
+      post: this.post
+    };
+
+    this.modalRef_EditPost = this.modalService.show(EditPostComponent, {initialState});
+    this.modalRef_EditPost.content.modalRef = this.modalRef_EditPost;
+  }
 }
