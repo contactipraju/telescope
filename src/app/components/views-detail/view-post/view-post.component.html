@@ -4,7 +4,8 @@
             <a href="/{{post.category}}">{{post.category}}</a> > <a href="/{{post.category}}/{{post.subcategory}}">{{post.subcategory}}</a>
         </div>
         <div class="content-header"><h4>{{post.title}}</h4></div>
-        <div class="content-body">{{post.description}}</div>
+        <div class="content-body" *ngIf="post.description && post.description.length">{{post.description}}</div>
+        <div class="content-body" *ngIf="!post.description"><span (click)="editPost()">Answer this question</span></div>
     </div>
 
     <div class="rhs col-sm-0 col-md-4 col-lg-4">
