@@ -8,22 +8,7 @@
     </div>
 
     <div class="rhs col-sm-0 col-md-4 col-lg-4">
-        <div class="posts-group related-posts">
-            <h4 class="posts-group-heading">సంబంధిత ప్రశ్నలు</h4>
-            <ul class="posts-group-body">
-                <li class="post"><a href="assets/posts/evolution-of-plants.html">జీవ వైవిద్యంలొ తేనెటీగల పాత్ర ఎంత? పర్యావరణానికి వాటి ఆవస్యకత ఏమిటి?</a></li>
-                <li class="post"><a href="assets/posts/evolution-of-plants.html">ఆధునిక శాస్త్రం ప్రాకారం 'జీవం' ఎలా ఆవిర్భవించింది?</a></li>
-                <li class="post"><a href="assets/posts/evolution-of-plants.html">ఉత్పరివర్తనలు (Mutations) అనగా ఏమిటి? అవి ఎందుకు సంభవిస్తాయి?</a></li>
-            </ul>
-        </div>
-
-        <div class="posts-group posts-from-same-author">
-            <h5 class="posts-group-heading">ఇదే వ్యక్తి/రచయిత నుండి..</h5>
-            <ul class="posts-group-body">
-                <li class="post"><a href="assets/posts/evolution-of-plants.html">వాతావరణ అంచనా ఎలా చేస్తారు?</a></li>
-                <li class="post"><a href="assets/posts/evolution-of-plants.html">సముద్రంలో ఆటు పోట్లు ఎందుకు సంభవిస్తాయి?</a></li>
-                <li class="post"><a href="assets/posts/evolution-of-plants.html">మనిషి కొతి నుండి పుట్టాడా? మరి ఇంకా కొతులు ఎందుకు ఉన్నాయి?</a></li>
-            </ul>
-        </div>
+        <app-list-view-posts class="related-posts" title="సంబంధిత ప్రశ్నలు" [posts]="relatedPosts"></app-list-view-posts>
+        <app-list-view-posts class="posts-from-same-author" title="ఇదే వ్యక్తి/రచయిత నుండి.." [posts]="postsFromSameAuthor"></app-list-view-posts>
     </div>
 </div>

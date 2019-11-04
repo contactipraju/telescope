@@ -15,6 +15,8 @@ export class ViewPostComponent implements OnInit, OnChanges {
 
   dataReady: boolean = false;
   post: IPost;
+  relatedPosts: IPost[] = [];
+  postsFromSameAuthor: IPost[] = [];
 
   constructor() { }
 
@@ -22,7 +24,23 @@ export class ViewPostComponent implements OnInit, OnChanges {
     if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue != null) {
       for(let i=0; i<this.data.length; i++) {
         if(this.data[i].id === this.id) {
+
           this.post = this.data[i];
+
+          for(let j=0; j<this.post.related.length; j++) {
+            for(let k=0; k<this.data.length; k++) {
+              if(this.post.related[j] === this.data[k].id) {
+                this.relatedPosts.push(this.data[k]);
+              }
+            }
+          }
+
+          for(let a=0; a<this.data.length; a++) {
+            if(this.post.author === this.data[a].author) {
+              this.postsFromSameAuthor.push(this.data[a]);
+            }
+          }
+
           this.dataReady = true;
           break;
         }
