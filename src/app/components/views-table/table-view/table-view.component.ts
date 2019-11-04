@@ -30,16 +30,14 @@ export class TableViewComponent implements OnInit, OnChanges {
 
   // TODO: will use if the posts are Server-side Rendered
   viewItemAsHtmlPage(event: any) {
-    if(event.description && event.description.length) {
-      let url = "assets/posts/" + event.description;
+    if(event.htmllink && event.htmllink.length) {
+      let url = "assets/posts/" + event.htmllink;
       window.open(url);
     }
   }
 
   viewItem(event: any) {
-    if(event.description && event.description.length) {
-      window.location.href = event.category + "/" + event.subcategory + "/" + event.id;
-    }
+    window.location.href = event.category + "/" + event.subcategory + "/" + event.id;
   }
 
   selectItem($event, item: any) {
