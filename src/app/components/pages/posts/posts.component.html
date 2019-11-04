@@ -2,10 +2,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-2">
-        <app-lhs [page]="pageid"></app-lhs>
+        <app-lhs [page]="category"></app-lhs>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
-        <app-table-view-posts [data]="posts$ | async" [category]="pageid" [subcategory]="subcategory"></app-table-view-posts>
+        <app-view-post *ngIf="id" [data]="posts$ | async" [category]="category" [subcategory]="subcategory" [id]="id"></app-view-post>
+        <app-table-view-posts     [data]="posts$ | async" [category]="category" [subcategory]="subcategory"></app-table-view-posts>
       </div>
     </div>
   </div>
