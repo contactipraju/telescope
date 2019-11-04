@@ -5,7 +5,9 @@
         </div>
         <div class="content-header"><h4>{{post.title}}</h4></div>
         <div class="content-body" *ngIf="post.description && post.description.length">{{post.description}}</div>
-        <div class="content-body" *ngIf="!post.description"><span (click)="editPost()">Answer this question</span></div>
+        <div class="content-body" *ngIf="!post.description">
+            <button class="answer-post" (click)="editPost()">Answer this question</button>
+        </div>
     </div>
 
     <div class="rhs col-sm-0 col-md-4 col-lg-4">
