@@ -20,19 +20,27 @@ const routes: Routes = [
   { path: 'media',      component: ArchivesComponent,   data: { showNav: true } },
   { path: 'admin',      component: AdminComponent,      data: { showNav: false } },
 
-  { path: 'general_science', component: PostsComponent, data: { showNav: true } },
-  { path: 'life_sciences',   component: PostsComponent, data: { showNav: true } },
-  { path: 'social_sciences', component: PostsComponent, data: { showNav: true } },
-  { path: 'miscellaneous',   component: PostsComponent, data: { showNav: true } },
-  { path: 'pseudoscience',   component: PostsComponent, data: { showNav: true } },
-
   { path: 'reading/nobels',  component: NobelsPageComponent,  data: { showNav: false } },
 
-  { path: 'general_science/:subcategory', component: PostsComponent, data: { showNav: false } },
-  { path: 'life_sciences/:subcategory',   component: PostsComponent, data: { showNav: false } },
-  { path: 'social_sciences/:subcategory', component: PostsComponent, data: { showNav: false } },
-  { path: 'miscellaneous/:subcategory',   component: PostsComponent, data: { showNav: false } },
-  { path: 'pseudoscience/:subcategory',   component: PostsComponent, data: { showNav: false } },
+  { path: 'general_science',                  component: PostsComponent, data: { showNav: true } },
+  { path: 'general_science/:subcategory',     component: PostsComponent, data: { showNav: false } },
+  { path: 'general_science/:subcategory/:id', component: PostsComponent, data: { showNav: false } },
+
+  { path: 'life_sciences',                    component: PostsComponent, data: { showNav: true } },
+  { path: 'life_sciences/:subcategory',       component: PostsComponent, data: { showNav: false } },
+  { path: 'life_sciences/:subcategory/:id',   component: PostsComponent, data: { showNav: false } },
+
+  { path: 'social_sciences',                  component: PostsComponent, data: { showNav: true } },
+  { path: 'social_sciences/:subcategory',     component: PostsComponent, data: { showNav: false } },
+  { path: 'social_sciences/:subcategory/:id', component: PostsComponent, data: { showNav: false } },
+
+  { path: 'miscellaneous',                    component: PostsComponent, data: { showNav: true } },
+  { path: 'miscellaneous/:subcategory',       component: PostsComponent, data: { showNav: false } },
+  { path: 'miscellaneous/:subcategory/:id',   component: PostsComponent, data: { showNav: false } },
+
+  { path: 'pseudoscience',                    component: PostsComponent, data: { showNav: true } },
+  { path: 'pseudoscience/:subcategory',       component: PostsComponent, data: { showNav: false } },
+  { path: 'pseudoscience/:subcategory/:id',   component: PostsComponent, data: { showNav: false } },
 
 //  { path: 'events',        component: EventsComponent },
 //  { path: 'team',          component: PeopleComponent },
