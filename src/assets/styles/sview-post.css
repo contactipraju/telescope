@@ -1,0 +1,17 @@
+.page {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page .content {
+    margin-bottom: 30px;
+}
+
+.rhs .related-posts-body {
+    font-size: 14px;
+}
+
+.posts-section {
+    margin-bottom: 20px;
+}
