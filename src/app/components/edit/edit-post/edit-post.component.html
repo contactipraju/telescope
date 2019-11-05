@@ -1,35 +1,40 @@
 <div class="modal-content">
     <div class="modal-header">
-        <h4 class="modal-title pull-left">Edit Post ({{post.title}})</h4>
+        <h4 class="modal-title pull-left">Edit Post</h4>
         <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
     <div class="modal-body">
         <form class="form-horizontal">
-            <div class="form-group">
-                <div class="col-12">
-                    <select name="post-type" class="form-control modal-input" [(ngModel)]="post.type">
-                        <option *ngFor="let type of postTypes" [ngValue]="type.value">{{type.text}}</option>
+            <div class="form-group row">
+                <div class="col-6">
+                    <select name="post-category" class="form-control modal-input" [(ngModel)]="post.category" (change)="onCategoryChange()">
+                        <option *ngFor="let category of categories" [ngValue]="category.link">{{category.text}}</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <select name="post-subcategory" class="form-control modal-input" [(ngModel)]="post.subcategory">
+                        <option *ngFor="let subcategory of subcategories" [ngValue]="subcategory.link">{{subcategory.text}}</option>
                     </select>
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group row">
                 <div class="col-12">
                     <input type="text" name="post-title" class="form-control modal-input" [(ngModel)]="post.title" placeholder="add title"/>
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group row">
                 <div class="col-12">
                     <angular-editor name="post-content" [placeholder]="'Start typing...'" [(ngModel)]="post.content"></angular-editor>
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group row">
                 <label for="min-date" class="col-12 control-label">Tags</label>
                 <div class="col-12">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group row">
                 <div class="col-12">
                     <textarea name="notes" rows="2" cols="50" [(ngModel)]="post.notes" placeholder="Comments go here..."></textarea>
                 </div>

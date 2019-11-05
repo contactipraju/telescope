@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { BsModalRef }        from 'ngx-bootstrap/modal';
-
+import { Store }             from '@ngrx/store';
 import * as moment           from 'moment';
 
-import { Store, select }     from '@ngrx/store';
-import { IAppState }         from '../../../store/state/app.state';
-import { DeletePost }        from '../../../store/actions/post.actions';
+import { IPost }              from 'src/app/models/post.interface';
+import { IConfig }            from 'src/app/models/config.interface';
 
-import { IPost }             from '../../../models/post.interface';
+import { IAppState }          from 'src/app/store/state/app.state';
+import { DeletePost }         from 'src/app/store/actions/post.actions';
 
 @Component({
   selector: 'app-edit-post',
@@ -17,11 +17,20 @@ import { IPost }             from '../../../models/post.interface';
 export class EditPostComponent implements OnInit {
   mode: string;
   post: IPost;
-  postTypes = [
-    { value: "none", text: "Select Post Type" },
-    { value: "news", text: "News" },
-    { value: "comment", text: "Comment" },
-    { value: "special", text: "Special" }
+  posts: IPost[];
+  config: IConfig;
+
+  categories = [
+    { link: "none",            text: "Select Category" },
+    { link: "general_science", text: "General Science" },
+    { link: "life_sciences",   text: "Life Sciences" },
+    { link: "social_sciences", text: "Social Sciences" },
+    { link: "miscellaneous",   text: "Miscellaneous" },
+    { link: "pseudoscience",   text: "PseudoScience" }
+  ];
+
+  subcategories = [
+    { link: "none", text: "Select Subcategory" }
   ];
 
   showDeleteConfirmation: boolean = false;
@@ -33,8 +42,33 @@ export class EditPostComponent implements OnInit {
 
   ngOnInit() {
     console.log('EditPostComponent - ngOnInit: ', this.post);
-    if(!this.post.type) {
-      this.post.type = this.postTypes[0].value;
+
+    if(!this.post.category) {
+      this.post.category = this.categories[0].link;
+    }
+
+    this.onCategoryChange();
+  }
+
+  onCategoryChange() {
+    console.log("EditPostComponent - onCategoryChange: ", this.post.category);
+
+    if(this.post.category === "none") {
+      this.post.subcategory = "none";
+    }
+    else if(this.config && this.config['menu_layout']) {
+      let section = this.config['menu_layout'][this.post.category];
+
+      for(let i=0; i<section.length; i++) {
+        if(section[i].link === this.post.category && section[i].children && section[i].children.length) {
+
+          for(let j=0; j<section[i].children.length; j++) {
+            this.subcategories.push(section[i].children[j]);
+          }
+
+          break;
+        }
+      }
     }
   }
 
