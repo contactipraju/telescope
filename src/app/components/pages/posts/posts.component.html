@@ -5,8 +5,8 @@
         <app-lhs [page]="category"></app-lhs>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
-        <app-view-post *ngIf="id" [data]="posts$ | async" [category]="category" [subcategory]="subcategory" [id]="id"></app-view-post>
-        <app-table-view-posts     [data]="posts$ | async" [category]="category" [subcategory]="subcategory"></app-table-view-posts>
+        <app-view-post *ngIf="id" [config]="config$ | async" [posts]="posts$ | async" [category]="category" [subcategory]="subcategory" [id]="id"></app-view-post>
+        <app-table-view-posts     [config]="config$ | async" [posts]="posts$ | async" [category]="category" [subcategory]="subcategory"></app-table-view-posts>
       </div>
     </div>
   </div>

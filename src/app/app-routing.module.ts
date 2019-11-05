@@ -14,10 +14,10 @@ import { AdminComponent }       from './components/pages/admin/admin.component';
 
 const routes: Routes = [
   { path: 'home',       component: HomeComponent,       data: { showNav: false } },
-  { path: 'newsletter', component: NewsComponent,       data: { showNav: true } },
-  { path: 'all_posts',  component: QAndAComponent,      data: { showNav: true } },
-  { path: 'resources',  component: ResourcesComponent,  data: { showNav: true } },
-  { path: 'media',      component: ArchivesComponent,   data: { showNav: true } },
+  { path: 'newsletter', component: NewsComponent,       data: { showNav: false } },
+  { path: 'all_posts',  component: QAndAComponent,      data: { showNav: false } },
+  { path: 'resources',  component: ResourcesComponent,  data: { showNav: false } },
+  { path: 'media',      component: ArchivesComponent,   data: { showNav: false } },
   { path: 'admin',      component: AdminComponent,      data: { showNav: false } },
 
   { path: 'reading/nobels',  component: NobelsPageComponent,  data: { showNav: false } },
@@ -44,7 +44,7 @@ const routes: Routes = [
 
 //  { path: 'events',        component: EventsComponent },
 //  { path: 'team',          component: PeopleComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: '', redirectTo: '/all_posts', pathMatch: 'full' }
 ];
 
 @NgModule({

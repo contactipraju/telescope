@@ -3,8 +3,9 @@ import { ActivatedRoute }    from '@angular/router';
 
 import { Store, select }     from '@ngrx/store';
 
-import { IAppState }         from './../../../store/state/app.state';
-import { selectPostList }    from './../../../store/selectors/post.selectors';
+import { IAppState }          from 'src/app/store/state/app.state';
+import { selectPostList }     from 'src/app/store/selectors/post.selectors';
+import { selectConfigObject } from 'src/app/store/selectors/config.selectors';
 
 @Component({
   selector: 'app-posts',
@@ -12,7 +13,8 @@ import { selectPostList }    from './../../../store/selectors/post.selectors';
   styleUrls: ['./posts.component.scss']
 })
 export class PostsComponent implements OnInit {
-  posts$ = this._store.pipe(select(selectPostList));
+  posts$  = this._store.pipe(select(selectPostList));
+  config$ = this._store.pipe(select(selectConfigObject));
 
   category: string = '';
   subcategory: string = '';

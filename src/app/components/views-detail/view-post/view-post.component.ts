@@ -1,9 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { OnChanges, SimpleChange  } from '@angular/core';
+import { Component, OnInit, Input }   from '@angular/core';
+import { OnChanges, SimpleChange  }   from '@angular/core';
 
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
-import { IPost }    from '../../../models/post.interface';
+import { IConfig }  from 'src/app/models/config.interface';
+import { IPost }    from 'src/app/models/post.interface';
 
 import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
 
@@ -13,40 +14,46 @@ import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
   styleUrls: ['./view-post.component.scss']
 })
 export class ViewPostComponent implements OnInit, OnChanges {
-  @Input() data: IPost[];
+  @Input() posts: IPost[];
+  @Input() config: IConfig;
   @Input() category: string;
   @Input() subcategory?: string;
   @Input() id: string;
 
   dataReady: boolean = false;
   post: IPost;
+
   relatedPosts: IPost[] = [];
-  postsFromSameAuthor: IPost[] = [];
+  sameAuthorPosts: IPost[] = [];
 
   modalRef_EditPost: BsModalRef;
 
   constructor(private modalService: BsModalService) { }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
-    if(changes.data.previousValue != changes.data.currentValue && changes.data.currentValue != null) {
-      for(let i=0; i<this.data.length; i++) {
-        if(this.data[i].id === this.id) {
+    if(changes.posts && changes.posts.previousValue != changes.posts.currentValue && changes.posts.currentValue != null) {
+      for(let i=0; i<this.posts.length; i++) {
+        if(this.posts[i].id === this.id) {
 
-          this.post = this.data[i];
+          this.post = this.posts[i];
 
+          let _relatedPosts: IPost[] = [];
           for(let j=0; j<this.post.related.length; j++) {
-            for(let k=0; k<this.data.length; k++) {
-              if(this.post.related[j] === this.data[k].id) {
-                this.relatedPosts.push(this.data[k]);
+            for(let k=0; k<this.posts.length; k++) {
+              if(this.post.related[j] === this.posts[k].id) {
+                _relatedPosts.push(this.posts[k]);
               }
             }
           }
+          this.relatedPosts = this.limitPosts(_relatedPosts);
 
-          for(let a=0; a<this.data.length; a++) {
-            if(this.post.author === this.data[a].author) {
-              this.postsFromSameAuthor.push(this.data[a]);
+          let _sameAuthorPosts: IPost[] = [];
+          for(let a=0; a<this.posts.length; a++) {
+            if(this.post.author === this.posts[a].author && this.post.id !== this.posts[a].id) {
+              _sameAuthorPosts.push(this.posts[a]);
             }
           }
+          this.sameAuthorPosts = this.limitPosts(_sameAuthorPosts);
 
           this.dataReady = true;
           break;
@@ -55,15 +62,21 @@ export class ViewPostComponent implements OnInit, OnChanges {
     }
   }
 
+  limitPosts(posts: IPost[]) {
+    let limit = 5;
+    let limitPosts = posts.length > limit ? limit : posts.length;
+    return posts.sort(() => Math.random() - Math.random()).slice(0, limitPosts);
+  }
+
   ngOnInit() {
-    console.log("ViewPostComponent - ngOnInit: ", this.category, this.subcategory, this.id, this.data);
+    console.log("ViewPostComponent - ngOnInit: ", this.category, this.subcategory, this.id, this.posts, this.config, this.post);
   }
 
   editPost() {
-    console.log("ViewPostComponent - editPost: ", this.post);
     const initialState = {
       mode: "edit",
-      postsList: this.data,
+      posts: this.posts,
+      config: this.config,
       post: this.post
     };
 
