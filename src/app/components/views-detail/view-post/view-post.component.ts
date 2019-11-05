@@ -22,8 +22,9 @@ export class ViewPostComponent implements OnInit, OnChanges {
 
   dataReady: boolean = false;
   post: IPost;
+
   relatedPosts: IPost[] = [];
-  postsFromSameAuthor: IPost[] = [];
+  sameAuthorPosts: IPost[] = [];
 
   modalRef_EditPost: BsModalRef;
 
@@ -36,25 +37,35 @@ export class ViewPostComponent implements OnInit, OnChanges {
 
           this.post = this.posts[i];
 
+          let _relatedPosts: IPost[] = [];
           for(let j=0; j<this.post.related.length; j++) {
             for(let k=0; k<this.posts.length; k++) {
               if(this.post.related[j] === this.posts[k].id) {
-                this.relatedPosts.push(this.posts[k]);
+                _relatedPosts.push(this.posts[k]);
               }
             }
           }
+          this.relatedPosts = this.limitPosts(_relatedPosts);
 
+          let _sameAuthorPosts: IPost[] = [];
           for(let a=0; a<this.posts.length; a++) {
-            if(this.post.author === this.posts[a].author) {
-              this.postsFromSameAuthor.push(this.posts[a]);
+            if(this.post.author === this.posts[a].author && this.post.id !== this.posts[a].id) {
+              _sameAuthorPosts.push(this.posts[a]);
             }
           }
+          this.sameAuthorPosts = this.limitPosts(_sameAuthorPosts);
 
           this.dataReady = true;
           break;
         }
       }
     }
+  }
+
+  limitPosts(posts: IPost[]) {
+    let limit = 5;
+    let limitPosts = posts.length > limit ? limit : posts.length;
+    return posts.sort(() => Math.random() - Math.random()).slice(0, limitPosts);
   }
 
   ngOnInit() {
