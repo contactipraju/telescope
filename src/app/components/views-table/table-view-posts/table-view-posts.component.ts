@@ -2,8 +2,9 @@ import { Component, OnInit, Input }   from '@angular/core';
 import { OnChanges, SimpleChange  }   from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
-import { ITable }   from '../../../models/table.interface';
+import { IConfig }  from 'src/app/models/config.interface';
 import { IPost }    from '../../../models/post.interface';
+import { ITable }   from '../../../models/table.interface';
 
 import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
 
@@ -13,7 +14,8 @@ import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
   styleUrls: ['./table-view-posts.component.scss']
 })
 export class TableViewPostsComponent implements OnInit, OnChanges {
-  @Input() data: IPost[];
+  @Input() posts: IPost[];
+  @Input() config: IConfig;
   @Input() category: string;
   @Input() subcategory?: string;
 
@@ -30,21 +32,22 @@ export class TableViewPostsComponent implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    //console.log("TableViewPostsComponent - ngOnInit: ", this.data);
+    //console.log("TableViewPostsComponent - ngOnInit: ", this.posts);
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     console.log("TableViewPostsComponent - ngOnChanges: ", changes);
 
-    if(this.data) {
-      this.sortPosts(this.data);
+    if(this.posts) {
+      this.sortPosts(this.posts);
     }
   }
 
   addPost(e) {
     const initialState = {
       mode: "add",
-      postsList: this.data,
+      posts: this.posts,
+      config: this.config,
       post: {}
     };
 
@@ -55,7 +58,8 @@ export class TableViewPostsComponent implements OnInit, OnChanges {
   selectPost(e) {
     const initialState = {
       mode: "edit",
-      postsList: this.data,
+      posts: this.posts,
+      config: this.config,
       post: e
     };
 
