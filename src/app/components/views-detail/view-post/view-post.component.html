@@ -1,7 +1,7 @@
 <div class="page row" *ngIf="dataReady">
     <div class="content col-sm-10 col-md-8 col-lg-8 order-sm-first">
         <div class="content-meta-data">
-            <a href="/{{post.category}}">{{post.category}}</a> > <a href="/{{post.category}}/{{post.subcategory}}">{{post.subcategory}}</a>
+            <a href="{{post.category}}">{{post.category}}</a> > <a href="{{post.category}}/{{post.subcategory}}">{{post.subcategory}}</a>
         </div>
         <div class="content-header"><h4>{{post.title}}</h4></div>
         <div class="content-body" *ngIf="post.description && post.description.length" [innerHTML]="htmlContent"></div>

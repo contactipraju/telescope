@@ -20,17 +20,31 @@ export class PostsComponent implements OnInit {
   subcategory: string = '';
   id: string = '';
 
-  constructor(
-    private _store: Store<IAppState>,
-    private activatedRoute: ActivatedRoute
-    ) {
+  params: any;
+
+  constructor(private _store: Store<IAppState>, private route: ActivatedRoute) {
+    // this.subscribeToParams(); //TODO
+    this.readParams();
+  }
+
+  subscribeToParams() {
+    this.params = this.route.params.subscribe(
+      params => {
+        this.category = params['category'];
+        this.subcategory = params['subcategory'];
+        this.id = params['id'];
+      }
+    );
+  }
+
+  readParams() {
+    if(this.route && this.route.snapshot && this.route.snapshot.url && this.route.snapshot.url.length) {
+      this.category    = this.route.snapshot.url[0].path;
+      this.subcategory = this.route.snapshot.url[1] ? this.route.snapshot.url[1].path : undefined;
+      this.id          = this.route.snapshot.url[2] ? this.route.snapshot.url[2].path : undefined;
+    }
   }
 
   ngOnInit() {
-    if(this.activatedRoute && this.activatedRoute.snapshot && this.activatedRoute.snapshot.url && this.activatedRoute.snapshot.url.length) {
-      this.category    = this.activatedRoute.snapshot.url[0].path;
-      this.subcategory = this.activatedRoute.snapshot.url[1] ? this.activatedRoute.snapshot.url[1].path : undefined;
-      this.id          = this.activatedRoute.snapshot.url[2] ? this.activatedRoute.snapshot.url[2].path : undefined;
-    }
   }
 }

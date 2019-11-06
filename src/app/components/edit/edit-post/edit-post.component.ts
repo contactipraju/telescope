@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { BsModalRef }        from 'ngx-bootstrap/modal';
-import { Store }             from '@ngrx/store';
-import * as moment           from 'moment';
+import { Component, OnInit }   from '@angular/core';
+import { BsModalRef }          from 'ngx-bootstrap/modal';
+import { Store }               from '@ngrx/store';
+import * as moment             from 'moment';
+import { AngularEditorConfig } from '@kolkov/angular-editor';
 
 import { IPost }              from 'src/app/models/post.interface';
 import { IConfig }            from 'src/app/models/config.interface';
@@ -28,6 +29,47 @@ export class EditPostComponent implements OnInit {
     { link: "miscellaneous",   text: "Miscellaneous" },
     { link: "pseudoscience",   text: "PseudoScience" }
   ];
+
+  editorConfig: AngularEditorConfig = {
+    editable: true,
+    spellcheck: true,
+    height: 'auto',
+    minHeight: '0',
+    maxHeight: 'auto',
+    width: 'auto',
+    minWidth: '0',
+    translate: 'yes',
+    enableToolbar: true,
+    showToolbar: true,
+    placeholder: 'Enter text here...',
+    defaultParagraphSeparator: '',
+    defaultFontName: '',
+    defaultFontSize: '',
+    fonts: [
+      {class: 'arial', name: 'Arial'},
+      {class: 'times-new-roman', name: 'Times New Roman'},
+      {class: 'calibri', name: 'Calibri'},
+      {class: 'comic-sans-ms', name: 'Comic Sans MS'}
+    ],
+    customClasses: [
+      {
+        name: 'quote',
+        class: 'quote',
+      },
+      {
+        name: 'redText',
+        class: 'redText'
+      },
+      {
+        name: 'titleText',
+        class: 'titleText',
+        tag: 'h1',
+      },
+    ],
+    uploadUrl: 'v1/image',
+    sanitize: true,
+    toolbarPosition: 'top',
+  };
 
   subcategories = [
     { link: "none", text: "Select Subcategory" }
