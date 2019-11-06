@@ -3,7 +3,7 @@
 
     <ul class="list-view-posts-body">
         <li *ngFor="let post of posts">
-            <a [href]="'/' + post.category + '/' + post.subcategory + '/' + post.id">{{post.title}}</a>
+            <a [href]="post.category + '/' + post.subcategory + '/' + post.id">{{post.title}}</a>
         </li>
     </ul>
 </div>
