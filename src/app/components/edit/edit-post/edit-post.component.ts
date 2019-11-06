@@ -34,6 +34,7 @@ export class EditPostComponent implements OnInit {
   ];
 
   showDeleteConfirmation: boolean = false;
+  htmlContent: string;
 
   constructor(
     private _store: Store<IAppState>,
@@ -46,6 +47,8 @@ export class EditPostComponent implements OnInit {
     if(!this.post.category) {
       this.post.category = this.categories[0].link;
     }
+
+    this.htmlContent = decodeURI(this.post.description);
 
     this.onCategoryChange();
   }
@@ -73,6 +76,8 @@ export class EditPostComponent implements OnInit {
   }
 
   savePost() {
+    this.post.description = encodeURI(this.htmlContent);
+
     console.log('EditPostComponent - savePost: ', this.post);
 
     this.modalRef.hide();

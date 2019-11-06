@@ -4,7 +4,7 @@
             <a href="/{{post.category}}">{{post.category}}</a> > <a href="/{{post.category}}/{{post.subcategory}}">{{post.subcategory}}</a>
         </div>
         <div class="content-header"><h4>{{post.title}}</h4></div>
-        <div class="content-body" *ngIf="post.description && post.description.length">{{post.description}}</div>
+        <div class="content-body" *ngIf="post.description && post.description.length" [innerHTML]="htmlContent"></div>
         <div class="content-body" *ngIf="!post.description">
             <button class="answer-post" (click)="editPost()">Answer this question</button>
         </div>
