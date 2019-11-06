@@ -22,6 +22,7 @@ export class ViewPostComponent implements OnInit, OnChanges {
 
   dataReady: boolean = false;
   post: IPost;
+  htmlContent: string;
 
   relatedPosts: IPost[] = [];
   sameAuthorPosts: IPost[] = [];
@@ -36,6 +37,7 @@ export class ViewPostComponent implements OnInit, OnChanges {
         if(this.posts[i].id === this.id) {
 
           this.post = this.posts[i];
+          this.htmlContent = decodeURI(this.post.description);
 
           let _relatedPosts: IPost[] = [];
           for(let j=0; j<this.post.related.length; j++) {
