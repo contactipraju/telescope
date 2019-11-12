@@ -64,7 +64,7 @@
             ]}
         ],
         "pseudoscience": [
-            { "text": "Non-Science (Non-sense)", "link": "pseudoscience", "children": [
+            { "text": "Pseudoscience", "link": "pseudoscience", "children": [
                 { "text": "PseudoScience", "link": "pseudoscience" },
                 { "text": "Superstition", "link": "superstition" },
                 { "text": "Myths", "link": "myths" },
