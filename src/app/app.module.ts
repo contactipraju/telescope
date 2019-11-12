@@ -50,6 +50,7 @@ import { UserEffects }     from './store/effects/user.effects';
 import { ConfigService }   from './services/config.service';
 import { EventService }    from './services/event.service';
 import { PostService }     from './services/post.service';
+import { SocialService }   from './services/social.service';
 import { UserService }     from './services/user.service';
 
 /* Pipes */
@@ -180,7 +181,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   exports: [
     AppComponent
   ],
-  providers: [ConfigService, EventService, PostService, ShareService, UserService],
+  providers: [ConfigService, EventService, PostService, ShareService, SocialService, UserService],
   entryComponents: [
     EditEpisodeComponent,
     EditLayoutComponent,
