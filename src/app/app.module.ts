@@ -18,6 +18,7 @@ import { MatButtonModule }  from '@angular/material';
 import { ModalModule }              from 'ngx-bootstrap/modal';
 import { GridStackModule }          from 'ngx-grid-stack';
 import { ShareModule }              from '@ngx-share/core';
+import { ShareService }             from '@ngx-share/core';
 import { ShareButtonsModule }       from '@ngx-share/buttons';
 import { FontAwesomeModule }        from '@fortawesome/angular-fontawesome';
 import { AngularEditorModule }      from '@kolkov/angular-editor';
@@ -177,7 +178,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   exports: [
     AppComponent
   ],
-  providers: [ConfigService, EventService, PostService, UserService],
+  providers: [ConfigService, EventService, PostService, ShareService, UserService],
   entryComponents: [
     EditEpisodeComponent,
     EditLayoutComponent,
