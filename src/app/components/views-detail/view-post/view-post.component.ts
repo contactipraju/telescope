@@ -3,8 +3,9 @@ import { OnChanges, SimpleChange  }   from '@angular/core';
 
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
-import { IConfig }  from 'src/app/models/config.interface';
-import { IPost }    from 'src/app/models/post.interface';
+import { IConfig }       from 'src/app/models/config.interface';
+import { IPost }         from 'src/app/models/post.interface';
+import { PostService }   from 'src/app/services/post.service';
 import { SocialService } from 'src/app/services/social.service';
 
 import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
@@ -30,42 +31,51 @@ export class ViewPostComponent implements OnInit, OnChanges {
 
   modalRef_EditPost: BsModalRef;
 
-  constructor(private modalService: BsModalService, private _socialService: SocialService) { }
+  constructor(
+    private modalService: BsModalService,
+    private _postService: PostService,
+    private _socialService: SocialService) { }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     if(changes.posts && changes.posts.previousValue != changes.posts.currentValue && changes.posts.currentValue != null) {
-      for(let i=0; i<this.posts.length; i++) {
-        if(this.posts[i].id === this.id) {
+      this.displayPost();
+    }
+  }
 
-          this.post = this.posts[i];
+  displayPost() {
+    for(let i=0; i<this.posts.length; i++) {
+      if(this.posts[i].id === this.id) {
 
-          this._socialService.setData({
-            title: this.post.title
-          });
+        this.post = this.posts[i];
 
-          this.htmlContent = decodeURI(this.post.description);
+        this._socialService.setData({
+          title: this.post.title
+        });
 
-          let _relatedPosts: IPost[] = [];
-          for(let j=0; j<this.post.related.length; j++) {
-            for(let k=0; k<this.posts.length; k++) {
-              if(this.post.related[j] === this.posts[k].id) {
-                _relatedPosts.push(this.posts[k]);
-              }
+        this._postService.getPost(this.post).subscribe(result => {
+          this.htmlContent = decodeURI(result.description);
+        });
+
+        let _relatedPosts: IPost[] = [];
+        for(let j=0; j<this.post.related.length; j++) {
+          for(let k=0; k<this.posts.length; k++) {
+            if(this.post.related[j] === this.posts[k].id) {
+              _relatedPosts.push(this.posts[k]);
             }
           }
-          this.relatedPosts = this.limitPosts(_relatedPosts);
-
-          let _sameAuthorPosts: IPost[] = [];
-          for(let a=0; a<this.posts.length; a++) {
-            if(this.post.author === this.posts[a].author && this.post.id !== this.posts[a].id) {
-              _sameAuthorPosts.push(this.posts[a]);
-            }
-          }
-          this.sameAuthorPosts = this.limitPosts(_sameAuthorPosts);
-
-          this.dataReady = true;
-          break;
         }
+        this.relatedPosts = this.limitPosts(_relatedPosts);
+
+        let _sameAuthorPosts: IPost[] = [];
+        for(let a=0; a<this.posts.length; a++) {
+          if(this.post.author === this.posts[a].author && this.post.id !== this.posts[a].id) {
+            _sameAuthorPosts.push(this.posts[a]);
+          }
+        }
+
+        this.sameAuthorPosts = this.limitPosts(_sameAuthorPosts);
+        this.dataReady = true;
+        break;
       }
     }
   }
