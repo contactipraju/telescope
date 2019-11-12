@@ -5,6 +5,7 @@ import { FormsModule }              from '@angular/forms';
 import { RouterModule }             from '@angular/router';
 import { BrowserModule }            from '@angular/platform-browser';
 import { HttpClientModule }         from '@angular/common/http';
+import { HttpClientJsonpModule }    from '@angular/common/http';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 
 /* Angular/Material Modules */
@@ -155,6 +156,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    HttpClientJsonpModule,
     ShareModule,
     ShareButtonsModule,
     FontAwesomeModule,
