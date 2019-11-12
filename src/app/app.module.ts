@@ -5,6 +5,7 @@ import { FormsModule }              from '@angular/forms';
 import { RouterModule }             from '@angular/router';
 import { BrowserModule }            from '@angular/platform-browser';
 import { HttpClientModule }         from '@angular/common/http';
+import { HttpClientJsonpModule }    from '@angular/common/http';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 
 /* Angular/Material Modules */
@@ -17,6 +18,10 @@ import { MatButtonModule }  from '@angular/material';
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
 import { GridStackModule }          from 'ngx-grid-stack';
+import { ShareModule }              from '@ngx-share/core';
+import { ShareService }             from '@ngx-share/core';
+import { ShareButtonsModule }       from '@ngx-share/buttons';
+import { FontAwesomeModule }        from '@fortawesome/angular-fontawesome';
 import { AngularEditorModule }      from '@kolkov/angular-editor';
 
 /* Routing Module */
@@ -45,6 +50,7 @@ import { UserEffects }     from './store/effects/user.effects';
 import { ConfigService }   from './services/config.service';
 import { EventService }    from './services/event.service';
 import { PostService }     from './services/post.service';
+import { SocialService }   from './services/social.service';
 import { UserService }     from './services/user.service';
 
 /* Pipes */
@@ -151,6 +157,10 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    HttpClientJsonpModule,
+    ShareModule,
+    ShareButtonsModule,
+    FontAwesomeModule,
     GridStackModule,
     AngularEditorModule,
     StoreDevtoolsModule.instrument(),
@@ -171,7 +181,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   exports: [
     AppComponent
   ],
-  providers: [ConfigService, EventService, PostService, UserService],
+  providers: [ConfigService, EventService, PostService, ShareService, SocialService, UserService],
   entryComponents: [
     EditEpisodeComponent,
     EditLayoutComponent,

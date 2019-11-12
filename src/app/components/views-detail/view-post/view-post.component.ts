@@ -5,6 +5,7 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 import { IConfig }  from 'src/app/models/config.interface';
 import { IPost }    from 'src/app/models/post.interface';
+import { SocialService } from 'src/app/services/social.service';
 
 import { EditPostComponent } from '../../edit/edit-post/edit-post.component';
 
@@ -29,7 +30,7 @@ export class ViewPostComponent implements OnInit, OnChanges {
 
   modalRef_EditPost: BsModalRef;
 
-  constructor(private modalService: BsModalService) { }
+  constructor(private modalService: BsModalService, private _socialService: SocialService) { }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     if(changes.posts && changes.posts.previousValue != changes.posts.currentValue && changes.posts.currentValue != null) {
@@ -37,6 +38,11 @@ export class ViewPostComponent implements OnInit, OnChanges {
         if(this.posts[i].id === this.id) {
 
           this.post = this.posts[i];
+
+          this._socialService.setData({
+            title: this.post.title
+          });
+
           this.htmlContent = decodeURI(this.post.description);
 
           let _relatedPosts: IPost[] = [];

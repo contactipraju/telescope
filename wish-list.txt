@@ -10,6 +10,7 @@ Edit content
 View Post
   List related topics
   Share in social-media channels
+  JSON-LD: https://samvloeberghs.be/posts/outputting-json-ld-with-angular-universal
   Topics from same category/subcategory
   Topics from same author
 
