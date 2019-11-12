@@ -9,6 +9,7 @@ import { IConfig }            from 'src/app/models/config.interface';
 
 import { IAppState }          from 'src/app/store/state/app.state';
 import { DeletePost }         from 'src/app/store/actions/post.actions';
+import { PostService }        from 'src/app/services/post.service';
 
 @Component({
   selector: 'app-edit-post',
@@ -80,6 +81,7 @@ export class EditPostComponent implements OnInit {
 
   constructor(
     private _store: Store<IAppState>,
+    private _postService: PostService,
     public modalRef: BsModalRef
   ) { }
 
@@ -90,7 +92,9 @@ export class EditPostComponent implements OnInit {
       this.post.category = this.categories[0].link;
     }
 
-    this.htmlContent = decodeURI(this.post.description);
+    this._postService.getPost(this.post).subscribe(result => {
+      this.htmlContent = decodeURI(result.description);
+    });
 
     this.onCategoryChange();
   }
@@ -118,7 +122,7 @@ export class EditPostComponent implements OnInit {
   }
 
   savePost() {
-    this.post.description = encodeURI(this.htmlContent);
+    this.post.description = encodeURI(this.htmlContent); // TODO: Instead save to he article using post.id
 
     console.log('EditPostComponent - savePost: ', this.post);
 
