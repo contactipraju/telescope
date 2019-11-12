@@ -4,11 +4,21 @@
             <a href="{{post.category}}">{{post.category}}</a> > <a href="{{post.category}}/{{post.subcategory}}">{{post.subcategory}}</a>
         </div>
         <div class="content-header"><h4>{{post.title}}</h4></div>
-        <div class="content-body" *ngIf="post.description && post.description.length" [innerHTML]="htmlContent"></div>
-        <div class="content-body" *ngIf="!post.description">
+
+        <div class="content-body" *ngIf="post.status === 'new'">
             <button class="answer-post" (click)="editPost()">Answer this question</button>
         </div>
-        <share-buttons show="5"></share-buttons>
+
+        <div class="content-body" *ngIf="post.status !== 'new'">
+            <div [innerHTML]="htmlContent"></div>
+
+            <div class="options clearfix">
+                <div class="option pull-left answer-post">
+                    <button (click)="editPost()">Edit</button>
+                </div>
+                <share-buttons show="5"></share-buttons>
+            </div>
+        </div>
     </div>
 
     <div class="rhs col-sm-0 col-md-4 col-lg-4">

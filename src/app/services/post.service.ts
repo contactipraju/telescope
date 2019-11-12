@@ -19,8 +19,16 @@ export class PostService {
     return this.baseUrl + 'assets/json/posts.json';
   }
 
+  private getPostUrl(post: IPost) {
+    return this.baseUrl + 'assets/json/posts/' + post.category + '/' + post.subcategory + '/' + post.id + '.json';
+  }
+
   public getPosts(): Observable<IPost[]> {
     return this.http.get<IPost[]>(this.getUrl());
+  }
+
+  public getPost(post: IPost): Observable<IPost> {
+    return this.http.get<IPost>(this.getPostUrl(post));
   }
 
   public createPost(post: IPost): any {
