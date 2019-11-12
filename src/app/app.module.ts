@@ -17,6 +17,9 @@ import { MatButtonModule }  from '@angular/material';
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
 import { GridStackModule }          from 'ngx-grid-stack';
+import { ShareModule }              from '@ngx-share/core';
+import { ShareButtonsModule }       from '@ngx-share/buttons';
+import { FontAwesomeModule }        from '@fortawesome/angular-fontawesome';
 import { AngularEditorModule }      from '@kolkov/angular-editor';
 
 /* Routing Module */
@@ -151,6 +154,9 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    ShareModule,
+    ShareButtonsModule,
+    FontAwesomeModule,
     GridStackModule,
     AngularEditorModule,
     StoreDevtoolsModule.instrument(),
