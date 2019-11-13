@@ -28,7 +28,7 @@ export class SocialService {
   }
 
   public setData(data: SocialData): void {
-    this.setTitle(data.title);
+    this.setTitle("టెలిస్కూలు: " + data.title); //TODO: avoid this hard-coding
     this.setMetaDescription(data.description);
     this.setUrl(data.url);
     this.setImage(data.image);
