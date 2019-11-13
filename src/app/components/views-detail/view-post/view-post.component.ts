@@ -49,7 +49,13 @@ export class ViewPostComponent implements OnInit, OnChanges {
         this.post = this.posts[i];
 
         this._socialService.setData({
-          title: this.post.title
+          title: this.post.title,
+          description: this.post.title,
+          type: 'article',
+          author: this.post.author,
+          section: this.post.category,
+          image: this.post.image,
+          url: window.location.href
         });
 
         this._postService.getPost(this.post).subscribe(result => {
