@@ -28,15 +28,15 @@ export class SocialService {
   }
 
   public setData(data: SocialData): void {
-    this.setTitle(data.title);
+    this.setTitle("టెలిస్కూలు: " + data.title); //TODO: avoid this hard-coding
     this.setMetaDescription(data.description);
-    this.setUrl(data.url);
-    this.setImage(data.image);
+    this.setUrl(data.url?data.url:window.location.href);
+    this.setImage(data.image?data.image: window.location.origin + '/assets/images/logos/default-share-image.png');
     this.setPublished(data.published);
     this.setModified(data.modified);
     this.setAuthor(data.author);
     this.setSection(data.section);
-    this.setType(data.type);
+    this.setType(data.type?data.type:'article');
   }
 
   public setSection(newSection?: string): void {

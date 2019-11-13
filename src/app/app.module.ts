@@ -159,7 +159,10 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     HttpClientModule,
     HttpClientJsonpModule,
     ShareModule,
-    ShareButtonsModule,
+    ShareButtonsModule.withConfig({
+      exclude: ['google'],
+      gaTracking: true
+    }),
     FontAwesomeModule,
     GridStackModule,
     AngularEditorModule,
