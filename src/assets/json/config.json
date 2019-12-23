@@ -75,12 +75,12 @@
         "events": [
         ],
         "archives": [
-            { "text": "On Telugu Radio", "children": [
-                { "text": "Tori - Science Hour" },
-                { "text": "Tori - Humanist Hour" },
-                { "text": "YouTube - Manavavaani" },
-                { "text": "YouTube - Vignaanavaani" },
-                { "text": "What's coming..." }
+            { "text": "On Telugu Radio", "link": "media", "children": [
+                { "text": "Tori - Science Hour", "link": "sciencehour" },
+                { "text": "Tori - Humanist Hour", "link": "humanisthour" },
+                { "text": "YouTube - Manavavaani", "link": "manavavaani" },
+                { "text": "YouTube - Vignaanavaani", "link": "vignaanavaani" },
+                { "text": "What's coming...", "link": "whatscoming" }
             ]},
             { "text": "Visual Media", "children": [
                 { "text": "Debates" },
