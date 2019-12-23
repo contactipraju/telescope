@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-2">
-        <app-lhs page="media"></app-lhs>
+        <app-lhs [page]="category"></app-lhs>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
         <app-list-view-series [seriesList]="events$ | async"></app-list-view-series>
