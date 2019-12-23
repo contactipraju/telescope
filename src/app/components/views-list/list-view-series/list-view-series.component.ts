@@ -12,7 +12,6 @@ export class ListViewSeriesComponent implements OnInit, OnChanges {
   @Input() seriesList: ISeries[];
   @Input() category: string;
   @Input() subcategory?: string;
-  @Input() id: string;
 
   constructor() { }
 
