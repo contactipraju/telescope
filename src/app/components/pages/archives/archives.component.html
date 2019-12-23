@@ -5,7 +5,7 @@
         <app-lhs [page]="category"></app-lhs>
       </div>
       <div class="col-sm-9 col-md-9 col-lg-10">
-        <app-list-view-series [seriesList]="events$ | async"></app-list-view-series>
+        <app-list-view-series [seriesList]="events$ | async" [category]="category" [subcategory]="subcategory" [id]="id"></app-list-view-series>
       </div>
     </div>
   </div>
