@@ -74,7 +74,7 @@
         ],
         "events": [
         ],
-        "archives": [
+        "media": [
             { "text": "On Telugu Radio", "link": "media", "children": [
                 { "text": "Tori - Science Hour", "link": "sciencehour" },
                 { "text": "Tori - Humanist Hour", "link": "humanisthour" },
