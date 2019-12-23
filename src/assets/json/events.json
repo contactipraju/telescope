@@ -1,19 +1,7 @@
 [
     {
-        "name": "Poratam - Fight against superstition", "speaker": "Prasad, Raj, Samatha", "flyer": "assets/images/flyers/poratam/poratam.jpg", 
-        "description": "Fight against superstition",
-        "id": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
-        "episodes": [
-            {"id": 91, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Kg2S3XKEc", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
-            {"id": 92, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TpIktpf1hiI", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "హోమియోపతి నిజంగా పనిచేస్తుందా?"},
-            {"id": 93, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0z6u5tiGiOQ", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "పాములు మాయలు", "speaker": "Prasad"},
-            {"id": 94, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GGNUfmWF_6",  "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "చేతబడి, బాణామతి, చిల్లంగి"},
-            {"id": 95, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Sw9rXaBX7ok", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "స్వాములు, బాబాలు వాళ్ళ బండారం"},
-            {"id": 96, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vK1bVTKH3SU", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "వేదాల్లొ విజ్ఞానం"}
-        ]
-    },
-    {
         "name": "Leonardo DaVinci - The Scientist", "speaker": "Prasad", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, paleontology and cartography.",
         "id": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
@@ -28,6 +16,7 @@
     },
     {
         "name": "The Bertrand Russell", "speaker": "Govind", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate.",
         "id": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "color": "#3FB498",
         "episodes": [
@@ -44,6 +33,7 @@
     },
     {
         "name": "Watching Heavens", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "Observatories and Telescopes.",
         "id": 3, "startDate": "2019-06-15T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "series", "color": "#0000FF",
         "episodes": [
@@ -58,6 +48,7 @@
     },
     {
         "name": "Knowledge Compass", "speaker": "Govind", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "Nanduri vaari Vignaana Diksoochi",
         "id": 4, "startDate": "2019-05-18T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "series", "color": "#00FF00",
         "episodes": [
@@ -69,6 +60,7 @@
     },
     {
         "name": "New Horizons", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "New Horizons Description.",
         "id": 5, "startDate": "2019-04-06T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "series", "color": "#ED7D31",
         "episodes": [
@@ -82,6 +74,7 @@
     },
     {
         "name": "Modern Darwin - Richard Dawkins", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "English ethologist, evolutionary biologist, and author.",
         "id": 6, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "series", "color": "#FF33CC",
         "episodes": [
@@ -94,6 +87,7 @@
     },
     {
         "name": "Blue Planet Earth", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "Description for Blue Planet Earth.",
         "id": 7, "startDate": "2019-01-19T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "series", "color": "#BFBFBF",
         "episodes": [
@@ -107,11 +101,26 @@
     },
     {
         "name": "Astronomy vs Astrology", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/astronomy-and-astrology.jpg", 
+        "channel": "tori", "program": "sciencehour",
         "description": "Description for Astronomy vs Astrology.",
         "id": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "series", "color": "#FF0000",
         "episodes": [
-            {"id": 81, "seriesId": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology.jpg", "name": "Astronomy vs Astrology"},
+            {"id": 81, "seriesId": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology.jpg",   "name": "Astronomy vs Astrology"},
             {"id": 82, "seriesId": 8, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
+        ]
+    },
+    {
+        "name": "Poratam - Fight against superstition", "speaker": "Prasad, Raj, Samatha", "flyer": "assets/images/flyers/poratam/poratam.jpg", 
+        "channel": "youtube", "program": "manavavaani",
+        "description": "Fight against superstition",
+        "id": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 91, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Kg2S3XKEc",   "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
+            {"id": 92, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TpIktpf1hiI", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "హోమియోపతి నిజంగా పనిచేస్తుందా?"},
+            {"id": 93, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0z6u5tiGiOQ", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "పాములు మాయలు", "speaker": "Prasad"},
+            {"id": 94, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GGNUfmWF_6",  "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "చేతబడి, బాణామతి, చిల్లంగి"},
+            {"id": 95, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Sw9rXaBX7ok", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "స్వాములు, బాబాలు వాళ్ళ బండారం"},
+            {"id": 96, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vK1bVTKH3SU", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "వేదాల్లొ విజ్ఞానం"}
         ]
     }
 ]

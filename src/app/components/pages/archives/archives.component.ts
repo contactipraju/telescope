@@ -3,9 +3,9 @@ import { ActivatedRoute }    from '@angular/router';
 
 import { Store, select }     from '@ngrx/store';
 
-import { IAppState }         from './../../../store/state/app.state';
-import { GetEvents }         from './../../../store/actions/event.actions';
-import { selectEventList }   from './../../../store/selectors/event.selectors';
+import { IAppState }         from 'src/app/store/state/app.state';
+import { GetEvents }         from 'src/app/store/actions/event.actions';
+import { selectEventList }   from 'src/app/store/selectors/event.selectors';
 
 @Component({
   selector: 'app-archives',
