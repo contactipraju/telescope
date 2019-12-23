@@ -17,10 +17,13 @@ const routes: Routes = [
   { path: 'newsletter', component: NewsComponent,       data: { showNav: false } },
   { path: 'all_posts',  component: QAndAComponent,      data: { showNav: false } },
   { path: 'resources',  component: ResourcesComponent,  data: { showNav: false } },
-  { path: 'media',      component: ArchivesComponent,   data: { showNav: false } },
   { path: 'admin',      component: AdminComponent,      data: { showNav: false } },
 
   { path: 'reading/nobels',  component: NobelsPageComponent,  data: { showNav: false } },
+
+  { path: 'media',                  component: ArchivesComponent, data: { showNav: false } },
+  { path: 'media/:subcategory',     component: ArchivesComponent, data: { showNav: false } },
+  { path: 'media/:subcategory/:id', component: ArchivesComponent, data: { showNav: false } },
 
   { path: 'general_science',                  component: PostsComponent, data: { showNav: true } },
   { path: 'general_science/:subcategory',     component: PostsComponent, data: { showNav: false } },
