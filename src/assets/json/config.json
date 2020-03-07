@@ -75,19 +75,19 @@
         "events": [
         ],
         "media": [
-            { "text": "On Telugu Radio", "link": "media", "children": [
+            { "text": "On Telugu Radio", "link": "radio", "children": [
                 { "text": "Tori - Science Hour", "link": "sciencehour" },
                 { "text": "Tori - Humanist Hour", "link": "humanisthour" },
                 { "text": "YouTube - Manavavaani", "link": "manavavaani" },
                 { "text": "YouTube - Vignaanavaani", "link": "vignaanavaani" },
                 { "text": "What's coming...", "link": "whatscoming" }
             ]},
-            { "text": "Visual Media", "children": [
+            { "text": "Visual Media", "link": "tv", "children": [
                 { "text": "Debates" },
                 { "text": "Speeches" },
                 { "text": "Interviews" }
             ]},
-            { "text": "Major Events", "children": [
+            { "text": "Major Events", "link": "event", "children": [
                 { "text": "Selfie with Ghost" },
                 { "text": "SAHA and SfS Launch at NSW Parliament House, Sydney" },
                 { "text": "Babu Gogineni's Keynote at Humanist House, for NSW Humanists" },

@@ -1,9 +1,9 @@
 [
     {
         "name": "Leonardo DaVinci - The Scientist", "speaker": "Prasad", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 1, 
         "description": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, paleontology and cartography.",
-        "id": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
+        "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
             {"id": 21, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
             {"id": 22, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
@@ -16,9 +16,9 @@
     },
     {
         "name": "The Bertrand Russell", "speaker": "Govind", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour","id": 2, 
         "description": "British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate.",
-        "id": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "color": "#3FB498",
+        "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "color": "#3FB498",
         "episodes": [
             {"id": 11, "seriesId": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-08-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Introduction"},
             {"id": 12, "seriesId": 1, "startDate": "2019-08-10T00:00:00", "endDate": "2019-08-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Theory of Knowledge"},
@@ -33,9 +33,9 @@
     },
     {
         "name": "Watching Heavens", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 3, 
         "description": "Observatories and Telescopes.",
-        "id": 3, "startDate": "2019-06-15T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "series", "color": "#0000FF",
+        "startDate": "2019-06-15T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "series", "color": "#0000FF",
         "episodes": [
             {"id": 31, "seriesId": 3, "startDate": "2019-06-15T00:00:00", "endDate": "2019-06-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Introduction & Mount Wilson Observatory"},
             {"id": 32, "seriesId": 3, "startDate": "2019-06-22T00:00:00", "endDate": "2019-06-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "W.M. Keck Observatory"},
@@ -48,9 +48,9 @@
     },
     {
         "name": "Knowledge Compass", "speaker": "Govind", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 4, 
         "description": "Nanduri vaari Vignaana Diksoochi",
-        "id": 4, "startDate": "2019-05-18T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "series", "color": "#00FF00",
+        "startDate": "2019-05-18T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "series", "color": "#00FF00",
         "episodes": [
             {"id": 41, "seriesId": 3, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
             {"id": 42, "seriesId": 3, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
@@ -60,9 +60,9 @@
     },
     {
         "name": "New Horizons", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 5, 
         "description": "New Horizons Description.",
-        "id": 5, "startDate": "2019-04-06T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "series", "color": "#ED7D31",
+        "startDate": "2019-04-06T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "series", "color": "#ED7D31",
         "episodes": [
             {"id": 51, "seriesId": 5, "startDate": "2019-04-06T00:00:00", "endDate": "2019-04-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Introduction to Solar System"},
             {"id": 52, "seriesId": 5, "startDate": "2019-04-13T00:00:00", "endDate": "2019-04-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Missions to Mercury and Venus"},
@@ -74,9 +74,9 @@
     },
     {
         "name": "Modern Darwin - Richard Dawkins", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 6, 
         "description": "English ethologist, evolutionary biologist, and author.",
-        "id": 6, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "series", "color": "#FF33CC",
+        "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "series", "color": "#FF33CC",
         "episodes": [
             {"id": 61, "seriesId": 6, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "Introduction"},
             {"id": 62, "seriesId": 6, "startDate": "2019-03-09T00:00:00", "endDate": "2019-03-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "The Selfish Gene"},
@@ -87,9 +87,9 @@
     },
     {
         "name": "Blue Planet Earth", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 7, 
         "description": "Description for Blue Planet Earth.",
-        "id": 7, "startDate": "2019-01-19T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "series", "color": "#BFBFBF",
+        "startDate": "2019-01-19T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "series", "color": "#BFBFBF",
         "episodes": [
             {"id": 71, "seriesId": 7, "startDate": "2019-01-19T00:00:00", "endDate": "2019-01-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Introduction & Moon Earth Formation"},
             {"id": 72, "seriesId": 7, "startDate": "2019-01-26T00:00:00", "endDate": "2019-01-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Earth's Core and Plate Techtonics"},
@@ -101,9 +101,9 @@
     },
     {
         "name": "Astronomy vs Astrology", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/astronomy-and-astrology.jpg", 
-        "channel": "tori", "program": "sciencehour",
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 8, 
         "description": "Description for Astronomy vs Astrology.",
-        "id": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "series", "color": "#FF0000",
+        "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "series", "color": "#FF0000",
         "episodes": [
             {"id": 81, "seriesId": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology.jpg",   "name": "Astronomy vs Astrology"},
             {"id": 82, "seriesId": 8, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
@@ -111,7 +111,7 @@
     },
     {
         "name": "Poratam - Fight against superstition", "speaker": "Prasad, Raj, Samatha", "flyer": "assets/images/flyers/poratam/poratam.jpg", 
-        "channel": "youtube", "program": "manavavaani",
+        "category": "media", "subcategory": "radio", "channel": "youtube", "program": "manavavaani",
         "description": "Fight against superstition",
         "id": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [

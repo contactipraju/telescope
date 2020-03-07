@@ -21,9 +21,10 @@ const routes: Routes = [
 
   { path: 'reading/nobels',  component: NobelsPageComponent,  data: { showNav: false } },
 
-  { path: 'media',                  component: ArchivesComponent, data: { showNav: false } },
-  { path: 'media/:subcategory',     component: ArchivesComponent, data: { showNav: false } },
-  { path: 'media/:subcategory/:id', component: ArchivesComponent, data: { showNav: false } },
+  { path: 'media',                            component: ArchivesComponent, data: { showNav: false } },
+  { path: 'media/:subcategory',               component: ArchivesComponent, data: { showNav: false } },
+  { path: 'media/:subcategory/:program',      component: ArchivesComponent, data: { showNav: false } },
+  { path: 'media/:subcategory/:program/:id',  component: ArchivesComponent, data: { showNav: false } },
 
   { path: 'general_science',                  component: PostsComponent, data: { showNav: true } },
   { path: 'general_science/:subcategory',     component: PostsComponent, data: { showNav: false } },
