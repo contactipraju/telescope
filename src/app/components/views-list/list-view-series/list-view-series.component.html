@@ -1,5 +1,5 @@
 <div class="list-view-series" *ngIf="seriesList && seriesList.length">
-    <div *ngFor="let series of seriesList">
+    <div *ngFor="let series of filteredSeriesList">
         <app-tile-series [series]="series"></app-tile-series>
     </div>
 </div>
