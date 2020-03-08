@@ -43,7 +43,7 @@ export class ListViewSeriesComponent implements OnInit, OnChanges {
         || (this.category === series[i].category && this.subcategory === series[i].subcategory)
         || (this.category === series[i].category && this.subcategory === series[i].subcategory && this.program === series[i].program)) {
 
-          this.filteredSeriesList.push(posts[i]);
+          this.filteredSeriesList.push(series[i]);
       }
     }
   }
