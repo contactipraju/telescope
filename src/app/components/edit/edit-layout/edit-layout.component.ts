@@ -17,7 +17,7 @@ export class EditLayoutComponent implements OnInit, OnChanges {
   @Input() data: IConfig;
 
   @ViewChildren(GridStackItemComponent) items: QueryList<GridStackItemComponent>;
-  @ViewChild('gridStackMain', { static: false}) gridStackMain: GridStackComponent;
+  @ViewChild('gridStackMain') gridStackMain: GridStackComponent;
 
   editing: boolean;
   widgets: GridStackItem[] = [];

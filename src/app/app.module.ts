@@ -9,11 +9,11 @@ import { HttpClientJsonpModule }    from '@angular/common/http';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 
 /* Angular/Material Modules */
-import { MatToolbarModule } from '@angular/material';
-import { MatIconModule }    from '@angular/material';
-import { MatSidenavModule } from '@angular/material';
-import { MatListModule }    from '@angular/material';
-import { MatButtonModule }  from '@angular/material';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
 
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
@@ -34,7 +34,7 @@ import { environment }              from 'src/environments/environment';
 import { StoreModule }                 from '@ngrx/store';
 import { EffectsModule }               from '@ngrx/effects';
 import { StoreDevtoolsModule }         from '@ngrx/store-devtools';
-import { StoreRouterConnectingModule } from '@ngrx/router-store';
+import { StoreRouterConnectingModule, DefaultRouterStateSerializer } from '@ngrx/router-store';
 
 /* Store Reducers */
 import { appReducers }     from './store/reducers/app.reducers';
@@ -175,7 +175,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     RouterModule,
     StoreModule.forRoot(appReducers),
     EffectsModule.forRoot([AppEffects, ConfigEffects, EventEffects, PostEffects, UserEffects]),
-    StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
+    StoreRouterConnectingModule.forRoot({ serializer: DefaultRouterStateSerializer, stateKey: 'router'}),
     ModalModule.forRoot(),
     AppRoutingModule,
     NobelsModule,
