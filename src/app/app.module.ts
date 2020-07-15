@@ -171,7 +171,12 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatListModule,
     MatButtonModule,
     RouterModule,
-    StoreModule.forRoot(appReducers),
+    StoreModule.forRoot(appReducers, {
+      runtimeChecks: {
+        strictStateImmutability: false,
+        strictActionImmutability: false
+      }
+    }),
     EffectsModule.forRoot([AppEffects, ConfigEffects, EventEffects, PostEffects, UserEffects]),
     StoreRouterConnectingModule.forRoot({ serializer: DefaultRouterStateSerializer, stateKey: 'router'}),
     ModalModule.forRoot(),
