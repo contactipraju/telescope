@@ -34,6 +34,7 @@
     "@ngx-share/button": "^7.1.4",
     "@ngx-share/buttons": "^7.1.4",
     "@ngx-share/core": "^7.1.4",
+    "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^4.5.0",
     "core-js": "^3.6.5",
     "js-year-calendar": "^1.0.2",
