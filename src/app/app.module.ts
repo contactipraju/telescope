@@ -9,15 +9,15 @@ import { HttpClientJsonpModule }    from '@angular/common/http';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 
 /* Angular/Material Modules */
-import { MatToolbarModule } from '@angular/material';
-import { MatIconModule }    from '@angular/material';
-import { MatSidenavModule } from '@angular/material';
-import { MatListModule }    from '@angular/material';
-import { MatButtonModule }  from '@angular/material';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
 
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
-import { GridStackModule }          from 'ngx-grid-stack';
+/* import { GridStackModule }          from 'ngx-grid-stack'; TODO: Use lb-gridstack later */
 import { ShareModule }              from '@ngx-share/core';
 import { ShareService }             from '@ngx-share/core';
 import { ShareButtonsModule }       from '@ngx-share/buttons';
@@ -34,7 +34,7 @@ import { environment }              from 'src/environments/environment';
 import { StoreModule }                 from '@ngrx/store';
 import { EffectsModule }               from '@ngrx/effects';
 import { StoreDevtoolsModule }         from '@ngrx/store-devtools';
-import { StoreRouterConnectingModule } from '@ngrx/router-store';
+import { StoreRouterConnectingModule, DefaultRouterStateSerializer } from '@ngrx/router-store';
 
 /* Store Reducers */
 import { appReducers }     from './store/reducers/app.reducers';
@@ -67,7 +67,6 @@ import { YearCalendarComponent }      from './components/calendar/year-calendar/
 
 /* Edit Components */
 import { EditEpisodeComponent }       from './components/edit/edit-episode/edit-episode.component';
-import { EditLayoutComponent }        from './components/edit/edit-layout/edit-layout.component';
 import { EditPostComponent }          from './components/edit/edit-post/edit-post.component';
 import { EditSeriesComponent }        from './components/edit/edit-series/edit-series.component';
 import { EditUserComponent }          from './components/edit/edit-user/edit-user.component';
@@ -136,7 +135,6 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MultiselectListComponent,
     YearCalendarComponent,
     EditEpisodeComponent,
-    EditLayoutComponent,
     EditPostComponent,
     EditSeriesComponent,
     EditUserComponent,
@@ -164,7 +162,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
       gaTracking: true
     }),
     FontAwesomeModule,
-    GridStackModule,
+//    GridStackModule, TODO: Use lb-gridstack later 
     AngularEditorModule,
     StoreDevtoolsModule.instrument(),
     MatToolbarModule,
@@ -173,9 +171,14 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatListModule,
     MatButtonModule,
     RouterModule,
-    StoreModule.forRoot(appReducers),
+    StoreModule.forRoot(appReducers, {
+      runtimeChecks: {
+        strictStateImmutability: false,
+        strictActionImmutability: false
+      }
+    }),
     EffectsModule.forRoot([AppEffects, ConfigEffects, EventEffects, PostEffects, UserEffects]),
-    StoreRouterConnectingModule.forRoot({ stateKey: 'router'}),
+    StoreRouterConnectingModule.forRoot({ serializer: DefaultRouterStateSerializer, stateKey: 'router'}),
     ModalModule.forRoot(),
     AppRoutingModule,
     NobelsModule,
@@ -187,7 +190,6 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   providers: [ConfigService, EventService, PostService, ShareService, SocialService, UserService],
   entryComponents: [
     EditEpisodeComponent,
-    EditLayoutComponent,
     EditPostComponent,
     EditSeriesComponent,
     EditUserComponent,

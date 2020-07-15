@@ -28,7 +28,7 @@ export class SocialService {
   }
 
   public setData(data: SocialData): void {
-    this.setTitle("టెలిస్కూలు: " + data.title); //TODO: avoid this hard-coding
+    this.setTitle("Telescope: " + data.title); //TODO: avoid this hard-coding
     this.setMetaDescription(data.description);
     this.setUrl(data.url?data.url:window.location.href);
     this.setImage(data.image?data.image: window.location.origin + '/assets/images/logos/default-share-image.png');
