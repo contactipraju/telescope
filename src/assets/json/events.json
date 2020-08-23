@@ -1,22 +1,24 @@
 [
     {
-        "name": "Leonardo DaVinci - The Scientist", "speaker": "Prasad", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", 
-        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 1, 
-        "description": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, paleontology and cartography.",
-        "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
+        "name": "Human Evolution", "speaker": "Prasad", "flyer": "assets/images/flyers/human-evolution/human-evolution-01.jpg", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 10, 
+        "description": "From Apes to Modern humans - a 5 million years journey",
+        "startDate": "2020-06-06T00:00:00", "endDate": "2020-06-06T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 21, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
-            {"id": 22, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
-            {"id": 23, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 1", "speaker": "Prasad, Govind"},
-            {"id": 24, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 2"},
-            {"id": 24, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Milatary Engineering"},
-            {"id": 24, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Flight"},
-            {"id": 24, "seriesId": 2, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Conclusion and QA"}
+            {"id": 101, "seriesId": 10, "startDate": "2020-06-06T00:00:00", "endDate": "2019-06-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-01.jpg", "name": "Origin of Race"},
+            {"id": 102, "seriesId": 10, "startDate": "2020-06-13T00:00:00", "endDate": "2019-06-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-02.jpg", "name": "Research and Evidence"},
+            {"id": 103, "seriesId": 10, "startDate": "2020-06-20T00:00:00", "endDate": "2019-06-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-03.jpg", "name": "Human Fossils and Dating Methods", "speaker": "Prasad, Govind"},
+            {"id": 104, "seriesId": 10, "startDate": "2020-06-27T00:00:00", "endDate": "2019-06-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-04.jpg", "name": "How we know what we know"},
+            {"id": 105, "seriesId": 10, "startDate": "2020-07-04T00:00:00", "endDate": "2019-07-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-05.jpg", "name": "How we know what we know continuition"},
+            {"id": 106, "seriesId": 10, "startDate": "2020-07-11T00:00:00", "endDate": "2019-07-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-06.jpg", "name": "Evolution of Behavior, Origin of Speech"},
+            {"id": 107, "seriesId": 10, "startDate": "2020-07-18T00:00:00", "endDate": "2019-07-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-07.jpg", "name": "The First Agricultural Revolution"},
+            {"id": 108, "seriesId": 10, "startDate": "2020-07-25T00:00:00", "endDate": "2019-07-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-08.jpg", "name": "The First Agricultural Revolution - Development, Diffusion, Consequences"},
+            {"id": 109, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2019-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-09.jpg", "name": "Conclusion and QA"}
         ]
     },
     {
         "name": "The Bertrand Russell", "speaker": "Govind", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", 
-        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour","id": 2, 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour","id": 1, 
         "description": "British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate.",
         "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "color": "#3FB498",
         "episodes": [
@@ -32,6 +34,21 @@
         ]
     },
     {
+        "name": "Leonardo DaVinci - The Scientist", "speaker": "Prasad", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 2, 
+        "description": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, paleontology and cartography.",
+        "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 21, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
+            {"id": 22, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
+            {"id": 23, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 1", "speaker": "Prasad, Govind"},
+            {"id": 24, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 2"},
+            {"id": 25, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Milatary Engineering"},
+            {"id": 26, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Flight"},
+            {"id": 27, "seriesId": 2, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Conclusion and QA"}
+        ]
+    },
+    {
         "name": "Watching Heavens", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 3, 
         "description": "Observatories and Telescopes.",
@@ -43,7 +60,7 @@
             {"id": 34, "seriesId": 3, "startDate": "2019-07-06T00:00:00", "endDate": "2019-07-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Atacama Large Millimeter/Sub-millimeter Array"},
             {"id": 35, "seriesId": 3, "startDate": "2019-07-13T00:00:00", "endDate": "2019-07-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Gran Telescopio Canarias"},
             {"id": 36, "seriesId": 3, "startDate": "2019-07-20T00:00:00", "endDate": "2019-07-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Telescopes in Space - Hubble and Kepler"},
-            {"id": 39, "seriesId": 3, "startDate": "2019-07-27T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Observatories in India - Conclusion"}
+            {"id": 37, "seriesId": 3, "startDate": "2019-07-27T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Observatories in India - Conclusion"}
         ]
     },
     {
@@ -52,10 +69,10 @@
         "description": "Nanduri vaari Vignaana Diksoochi",
         "startDate": "2019-05-18T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "series", "color": "#00FF00",
         "episodes": [
-            {"id": 41, "seriesId": 3, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
-            {"id": 42, "seriesId": 3, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
-            {"id": 43, "seriesId": 3, "startDate": "2019-06-01T00:00:00", "endDate": "2019-06-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Bharateeya Chintana"},
-            {"id": 44, "seriesId": 3, "startDate": "2019-06-08T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Paschatya Chintana - Conclusion"}
+            {"id": 41, "seriesId": 4, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
+            {"id": 42, "seriesId": 4, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
+            {"id": 43, "seriesId": 4, "startDate": "2019-06-01T00:00:00", "endDate": "2019-06-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Bharateeya Chintana"},
+            {"id": 44, "seriesId": 4, "startDate": "2019-06-08T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Paschatya Chintana - Conclusion"}
         ]
     },
     {
@@ -111,9 +128,9 @@
     },
     {
         "name": "Poratam - Fight against superstition", "speaker": "Prasad, Raj, Samatha", "flyer": "assets/images/flyers/poratam/poratam.jpg", 
-        "category": "media", "subcategory": "radio", "channel": "youtube", "program": "manavavaani",
+        "category": "media", "subcategory": "radio", "channel": "youtube", "program": "manavavaani", "id": 9, 
         "description": "Fight against superstition",
-        "id": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
+        "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
             {"id": 91, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Kg2S3XKEc",   "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
             {"id": 92, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TpIktpf1hiI", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "హోమియోపతి నిజంగా పనిచేస్తుందా?"},
