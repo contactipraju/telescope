@@ -28,7 +28,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Deploying to github
 
-Merge PR into Master Branch and Run `bash deploy.sh` from the root directory (telescope)
+Merge PR into Master Branch and Run `bash deploy.sh` from the root directory (telescope), or simply `ng deploy` for the current branch.
 
 ## Further help
 
