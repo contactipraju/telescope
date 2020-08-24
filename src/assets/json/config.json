@@ -65,7 +65,7 @@
         ],
         "pseudoscience": [
             { "text": "Pseudoscience", "link": "pseudoscience", "children": [
-                { "text": "PseudoScience", "link": "pseudoscience" },
+                { "text": "Pseudoscience", "link": "pseudoscience" },
                 { "text": "Superstition", "link": "superstition" },
                 { "text": "Myths", "link": "myths" },
                 { "text": "Hoaxes", "link": "hoaxes" },

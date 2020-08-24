@@ -28,7 +28,7 @@ export class EditPostComponent implements OnInit {
     { link: "life_sciences",   text: "Life Sciences" },
     { link: "social_sciences", text: "Social Sciences" },
     { link: "miscellaneous",   text: "Miscellaneous" },
-    { link: "pseudoscience",   text: "PseudoScience" }
+    { link: "pseudoscience",   text: "Pseudoscience" }
   ];
 
   editorConfig: AngularEditorConfig = {
