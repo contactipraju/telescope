@@ -1,5 +1,50 @@
 [
     {
+        "name": "Misc", "speaker": "Prasad", "flyer": "", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 11, "description": "",
+        "startDate": "2020-01-25T00:00:00", "endDate": "2020-12-31T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 111, "seriesId": 11, "startDate": "2020-01-25T00:00:00", "endDate": "2019-01-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-01.jpg", "name": "Prahlad Jani"},
+            {"id": 112, "seriesId": 11, "startDate": "2020-02-08T00:00:00", "endDate": "2019-02-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-02.jpg", "name": "Quacks in All Indian Congress of Obstetrics and Gynaecology"},
+            {"id": 113, "seriesId": 11, "startDate": "2020-02-15T00:00:00", "endDate": "2019-02-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-03.jpg", "name": "Interpretation of Dreams"},
+            {"id": 114, "seriesId": 11, "startDate": "2020-02-22T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-04.jpg", "name": "Ideomotor Reflex"},
+            {"id": 115, "seriesId": 11, "startDate": "2020-02-29T00:00:00", "endDate": "2019-02-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-05.jpg", "name": "Cow Dung"},
+            {"id": 116, "seriesId": 11, "startDate": "2020-03-21T00:00:00", "endDate": "2019-03-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-06.jpg", "name": "Astronomy in Indian Calendars"},
+            {"id": 117, "seriesId": 11, "startDate": "2020-04-18T00:00:00", "endDate": "2019-04-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/tiktok-zoom-safety.jpg", "name": "How safe are TIK TOK and ZOOM Apps"},
+            {"id": 118, "seriesId": 11, "startDate": "2020-08-22T00:00:00", "endDate": "2019-08-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/celebrity-endorsements-of-pseudoscience-and-aura.jpg", "name": "Celebrity endorsements of pseudoscience - Risks to public health, Science behind Aura"},
+            {"id": 119, "seriesId": 11, "startDate": "2020-08-29T00:00:00", "endDate": "2019-08-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/hysteria-history-research-causes.png", "name": "Hysteria: History, Research and Causes"}
+        ]
+    },
+    {
+        "name": "COVID-19", "speaker": "Prasad", "flyer": "", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 12, "description": "",
+        "startDate": "2020-01-25T00:00:00", "endDate": "2020-12-31T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 121, "seriesId": 12, "startDate": "2020-02-01T00:00:00", "endDate": "2019-02-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-01.jpg", "name": "Misinformation on prevention of Coronavirus (Homeopathy)"},
+            {"id": 122, "seriesId": 12, "startDate": "2020-03-07T00:00:00", "endDate": "2019-03-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-02.jpg", "name": "COVID-19 Updates, Coronavirus gurinchi Brahmamgaaru mundE cheppaaraa?"},
+            {"id": 123, "seriesId": 12, "startDate": "2020-03-14T00:00:00", "endDate": "2019-03-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-03.jpg", "name": "Coronavirus Disease Outbreak"},
+            {"id": 124, "seriesId": 12, "startDate": "2020-03-28T00:00:00", "endDate": "2019-03-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-04.jpg", "name": "Hydroxy-Chroloquine for COVID?"},
+            {"id": 125, "seriesId": 12, "startDate": "2020-04-04T00:00:00", "endDate": "2019-04-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-05.jpg", "name": "COVID-19 Updates"},
+            {"id": 126, "seriesId": 12, "startDate": "2020-04-11T00:00:00", "endDate": "2019-04-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-06.jpg", "name": "Decrease in AIR pollution levels, Effectiveness of Naturopathy"},
+            {"id": 127, "seriesId": 12, "startDate": "2020-04-25T00:00:00", "endDate": "2019-04-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-07.jpg", "name": "EarthDay, Lack of Decrease in Carbon Emissions in COVID Lockdowns, Stephen Hawking's Final message to Humankind, COVID Updates (Pratibha Lakshmi, Madhavi Potluri)"},
+            {"id": 128, "seriesId": 12, "startDate": "2020-05-02T00:00:00", "endDate": "2019-05-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-08.jpg", "name": "COVID-19, Conspiracy Theories around UFOs"},
+            {"id": 129, "seriesId": 12, "startDate": "2020-05-09T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/management-of-dead-bodies.png", "name": "Management of Dead-bodies in Disaster Situations"},
+            {"id": 1210, "seriesId": 12, "startDate": "2020-08-08T00:00:00", "endDate": "2019-08-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/steam-inhalation-immunity-boosting.jpg", "name": "Effects of Steam Inhalation in treating Covid-19, Can we boost Immunity"},
+            {"id": 1211, "seriesId": 12, "startDate": "2020-08-22T00:00:00", "endDate": "2019-08-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/myths-and-facts-on-vaccines.jpg", "name": "Myths and Facts on Vaccines"}
+        ]
+    },
+    {
+        "name": "Space Rocks", "speaker": "Prasad", "flyer": "assets/images/flyers/space-rocks/space-rocks.png", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 13, 
+        "description": "All about Space Rocks",
+        "startDate": "2020-06-06T00:00:00", "endDate": "2020-06-06T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 131, "seriesId": 13, "startDate": "2020-05-16T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/space-rocks/space-rocks-01.png", "name": "Spacerocks - 1: Meteoroids, Asteroids and Comets"},
+            {"id": 132, "seriesId": 13, "startDate": "2020-05-23T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/space-rocks/space-rocks-02.png", "name": "Spacerocks - 2: History of Observation and associated Myths and Legends"},
+            {"id": 133, "seriesId": 13, "startDate": "2020-05-30T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/space-rocks/space-rocks-03.png", "name": "Spacerocks - 3: Comets, Study of Haley Comet, Future Missions"}
+        ]
+    },
+    {
         "name": "Human Evolution", "speaker": "Prasad", "flyer": "assets/images/flyers/human-evolution/human-evolution-01.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 10, 
         "description": "From Apes to Modern humans - a 5 million years journey",
