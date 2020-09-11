@@ -17,7 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
-/* import { GridStackModule }          from 'ngx-grid-stack'; TODO: Use lb-gridstack later */
+import { GridstackModule }          from '@libria/gridstack';
 import { ShareModule }              from '@ngx-share/core';
 import { ShareService }             from '@ngx-share/core';
 import { ShareButtonsModule }       from '@ngx-share/buttons';
@@ -67,6 +67,7 @@ import { YearCalendarComponent }      from './components/calendar/year-calendar/
 
 /* Edit Components */
 import { EditEpisodeComponent }       from './components/edit/edit-episode/edit-episode.component';
+import { EditLayoutComponent }        from './components/edit/edit-layout/edit-layout.component';
 import { EditPostComponent }          from './components/edit/edit-post/edit-post.component';
 import { EditSeriesComponent }        from './components/edit/edit-series/edit-series.component';
 import { EditUserComponent }          from './components/edit/edit-user/edit-user.component';
@@ -135,6 +136,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MultiselectListComponent,
     YearCalendarComponent,
     EditEpisodeComponent,
+    EditLayoutComponent,
     EditPostComponent,
     EditSeriesComponent,
     EditUserComponent,
@@ -162,7 +164,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
       gaTracking: true
     }),
     FontAwesomeModule,
-//    GridStackModule, TODO: Use lb-gridstack later 
+    GridstackModule.forRoot(),
     AngularEditorModule,
     StoreDevtoolsModule.instrument(),
     MatToolbarModule,
@@ -190,6 +192,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
   providers: [ConfigService, EventService, PostService, ShareService, SocialService, UserService],
   entryComponents: [
     EditEpisodeComponent,
+    EditLayoutComponent,
     EditPostComponent,
     EditSeriesComponent,
     EditUserComponent,

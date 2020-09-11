@@ -3,8 +3,8 @@ import { OnChanges, SimpleChange  }     from '@angular/core';
 import { ViewChildren, ViewChild }      from '@angular/core';
 import { QueryList, ChangeDetectorRef } from '@angular/core';
 
-import { GridStackItem, GridStackItemComponent } from 'ngx-grid-stack';
-import { GridStackOptions, GridStackComponent }  from 'ngx-grid-stack';
+import { GridstackItem, GridstackItemComponent } from '@libria/gridstack';
+import { GridstackOptions, GridstackComponent }  from '@libria/gridstack';
 
 import { IConfig } from 'src/app/models/config.interface';
 
@@ -16,8 +16,8 @@ import { IConfig } from 'src/app/models/config.interface';
 export class EditLayoutComponent implements OnInit, OnChanges {
   @Input() data: IConfig;
 
-  @ViewChildren(GridStackItemComponent) items: QueryList<GridStackItemComponent>;
-  @ViewChild('gridStackMain', { static: false}) gridStackMain: GridStackComponent;
+  @ViewChildren(GridstackItemComponent) items: QueryList<GridstackItemComponent>;
+  @ViewChild('gridStackMain', { static: false}) gridStackMain: GridstackComponent;
 
   editing: boolean;
   widgets: GridStackItem[] = [];

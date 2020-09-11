@@ -31,10 +31,14 @@
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "./node_modules/bootstrap/scss/bootstrap.scss",
+              "./node_modules/gridstack/dist/gridstack.css",
               "src/lib/js-year-calendar/js-year-calendar.css",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/lodash/lodash.min.js",
+              "./node_modules/gridstack/dist/gridstack.all.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
