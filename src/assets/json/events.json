@@ -242,10 +242,10 @@
         "description": "Fight against superstition",
         "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 901, "seriesId": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Kg2S3XKEc",   "flyer": "poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
+            {"id": 901, "seriesId": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0-Kg2S3XKEc", "flyer": "poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
             {"id": 902, "seriesId": 9, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TpIktpf1hiI", "flyer": "poratam/poratam.jpg", "name": "హోమియోపతి నిజంగా పనిచేస్తుందా?"},
             {"id": 903, "seriesId": 9, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0z6u5tiGiOQ", "flyer": "poratam/poratam.jpg", "name": "పాములు మాయలు", "speaker": "Prasad"},
-            {"id": 904, "seriesId": 9, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GGNUfmWF_6",  "flyer": "poratam/poratam.jpg", "name": "చేతబడి, బాణామతి, చిల్లంగి"},
+            {"id": 904, "seriesId": 9, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GGNUfmWF_6c", "flyer": "poratam/poratam.jpg", "name": "చేతబడి, బాణామతి, చిల్లంగి"},
             {"id": 905, "seriesId": 9, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Sw9rXaBX7ok", "flyer": "poratam/poratam.jpg", "name": "స్వాములు, బాబాలు వాళ్ళ బండారం"},
             {"id": 906, "seriesId": 9, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vK1bVTKH3SU", "flyer": "poratam/poratam.jpg", "name": "వేదాల్లొ విజ్ఞానం"}
         ]
