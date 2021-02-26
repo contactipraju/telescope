@@ -22,4 +22,8 @@ export class TileEpisodeComponent implements OnInit, OnChanges {
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
     console.log("TileEpisodeComponent - ngOnChanges: ", changes);
   }
+
+  onImgError(event) {
+    event.target.src = 'assets/images/general/missing.jpeg';
+  }
 }

@@ -6,7 +6,7 @@
       </div>
 
       <div class="flyer" *ngIf="!episode.youtubeKey">
-        <img alt="{{episode.name}}" title="{{episode.name}}" [src]="['assets/images/flyers/' + episode.flyer]">
+        <img alt="{{episode.name}}" title="{{episode.name}}" [src]="['assets/images/flyers/' + episode.flyer]" (error)="onImgError($event)">
       </div>
     </div>
 
