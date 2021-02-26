@@ -1,18 +1,71 @@
 [
     {
-        "name": "Misc", "speaker": "Prasad", "flyer": "", 
+        "name": "Scientific Temper", "speaker": "Prasad", "flyer": "scientific-temper/scientific-temper.png", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 17, 
+        "description": "Scientific Temperment and its importance",
+        "startDate": "2021-01-30T00:00:00", "endDate": "2021-02-13T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 1701, "seriesId": 17, "startDate": "2021-01-30T00:00:00", "endDate": "2021-01-30T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "cIsgTTDC4Gg", "flyer": "scientific-temper/scientific-temper-01.png", "name": "Need of the hour"},
+            {"id": 1701, "seriesId": 17, "startDate": "2021-02-13T00:00:00", "endDate": "2021-02-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "QiXwcfDSjkY", "flyer": "scientific-temper/scientific-temper-02.png", "name": "Challenges to Scientific Education"}
+        ]
+    },
+    {
+        "name": "2021: A Celestial Journey", "speaker": "Prasad", "flyer": "2021-a-celestial-journey/2021-a-celestial-journey.png", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 16, 
+        "description": "Major Astronomical Events of 2021",
+        "startDate": "2021-01-09T00:00:00", "endDate": "2021-02-06T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 1601, "seriesId": 16, "startDate": "2021-01-09T00:00:00", "endDate": "2021-01-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "h8KjFu79tUU", "flyer": "2021-a-celestial-journey/2021-a-celestial-journey-01.png", "name": "Planets and their positions"},
+            {"id": 1601, "seriesId": 16, "startDate": "2021-01-23T00:00:00", "endDate": "2021-01-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Evv6QJrZTHc", "flyer": "2021-a-celestial-journey/2021-a-celestial-journey-02.png", "name": "Meteor Showers, Asteroid Flybys and Exoplanets"},
+            {"id": 1602, "seriesId": 16, "startDate": "2021-02-06T00:00:00", "endDate": "2021-02-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Z3szsjpcFlQ", "flyer": "2021-a-celestial-journey/2021-a-celestial-journey-03.png", "name": "Exoplanets, Alien Life, Planetariums, Asteroid Mining"}
+        ]
+    },
+    {
+        "name": "Conspiracy Theories", "speaker": "Prasad", "flyer": "conspiracy-theories/conspiracy-theories.png", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 15, 
+        "description": "How your mind can cheat you?",
+        "startDate": "2020-11-07T00:00:00", "endDate": "2020-11-21T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 1501, "seriesId": 15, "startDate": "2020-11-07T00:00:00", "endDate": "2020-11-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "-CsZuroYpQ4", "flyer": "conspiracy-theories/conspiracy-theories-01.png", "name": "Suspicious Minds"},
+            {"id": 1502, "seriesId": 15, "startDate": "2020-11-14T00:00:00", "endDate": "2020-11-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "jggK2t0-oP4", "flyer": "conspiracy-theories/conspiracy-theories-02.png", "name": "in Politics and Public Health"},
+            {"id": 1503, "seriesId": 15, "startDate": "2020-11-21T00:00:00", "endDate": "2020-11-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Afi20rIOI8A", "flyer": "conspiracy-theories/conspiracy-theories-03.png", "name": "Research, Addressing, Conclusion"}
+        ]
+    },
+    {
+        "name": "Science Stories", "speaker": "Prasad", "flyer": "science-stories/science-stories.png", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 14, 
+        "description": "Inspiring Stories of Scientists",
+        "startDate": "2020-09-25T00:00:00", "endDate": "2020-10-31T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 1401, "seriesId": 14, "startDate": "2020-09-26T00:00:00", "endDate": "2020-09-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "AURNEsm4cws", "flyer": "science-stories/science-stories-01.png", "name": "The story of Hypatia"},
+            {"id": 1401, "seriesId": 14, "startDate": "2020-10-03T00:00:00", "endDate": "2020-10-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "wJAFBx6Pe98", "flyer": "science-stories/science-stories-02.png", "name": "Frederick Banting, the story of Insulin"},
+            {"id": 1402, "seriesId": 14, "startDate": "2020-10-10T00:00:00", "endDate": "2020-10-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "nE8lOx5o83Y", "flyer": "science-stories/science-stories-03.png", "name": "Gregor Mendel, the story of Genetics"}
+        ]
+    },
+    {
+        "name": "Pseudoscience", "speaker": "Prasad", "flyer": "", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 11, "description": "",
         "startDate": "2020-01-25T00:00:00", "endDate": "2020-12-31T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 111, "seriesId": 11, "startDate": "2020-01-25T00:00:00", "endDate": "2019-01-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-01.jpg", "name": "Prahlad Jani"},
-            {"id": 112, "seriesId": 11, "startDate": "2020-02-08T00:00:00", "endDate": "2019-02-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-02.jpg", "name": "Quacks in All Indian Congress of Obstetrics and Gynaecology"},
-            {"id": 113, "seriesId": 11, "startDate": "2020-02-15T00:00:00", "endDate": "2019-02-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-03.jpg", "name": "Interpretation of Dreams"},
-            {"id": 114, "seriesId": 11, "startDate": "2020-02-22T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-04.jpg", "name": "Ideomotor Reflex"},
-            {"id": 115, "seriesId": 11, "startDate": "2020-02-29T00:00:00", "endDate": "2019-02-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-05.jpg", "name": "Cow Dung"},
-            {"id": 116, "seriesId": 11, "startDate": "2020-03-21T00:00:00", "endDate": "2019-03-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/misc-06.jpg", "name": "Astronomy in Indian Calendars"},
-            {"id": 117, "seriesId": 11, "startDate": "2020-04-18T00:00:00", "endDate": "2019-04-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/tiktok-zoom-safety.jpg", "name": "How safe are TIK TOK and ZOOM Apps"},
-            {"id": 118, "seriesId": 11, "startDate": "2020-08-22T00:00:00", "endDate": "2019-08-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/celebrity-endorsements-of-pseudoscience-and-aura.jpg", "name": "Celebrity endorsements of pseudoscience - Risks to public health, Science behind Aura"},
-            {"id": 119, "seriesId": 11, "startDate": "2020-08-29T00:00:00", "endDate": "2019-08-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/misc/hysteria-history-research-causes.png", "name": "Hysteria: History, Research and Causes"}
+            {"id": 1101, "seriesId": 11, "startDate": "2020-01-04T00:00:00", "endDate": "2020-01-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "gqow1YhSHjQ", "flyer": "pseudoscience/forest-survey-of-india-and-bushfires-in-australia.jpg", "name": "Forest Survey of India, Bushfires in Australia", "desc": "and consumer survey on Homeopathy"},
+            {"id": 1102, "seriesId": 11, "startDate": "2020-01-11T00:00:00", "endDate": "2020-01-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "KxVNTlAD8vM", "flyer": "pseudoscience/australian-bushfires.jpg", "name": "Bushfires in Australia", "desc": "and Om sound from SUN?"},
+            {"id": 1103, "seriesId": 11, "startDate": "2020-02-08T00:00:00", "endDate": "2020-02-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Sh2c7UFSMcQ", "flyer": "pseudoscience/quacks-in-indian-congress.jpg", "name": "Quacks in All Indian Congress of Obstetrics and Gynaecology", "desc": "and Past life regression therapy"},
+            {"id": 1105, "seriesId": 11, "startDate": "2020-02-22T00:00:00", "endDate": "2020-02-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "e_90hR8Rc9I", "flyer": "pseudoscience/ideomotor-reflex.jpg", "name": "Ideomotor Reflex"},
+            {"id": 1106, "seriesId": 11, "startDate": "2020-02-29T00:00:00", "endDate": "2020-02-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "oJeEP8tjGpg", "flyer": "pseudoscience/claims-about-cow-excreta.jpg", "name": "Claims about Cow Excreta"},
+            {"id": 1109, "seriesId": 11, "startDate": "2020-08-22T00:00:00", "endDate": "2020-08-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "qkCRnLHESV4", "flyer": "pseudoscience/celebrity-endorsements-of-pseudoscience-and-aura.jpg", "name": "Celebrity endorsements of pseudoscience - Risks to public health, Science behind Aura"}
+        ]
+    },
+    {
+        "name": "Misc", "speaker": "Prasad", "flyer": "", 
+        "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 18, "description": "",
+        "startDate": "2020-01-25T00:00:00", "endDate": "2020-12-31T00:00:00", "type": "series", "color": "#00B0F0",
+        "episodes": [
+            {"id": 1801, "seriesId": 18, "startDate": "2019-12-28T00:00:00", "endDate": "2019-12-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "zY_B5cT0RWg", "flyer": "misc/eclipse-day-celebration-bg-group.jpg", "name": "BG Group Eclipse day celebration"},
+            {"id": 1802, "seriesId": 18, "startDate": "2020-03-21T00:00:00", "endDate": "2020-03-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "E-yBXUimaTI", "flyer": "misc/astronomy-in-indian-calendars.jpg", "name": "Astronomy in Indian Calendars"},
+            {"id": 1803, "seriesId": 18, "startDate": "2020-04-18T00:00:00", "endDate": "2020-04-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "VCXsiFbM5Mc", "flyer": "misc/tiktok-zoom-safety.jpg", "name": "How safe are TIK TOK and ZOOM Apps"},
+            {"id": 1804, "seriesId": 18, "startDate": "2020-08-29T00:00:00", "endDate": "2020-08-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "sfPfGAKDhrM", "flyer": "misc/hysteria-history-research-causes.png", "name": "Hysteria: History, Research and Causes"},
+            {"id": 1805, "seriesId": 18, "startDate": "2020-09-19T00:00:00", "endDate": "2020-09-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "wBbt1BjBqTg", "flyer": "misc/brain-tumours-causes-treatment.jpg", "name": "Brain Tumours: Causes, Treatment, Facts & Myths"},
+            {"id": 1806, "seriesId": 18, "startDate": "2020-10-24T00:00:00", "endDate": "2020-10-24T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "w3rmzIrWeMc", "flyer": "misc/the-amazing-james-randi.jpg", "name": "The Amazing James Randi"}
         ]
     },
     {
@@ -20,169 +73,181 @@
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 12, "description": "",
         "startDate": "2020-01-25T00:00:00", "endDate": "2020-12-31T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 121, "seriesId": 12, "startDate": "2020-02-01T00:00:00", "endDate": "2019-02-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-01.jpg", "name": "Misinformation on prevention of Coronavirus (Homeopathy)"},
-            {"id": 122, "seriesId": 12, "startDate": "2020-03-07T00:00:00", "endDate": "2019-03-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-02.jpg", "name": "COVID-19 Updates, Coronavirus gurinchi Brahmamgaaru mundE cheppaaraa?"},
-            {"id": 123, "seriesId": 12, "startDate": "2020-03-14T00:00:00", "endDate": "2019-03-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-03.jpg", "name": "Coronavirus Disease Outbreak"},
-            {"id": 124, "seriesId": 12, "startDate": "2020-03-28T00:00:00", "endDate": "2019-03-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-04.jpg", "name": "Hydroxy-Chroloquine for COVID?"},
-            {"id": 125, "seriesId": 12, "startDate": "2020-04-04T00:00:00", "endDate": "2019-04-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-05.jpg", "name": "COVID-19 Updates"},
-            {"id": 126, "seriesId": 12, "startDate": "2020-04-11T00:00:00", "endDate": "2019-04-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-06.jpg", "name": "Decrease in AIR pollution levels, Effectiveness of Naturopathy"},
-            {"id": 127, "seriesId": 12, "startDate": "2020-04-25T00:00:00", "endDate": "2019-04-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-07.jpg", "name": "EarthDay, Lack of Decrease in Carbon Emissions in COVID Lockdowns, Stephen Hawking's Final message to Humankind, COVID Updates (Pratibha Lakshmi, Madhavi Potluri)"},
-            {"id": 128, "seriesId": 12, "startDate": "2020-05-02T00:00:00", "endDate": "2019-05-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/covid-19-08.jpg", "name": "COVID-19, Conspiracy Theories around UFOs"},
-            {"id": 129, "seriesId": 12, "startDate": "2020-05-09T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/management-of-dead-bodies.png", "name": "Management of Dead-bodies in Disaster Situations"},
-            {"id": 1210, "seriesId": 12, "startDate": "2020-08-08T00:00:00", "endDate": "2019-08-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/steam-inhalation-immunity-boosting.jpg", "name": "Effects of Steam Inhalation in treating Covid-19, Can we boost Immunity"},
-            {"id": 1211, "seriesId": 12, "startDate": "2020-08-22T00:00:00", "endDate": "2019-08-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/covid-19/myths-and-facts-on-vaccines.jpg", "name": "Myths and Facts on Vaccines"}
+            {"id": 1201, "seriesId": 12, "startDate": "2020-01-25T00:00:00", "endDate": "2020-01-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "lT-mTsGLeio", "flyer": "covid-19/covid-19-00.jpg", "name": "Outbreak of a new coronavirus", "desc": "and Prahlad Jani's claims"},
+            {"id": 1202, "seriesId": 12, "startDate": "2020-02-01T00:00:00", "endDate": "2020-02-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "95DZQcpVNrA", "flyer": "covid-19/covid-19-01.jpg", "name": "Misinformation on prevention of Coronavirus (Homeopathy)"},
+            {"id": 1203, "seriesId": 12, "startDate": "2020-02-15T00:00:00", "endDate": "2020-02-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "6IsiQweW9FA", "flyer": "covid-19/deadly-genomes.jpg", "name": "The deadly genomes - Humanity's worst enemies & Interpretation of Dreams"},
+            {"id": 1204, "seriesId": 12, "startDate": "2020-03-07T00:00:00", "endDate": "2020-03-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "ZXBy3WUwsi4", "flyer": "covid-19/covid-19-02.jpg", "name": "COVID-19 Updates, Coronavirus gurinchi Brahmamgaaru mundE cheppaaraa?"},
+            {"id": 1205, "seriesId": 12, "startDate": "2020-03-14T00:00:00", "endDate": "2020-03-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "iLcvhtaquEc", "flyer": "covid-19/covid-19-03.jpg", "name": "Coronavirus Disease Outbreak"},
+            {"id": 1206, "seriesId": 12, "startDate": "2020-03-28T00:00:00", "endDate": "2020-03-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "covid-19/covid-19-04.jpg", "name": "Hydroxy-Chroloquine for COVID?"},
+            {"id": 1207, "seriesId": 12, "startDate": "2020-04-04T00:00:00", "endDate": "2020-04-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "covid-19/covid-19-05.jpg", "name": "COVID-19 Updates"},
+            {"id": 1208, "seriesId": 12, "startDate": "2020-04-11T00:00:00", "endDate": "2020-04-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "dxiYNN9P4-o", "flyer": "covid-19/covid-19-06.jpg", "name": "Decrease in AIR pollution levels, Effectiveness of Naturopathy"},
+            {"id": 1209, "seriesId": 12, "startDate": "2020-04-25T00:00:00", "endDate": "2020-04-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0WtfnW2--0Q", "flyer": "covid-19/covid-19-07.jpg", "name": "EarthDay, Lack of Decrease in Carbon Emissions in COVID Lockdowns, Stephen Hawking's Final message to Humankind, COVID Updates (Pratibha Lakshmi, Madhavi Potluri)"},
+            {"id": 1210, "seriesId": 12, "startDate": "2020-05-02T00:00:00", "endDate": "2020-05-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "MmtzqU3JXHQ", "flyer": "covid-19/covid-19-08.jpg", "name": "COVID-19, Conspiracy Theories around UFOs"},
+            {"id": 1211, "seriesId": 12, "startDate": "2020-05-09T00:00:00", "endDate": "2020-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TBN2r2iBBVg", "flyer": "covid-19/management-of-dead-bodies.png", "name": "Management of Dead-bodies in Disaster Situations"},
+            {"id": 1212, "seriesId": 12, "startDate": "2020-08-08T00:00:00", "endDate": "2020-08-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "1Dw9q0LvoD4", "flyer": "covid-19/steam-inhalation-immunity-boosting.jpg", "name": "Effects of Steam Inhalation in treating Covid-19, Can we boost Immunity"},
+            {"id": 1213, "seriesId": 12, "startDate": "2020-08-22T00:00:00", "endDate": "2020-08-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "xNlFine7-3o", "flyer": "covid-19/myths-and-facts-on-vaccines.jpg", "name": "Myths and Facts on Vaccines"},
+            {"id": 1214, "seriesId": 12, "startDate": "2020-11-21T00:00:00", "endDate": "2020-11-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Afi20rIOI8A", "flyer": "covid-19/update-on-covid-19-vaccine-efforts.jpg", "name": "Update on Covid-19 Vaccine Efforts"}
         ]
     },
     {
-        "name": "Space Rocks", "speaker": "Prasad", "flyer": "assets/images/flyers/space-rocks/space-rocks.png", 
+        "name": "Space Rocks", "speaker": "Prasad", "flyer": "space-rocks/space-rocks.png", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 13, 
         "description": "All about Space Rocks",
         "startDate": "2020-06-06T00:00:00", "endDate": "2020-06-06T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 131, "seriesId": 13, "startDate": "2020-05-16T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/space-rocks/space-rocks-01.png", "name": "Spacerocks - 1: Meteoroids, Asteroids and Comets"},
-            {"id": 132, "seriesId": 13, "startDate": "2020-05-23T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/space-rocks/space-rocks-02.png", "name": "Spacerocks - 2: History of Observation and associated Myths and Legends"},
-            {"id": 133, "seriesId": 13, "startDate": "2020-05-30T00:00:00", "endDate": "2019-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/space-rocks/space-rocks-03.png", "name": "Spacerocks - 3: Comets, Study of Haley Comet, Future Missions"}
+            {"id": 1301, "seriesId": 13, "startDate": "2020-05-16T00:00:00", "endDate": "2020-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "3ySMRsTrGjI", "flyer": "space-rocks/space-rocks-01.png", "name": "Meteoroids, Asteroids and Comets"},
+            {"id": 1302, "seriesId": 13, "startDate": "2020-05-23T00:00:00", "endDate": "2020-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "cYKEwpTwMVI", "flyer": "space-rocks/space-rocks-02.png", "name": "History of Observation and associated Myths and Legends"},
+            {"id": 1303, "seriesId": 13, "startDate": "2020-05-30T00:00:00", "endDate": "2020-05-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "7mqydyLiIYE", "flyer": "space-rocks/space-rocks-03.png", "name": "Comets, Study of Haley Comet, Future Missions"}
         ]
     },
     {
-        "name": "Human Evolution", "speaker": "Prasad", "flyer": "assets/images/flyers/human-evolution/human-evolution-01.jpg", 
+        "name": "Human Evolution", "speaker": "Prasad", "flyer": "human-evolution/human-evolution-01.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 10, 
         "description": "From Apes to Modern humans - a 5 million years journey",
         "startDate": "2020-06-06T00:00:00", "endDate": "2020-06-06T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 101, "seriesId": 10, "startDate": "2020-06-06T00:00:00", "endDate": "2019-06-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-01.jpg", "name": "Origin of Race"},
-            {"id": 102, "seriesId": 10, "startDate": "2020-06-13T00:00:00", "endDate": "2019-06-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-02.jpg", "name": "Research and Evidence"},
-            {"id": 103, "seriesId": 10, "startDate": "2020-06-20T00:00:00", "endDate": "2019-06-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-03.jpg", "name": "Human Fossils and Dating Methods", "speaker": "Prasad, Govind"},
-            {"id": 104, "seriesId": 10, "startDate": "2020-06-27T00:00:00", "endDate": "2019-06-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-04.jpg", "name": "How we know what we know"},
-            {"id": 105, "seriesId": 10, "startDate": "2020-07-04T00:00:00", "endDate": "2019-07-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-05.jpg", "name": "How we know what we know continuition"},
-            {"id": 106, "seriesId": 10, "startDate": "2020-07-11T00:00:00", "endDate": "2019-07-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-06.jpg", "name": "Evolution of Behavior, Origin of Speech"},
-            {"id": 107, "seriesId": 10, "startDate": "2020-07-18T00:00:00", "endDate": "2019-07-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-07.jpg", "name": "The First Agricultural Revolution"},
-            {"id": 108, "seriesId": 10, "startDate": "2020-07-25T00:00:00", "endDate": "2019-07-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-08.jpg", "name": "The First Agricultural Revolution - Development, Diffusion, Consequences"},
-            {"id": 109, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2019-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/human-evolution/human-evolution-09.jpg", "name": "Conclusion and QA"}
+            {"id": 1001, "seriesId": 10, "startDate": "2020-06-06T00:00:00", "endDate": "2020-06-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "rMhfvkohJQg", "flyer": "human-evolution/human-evolution-01.jpg", "name": "Origin of Race"},
+            {"id": 1002, "seriesId": 10, "startDate": "2020-06-13T00:00:00", "endDate": "2020-06-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "1jTR7YN9o20", "flyer": "human-evolution/human-evolution-02.jpg", "name": "Research and Evidence"},
+            {"id": 1003, "seriesId": 10, "startDate": "2020-06-20T00:00:00", "endDate": "2020-06-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "fdfz8BAqlXE", "flyer": "human-evolution/human-evolution-03.jpg", "name": "Human Fossils and Dating Methods"},
+            {"id": 1004, "seriesId": 10, "startDate": "2020-06-27T00:00:00", "endDate": "2020-06-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "p7qVTOP9RZo", "flyer": "human-evolution/human-evolution-04.jpg", "name": "How we know what we know"},
+            {"id": 1005, "seriesId": 10, "startDate": "2020-07-04T00:00:00", "endDate": "2020-07-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "oNpjOz7xDis", "flyer": "human-evolution/human-evolution-05.jpg", "name": "How we know what we know continuition"},
+            {"id": 1006, "seriesId": 10, "startDate": "2020-07-11T00:00:00", "endDate": "2020-07-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "g9Qw9CDS_wg", "flyer": "human-evolution/human-evolution-06.jpg", "name": "Evolution of Behavior, Origin of Speech"},
+            {"id": 1007, "seriesId": 10, "startDate": "2020-07-18T00:00:00", "endDate": "2020-07-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vA-CBoQirbU", "flyer": "human-evolution/human-evolution-07.jpg", "name": "The First Agricultural Revolution"},
+            {"id": 1008, "seriesId": 10, "startDate": "2020-07-25T00:00:00", "endDate": "2020-07-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "5b87ct13dlU", "flyer": "human-evolution/human-evolution-08.jpg", "name": "The First Agricultural Revolution - Development, Diffusion, Consequences"},
+            {"id": 1009, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0BeXBB2HB8c", "flyer": "human-evolution/human-evolution-09.jpg", "name": "QA"},
+            {"id": 1010, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "sow2W8j_D5o", "flyer": "human-evolution/human-evolution-10.jpg", "name": "QA"},
+            {"id": 1011, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "li_WtfPwX4o", "flyer": "human-evolution/human-evolution-11.jpg", "name": "QA"},
+            {"id": 1012, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "IwS7mHKAGlQ", "flyer": "human-evolution/human-evolution-12.jpg", "name": "History of Evolutionary Thought"},
+            {"id": 1013, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "VD0r61BAehI", "flyer": "human-evolution/human-evolution-13.jpg", "name": "Influence of Evolution Theories on Science and Humanity"},
+            {"id": 1014, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "JgpAlngj79o", "flyer": "human-evolution/human-evolution-14.jpg", "name": "Growing Evidence for the 'Out of Africa' Theory"},
+            {"id": 1015, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "xvTFdO4Uivo", "flyer": "human-evolution/human-evolution-15.jpg", "name": "Human Movement around the World"},
+            {"id": 1016, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "_RigVtuN_Jg", "flyer": "human-evolution/human-evolution-16.jpg", "name": "Settlements in Remote Places"},
+            {"id": 1017, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "_yo_1WCeXtk", "flyer": "human-evolution/human-evolution-17.jpg", "name": "Sexual Selection and Mating Strategies"},
+            {"id": 1018, "seriesId": 10, "startDate": "2020-08-01T00:00:00", "endDate": "2020-08-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "ovrPD8EhBBE", "flyer": "human-evolution/human-evolution-18.jpg", "name": "Recent Human Evolution"}
         ]
     },
     {
-        "name": "The Bertrand Russell", "speaker": "Govind", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", 
+        "name": "The Bertrand Russell", "speaker": "Govind", "flyer": "bertrand-russell/bertrand-russell.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour","id": 1, 
         "description": "British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate.",
         "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "color": "#3FB498",
         "episodes": [
-            {"id": 11, "seriesId": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-08-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Introduction"},
-            {"id": 12, "seriesId": 1, "startDate": "2019-08-10T00:00:00", "endDate": "2019-08-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Theory of Knowledge"},
-            {"id": 13, "seriesId": 1, "startDate": "2019-08-17T00:00:00", "endDate": "2019-08-17T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Logic and Knowledge"},
-            {"id": 14, "seriesId": 1, "startDate": "2019-08-24T00:00:00", "endDate": "2019-08-24T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Human Knowledge, it's scope and limits"},
-            {"id": 15, "seriesId": 1, "startDate": "2019-08-31T00:00:00", "endDate": "2019-08-31T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "The Scientific Outlook"},
-            {"id": 16, "seriesId": 1, "startDate": "2019-09-07T00:00:00", "endDate": "2019-09-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "The Principle of Mathematics"},
-            {"id": 17, "seriesId": 1, "startDate": "2019-09-14T00:00:00", "endDate": "2019-09-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Introduction to Mathematica"},
-            {"id": 18, "seriesId": 1, "startDate": "2019-09-21T00:00:00", "endDate": "2019-09-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Mysticism and Mathematics"},
-            {"id": 19, "seriesId": 1, "startDate": "2019-09-28T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/bertrand-russell/bertrand-russell.jpg", "name": "Religion and Science - Conclusion"}
+            {"id": 101, "seriesId": 1, "startDate": "2019-08-03T00:00:00", "endDate": "2019-08-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Introduction"},
+            {"id": 102, "seriesId": 1, "startDate": "2019-08-10T00:00:00", "endDate": "2019-08-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Theory of Knowledge"},
+            {"id": 103, "seriesId": 1, "startDate": "2019-08-17T00:00:00", "endDate": "2019-08-17T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Logic and Knowledge"},
+            {"id": 104, "seriesId": 1, "startDate": "2019-08-24T00:00:00", "endDate": "2019-08-24T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Human Knowledge, it's scope and limits"},
+            {"id": 105, "seriesId": 1, "startDate": "2019-08-31T00:00:00", "endDate": "2019-08-31T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "speaker": "Prasad", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "The Scientific Outlook"},
+            {"id": 106, "seriesId": 1, "startDate": "2019-09-07T00:00:00", "endDate": "2019-09-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "The Principle of Mathematics"},
+            {"id": 107, "seriesId": 1, "startDate": "2019-09-14T00:00:00", "endDate": "2019-09-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Introduction to Mathematica"},
+            {"id": 108, "seriesId": 1, "startDate": "2019-09-21T00:00:00", "endDate": "2019-09-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Mysticism and Mathematics"},
+            {"id": 109, "seriesId": 1, "startDate": "2019-09-28T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Religion and Science - Conclusion"}
         ]
     },
     {
-        "name": "Leonardo DaVinci - The Scientist", "speaker": "Prasad", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", 
+        "name": "Leonardo DaVinci - The Scientist", "speaker": "Prasad", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 2, 
         "description": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, paleontology and cartography.",
         "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 21, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
-            {"id": 22, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
-            {"id": 23, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 1", "speaker": "Prasad, Govind"},
-            {"id": 24, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 2"},
-            {"id": 25, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Milatary Engineering"},
-            {"id": 26, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Flight"},
-            {"id": 27, "seriesId": 2, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Conclusion and QA"}
+            {"id": 201, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
+            {"id": 202, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
+            {"id": 203, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 1", "speaker": "Prasad, Govind"},
+            {"id": 204, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 2"},
+            {"id": 205, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Milatary Engineering"},
+            {"id": 206, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Flight"},
+            {"id": 207, "seriesId": 2, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Conclusion and QA"}
         ]
     },
     {
-        "name": "Watching Heavens", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", 
+        "name": "Watching Heavens", "speaker": "Sarath Teja", "flyer": "watching-heavens/watching-heavens.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 3, 
         "description": "Observatories and Telescopes.",
         "startDate": "2019-06-15T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "series", "color": "#0000FF",
         "episodes": [
-            {"id": 31, "seriesId": 3, "startDate": "2019-06-15T00:00:00", "endDate": "2019-06-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Introduction & Mount Wilson Observatory"},
-            {"id": 32, "seriesId": 3, "startDate": "2019-06-22T00:00:00", "endDate": "2019-06-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "W.M. Keck Observatory"},
-            {"id": 33, "seriesId": 3, "startDate": "2019-06-29T00:00:00", "endDate": "2019-06-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Arecibo Observatory"},
-            {"id": 34, "seriesId": 3, "startDate": "2019-07-06T00:00:00", "endDate": "2019-07-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Atacama Large Millimeter/Sub-millimeter Array"},
-            {"id": 35, "seriesId": 3, "startDate": "2019-07-13T00:00:00", "endDate": "2019-07-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Gran Telescopio Canarias"},
-            {"id": 36, "seriesId": 3, "startDate": "2019-07-20T00:00:00", "endDate": "2019-07-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Telescopes in Space - Hubble and Kepler"},
-            {"id": 37, "seriesId": 3, "startDate": "2019-07-27T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/watching-heavens/watching-heavens.jpg", "name": "Observatories in India - Conclusion"}
+            {"id": 301, "seriesId": 3, "startDate": "2019-06-15T00:00:00", "endDate": "2019-06-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Introduction & Mount Wilson Observatory"},
+            {"id": 302, "seriesId": 3, "startDate": "2019-06-22T00:00:00", "endDate": "2019-06-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "W.M. Keck Observatory"},
+            {"id": 303, "seriesId": 3, "startDate": "2019-06-29T00:00:00", "endDate": "2019-06-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Arecibo Observatory"},
+            {"id": 304, "seriesId": 3, "startDate": "2019-07-06T00:00:00", "endDate": "2019-07-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Atacama Large Millimeter/Sub-millimeter Array"},
+            {"id": 305, "seriesId": 3, "startDate": "2019-07-13T00:00:00", "endDate": "2019-07-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Gran Telescopio Canarias"},
+            {"id": 306, "seriesId": 3, "startDate": "2019-07-20T00:00:00", "endDate": "2019-07-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Telescopes in Space - Hubble and Kepler"},
+            {"id": 307, "seriesId": 3, "startDate": "2019-07-27T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Observatories in India - Conclusion"}
         ]
     },
     {
-        "name": "Knowledge Compass", "speaker": "Govind", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", 
+        "name": "Knowledge Compass", "speaker": "Govind", "flyer": "knowledge-compass/knowledge-compass.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 4, 
         "description": "Nanduri vaari Vignaana Diksoochi",
         "startDate": "2019-05-18T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "series", "color": "#00FF00",
         "episodes": [
-            {"id": 41, "seriesId": 4, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
-            {"id": 42, "seriesId": 4, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
-            {"id": 43, "seriesId": 4, "startDate": "2019-06-01T00:00:00", "endDate": "2019-06-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Bharateeya Chintana"},
-            {"id": 44, "seriesId": 4, "startDate": "2019-06-08T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Paschatya Chintana - Conclusion"}
+            {"id": 401, "seriesId": 4, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
+            {"id": 402, "seriesId": 4, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
+            {"id": 403, "seriesId": 4, "startDate": "2019-06-01T00:00:00", "endDate": "2019-06-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Bharateeya Chintana"},
+            {"id": 404, "seriesId": 4, "startDate": "2019-06-08T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Paschatya Chintana - Conclusion"}
         ]
     },
     {
-        "name": "New Horizons", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", 
+        "name": "New Horizons", "speaker": "Sarath Teja", "flyer": "new-horizons/new-horizons.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 5, 
         "description": "New Horizons Description.",
         "startDate": "2019-04-06T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "series", "color": "#ED7D31",
         "episodes": [
-            {"id": 51, "seriesId": 5, "startDate": "2019-04-06T00:00:00", "endDate": "2019-04-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Introduction to Solar System"},
-            {"id": 52, "seriesId": 5, "startDate": "2019-04-13T00:00:00", "endDate": "2019-04-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Missions to Mercury and Venus"},
-            {"id": 53, "seriesId": 5, "startDate": "2019-04-20T00:00:00", "endDate": "2019-04-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Cassini Mission"},
-            {"id": 54, "seriesId": 5, "startDate": "2019-04-27T00:00:00", "endDate": "2019-04-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Juno Mission"},
-            {"id": 55, "seriesId": 5, "startDate": "2019-05-04T00:00:00", "endDate": "2019-05-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Rovers to Mars"},
-            {"id": 26, "seriesId": 5, "startDate": "2019-05-11T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/new-horizons/new-horizons.jpg", "name": "Voyager 1 & 2, Conclusion & QA"}
+            {"id": 501, "seriesId": 5, "startDate": "2019-04-06T00:00:00", "endDate": "2019-04-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Introduction to Solar System"},
+            {"id": 502, "seriesId": 5, "startDate": "2019-04-13T00:00:00", "endDate": "2019-04-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Missions to Mercury and Venus"},
+            {"id": 503, "seriesId": 5, "startDate": "2019-04-20T00:00:00", "endDate": "2019-04-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Cassini Mission"},
+            {"id": 504, "seriesId": 5, "startDate": "2019-04-27T00:00:00", "endDate": "2019-04-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Juno Mission"},
+            {"id": 505, "seriesId": 5, "startDate": "2019-05-04T00:00:00", "endDate": "2019-05-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Rovers to Mars"},
+            {"id": 206, "seriesId": 5, "startDate": "2019-05-11T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Voyager 1 & 2, Conclusion & QA"}
         ]
     },
     {
-        "name": "Modern Darwin - Richard Dawkins", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", 
+        "name": "Modern Darwin - Richard Dawkins", "speaker": "Sarath Teja", "flyer": "richard-dawkins/richard-dawkins.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 6, 
         "description": "English ethologist, evolutionary biologist, and author.",
         "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "series", "color": "#FF33CC",
         "episodes": [
-            {"id": 61, "seriesId": 6, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "Introduction"},
-            {"id": 62, "seriesId": 6, "startDate": "2019-03-09T00:00:00", "endDate": "2019-03-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "The Selfish Gene"},
-            {"id": 63, "seriesId": 6, "startDate": "2019-03-16T00:00:00", "endDate": "2019-03-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "The Greatest Show on Earth"},
-            {"id": 64, "seriesId": 6, "startDate": "2019-03-23T00:00:00", "endDate": "2019-03-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "The Blind Watchmaker"},
-            {"id": 65, "seriesId": 6, "startDate": "2019-03-30T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/richard-dawkins/richard-dawkins.jpg", "name": "Conclusion and QA"}
+            {"id": 601, "seriesId": 6, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "Introduction"},
+            {"id": 602, "seriesId": 6, "startDate": "2019-03-09T00:00:00", "endDate": "2019-03-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Selfish Gene"},
+            {"id": 603, "seriesId": 6, "startDate": "2019-03-16T00:00:00", "endDate": "2019-03-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Greatest Show on Earth"},
+            {"id": 604, "seriesId": 6, "startDate": "2019-03-23T00:00:00", "endDate": "2019-03-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Blind Watchmaker"},
+            {"id": 605, "seriesId": 6, "startDate": "2019-03-30T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "Conclusion and QA"}
         ]
     },
     {
-        "name": "Blue Planet Earth", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", 
+        "name": "Blue Planet Earth", "speaker": "Sarath Teja", "flyer": "blue-planet-earth/blue-planet-earth.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 7, 
         "description": "Description for Blue Planet Earth.",
         "startDate": "2019-01-19T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "series", "color": "#BFBFBF",
         "episodes": [
-            {"id": 71, "seriesId": 7, "startDate": "2019-01-19T00:00:00", "endDate": "2019-01-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Introduction & Moon Earth Formation"},
-            {"id": 72, "seriesId": 7, "startDate": "2019-01-26T00:00:00", "endDate": "2019-01-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Earth's Core and Plate Techtonics"},
-            {"id": 73, "seriesId": 7, "startDate": "2019-02-02T00:00:00", "endDate": "2019-02-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Valconoes"},
-            {"id": 74, "seriesId": 7, "startDate": "2019-02-09T00:00:00", "endDate": "2019-02-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Oceans"},
-            {"id": 75, "seriesId": 7, "startDate": "2019-02-16T00:00:00", "endDate": "2019-02-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Icy Ice"},
-            {"id": 75, "seriesId": 7, "startDate": "2019-02-23T00:00:00", "endDate": "2019-02-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/blue-planet-earth/blue-planet-earth.jpg", "name": "Atmosphere & Conclusion"}
+            {"id": 701, "seriesId": 7, "startDate": "2019-01-19T00:00:00", "endDate": "2019-01-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Introduction & Moon Earth Formation"},
+            {"id": 702, "seriesId": 7, "startDate": "2019-01-26T00:00:00", "endDate": "2019-01-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Earth's Core and Plate Techtonics"},
+            {"id": 703, "seriesId": 7, "startDate": "2019-02-02T00:00:00", "endDate": "2019-02-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Valconoes"},
+            {"id": 704, "seriesId": 7, "startDate": "2019-02-09T00:00:00", "endDate": "2019-02-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Oceans"},
+            {"id": 705, "seriesId": 7, "startDate": "2019-02-16T00:00:00", "endDate": "2019-02-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Icy Ice"},
+            {"id": 705, "seriesId": 7, "startDate": "2019-02-23T00:00:00", "endDate": "2019-02-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Atmosphere & Conclusion"}
         ]
     },
     {
-        "name": "Astronomy vs Astrology", "speaker": "Sarath Teja", "flyer": "assets/images/flyers/astronomy-and-astrology.jpg", 
+        "name": "Astronomy vs Astrology", "speaker": "Sarath Teja", "flyer": "astronomy-and-astrology.jpg", 
         "category": "media", "subcategory": "radio", "channel": "tori", "program": "sciencehour", "id": 8, 
         "description": "Description for Astronomy vs Astrology.",
         "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "series", "color": "#FF0000",
         "episodes": [
-            {"id": 81, "seriesId": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology.jpg",   "name": "Astronomy vs Astrology"},
-            {"id": 82, "seriesId": 8, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "flyer": "assets/images/flyers/astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
+            {"id": 801, "seriesId": 8, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "astronomy-and-astrology/astronomy-and-astrology.jpg",   "name": "Astronomy vs Astrology"},
+            {"id": 802, "seriesId": 8, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
         ]
     },
     {
-        "name": "Poratam - Fight against superstition", "speaker": "Prasad, Raj, Samatha", "flyer": "assets/images/flyers/poratam/poratam.jpg", 
+        "name": "Poratam - Fight against superstition", "speaker": "Prasad, Raj, Samatha", "flyer": "poratam/poratam.jpg", 
         "category": "media", "subcategory": "radio", "channel": "youtube", "program": "manavavaani", "id": 9, 
         "description": "Fight against superstition",
         "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 91, "seriesId": 2, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Kg2S3XKEc",   "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
-            {"id": 92, "seriesId": 2, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TpIktpf1hiI", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "హోమియోపతి నిజంగా పనిచేస్తుందా?"},
-            {"id": 93, "seriesId": 2, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0z6u5tiGiOQ", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "పాములు మాయలు", "speaker": "Prasad"},
-            {"id": 94, "seriesId": 2, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GGNUfmWF_6",  "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "చేతబడి, బాణామతి, చిల్లంగి"},
-            {"id": 95, "seriesId": 2, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Sw9rXaBX7ok", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "స్వాములు, బాబాలు వాళ్ళ బండారం"},
-            {"id": 96, "seriesId": 2, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vK1bVTKH3SU", "flyer": "assets/images/flyers/poratam/poratam.jpg", "name": "వేదాల్లొ విజ్ఞానం"}
+            {"id": 901, "seriesId": 9, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Kg2S3XKEc",   "flyer": "poratam/poratam.jpg", "name": "జోగినీ దురాచారం"},
+            {"id": 902, "seriesId": 9, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "TpIktpf1hiI", "flyer": "poratam/poratam.jpg", "name": "హోమియోపతి నిజంగా పనిచేస్తుందా?"},
+            {"id": 903, "seriesId": 9, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "0z6u5tiGiOQ", "flyer": "poratam/poratam.jpg", "name": "పాములు మాయలు", "speaker": "Prasad"},
+            {"id": 904, "seriesId": 9, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GGNUfmWF_6",  "flyer": "poratam/poratam.jpg", "name": "చేతబడి, బాణామతి, చిల్లంగి"},
+            {"id": 905, "seriesId": 9, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Sw9rXaBX7ok", "flyer": "poratam/poratam.jpg", "name": "స్వాములు, బాబాలు వాళ్ళ బండారం"},
+            {"id": 906, "seriesId": 9, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vK1bVTKH3SU", "flyer": "poratam/poratam.jpg", "name": "వేదాల్లొ విజ్ఞానం"}
         ]
     }
 ]
