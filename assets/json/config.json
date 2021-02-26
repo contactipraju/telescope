@@ -1,0 +1,140 @@
+{
+    "menu_layout": {
+        "home": [
+            { "text": "New Posts" },
+            { "text": "Activity Log" },
+            { "text": "Current Affairs" },
+            { "text": "Upcoming Events" },
+            { "text": "Recent Events" }
+        ],
+        "newsletter": [
+            { "text": "This Month" },
+            { "text": "Archives", "children": [
+                { "text": "October 2019" },
+                { "text": "September 2019" },
+                { "text": "August 2019" },
+                { "text": "July 2019" },
+                { "text": "June 2019" },
+                { "text": "May 2019" },
+                { "text": "April 2019" },
+                { "text": "March 2019" },
+                { "text": "February 2019" },
+                { "text": "January 2019" },
+                { "text": "Older...", "children": [
+                    { "text": "2018" },
+                    { "text": "2017" }
+                ]}
+            ]}
+        ],
+        "general_science": [
+            { "text": "General Science", "link": "general_science", "children": [
+                { "text": "Astronomy", "link": "astronomy" },
+                { "text": "Physics", "link": "physics" },
+                { "text": "Chemistry", "link": "chemistry" },
+                { "text": "Geography", "link": "geography" },
+                { "text": "Geology", "link": "geology" }
+            ]}
+        ],
+        "life_sciences": [
+            { "text": "Life Sciences", "link": "life_sciences", "children": [
+                { "text": "Biology", "link": "biology" },
+                { "text": "Botany", "link": "botany" },
+                { "text": "Zoology", "link": "zoology" },
+                { "text": "Psychology", "link": "psychology" }
+            ]}
+        ],
+        "social_sciences": [
+            { "text": "Social Sciences", "link": "social_sciences", "children": [
+                { "text": "History", "link": "history" },
+                { "text": "Economics", "link": "economics" },
+                { "text": "Politics", "link": "politics" },
+                { "text": "Sociology", "link": "sociology" },
+                { "text": "Law and Constitution", "link": "constitution" }
+            ]}
+        ],
+        "miscellaneous": [
+            { "text": "Miscellaneous", "link": "miscellaneous", "children": [
+                { "text": "Culture", "link": "culture" },
+                { "text": "Languages", "link": "languages" },
+                { "text": "Literature", "link": "literature" },
+                { "text": "Philosophy", "link": "philosophy" },
+                { "text": "People", "link": "people" },
+                { "text": "Events", "link": "events" },
+                { "text": "Quotes", "link": "quotes" }
+            ]}
+        ],
+        "pseudoscience": [
+            { "text": "Pseudoscience", "link": "pseudoscience", "children": [
+                { "text": "Pseudoscience", "link": "pseudoscience" },
+                { "text": "Superstition", "link": "superstition" },
+                { "text": "Myths", "link": "myths" },
+                { "text": "Hoaxes", "link": "hoaxes" },
+                { "text": "Quakery", "link": "quakery" }
+            ]}
+        ],
+        "events": [
+        ],
+        "media": [
+            { "text": "On Telugu Radio", "link": "radio", "children": [
+                { "text": "Tori - Science Hour", "link": "sciencehour" },
+                { "text": "Tori - Humanist Hour", "link": "humanisthour" },
+                { "text": "YouTube - Manavavaani", "link": "manavavaani" },
+                { "text": "YouTube - Vignaanavaani", "link": "vignaanavaani" },
+                { "text": "What's coming...", "link": "whatscoming" }
+            ]},
+            { "text": "Visual Media", "link": "tv", "children": [
+                { "text": "Debates" },
+                { "text": "Speeches" },
+                { "text": "Interviews" }
+            ]},
+            { "text": "Major Events", "link": "event", "children": [
+                { "text": "Selfie with Ghost" },
+                { "text": "SAHA and SfS Launch at NSW Parliament House, Sydney" },
+                { "text": "Babu Gogineni's Keynote at Humanist House, for NSW Humanists" },
+                { "text": "Why I'm a Humanist" },
+                { "text": "Humanist Cartoon Competition" },
+                { "text": "Ride for Reason" }
+            ]}
+        ],
+        "resources": [
+            { "text": "Reading", "link": "reading", "children": [
+                { "text": "Books", "link": "books" },
+                { "text": "PDFs", "link": "pdfs" },
+                { "text": "Blogs", "link": "blogs" },
+                { "text": "Websites", "link": "websites" },
+                { "text": "Nobel Laureates", "link": "nobels" }
+            ]},
+            { "text": "Infotainment", "link": "infotainment", "children": [
+                { "text": "Documentaries", "link": "documentaries" },
+                { "text": "Feature Films", "link": "films" },
+                { "text": "The Big Question with BG", "link": "bigquestion" }
+            ]},
+            { "text": "Resources", "link": "resources", "children": [
+                { "text": "Social Media", "link": "socialmedia" },
+                { "text": "Glossary", "link": "glossary" }
+            ]},
+            { "text": "మంచి", "link": "manchi", "children": [
+                { "text": "పుస్తకం", "link": "pustakam" },
+                { "text": "కవిత", "link": "kavita" },
+                { "text": "సినిమా", "link": "cinema" },
+                { "text": "పాట", "link": "paata" },
+                { "text": "ప్రయత్నం", "link": "prayatnam" }
+            ]}
+        ],
+        "team": [
+            { "text": "Science for Society (SfS)" },
+            { "text": "South Asian Humanist Association (SAHA)" },
+            { "text": "Jana Vignaana Vedika" },
+            { "text": "Rationalist Forum" },
+            { "text": "Indian Humanists" },
+            { "text": "NSW Humanists" }
+        ]
+    },
+    "newsletter_layout": [
+        {"x":0, "y":0, "height":1,  "width":12, "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"40579", "header":"Title"},
+        {"x":0, "y":1, "height":10, "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"90324", "header":"History"},
+        {"x":3, "y":1, "height":10, "width":6,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"48051", "header":"Science Column"},
+        {"x":9, "y":1, "height":5,  "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"25179", "header":"Astronomy"},
+        {"x":9, "y":6, "height":5,  "width":3,  "noResize":false, "autoPosition":false, "marginWidth":"0", "customId":"61809", "header":"Chitti"}
+    ]
+}
