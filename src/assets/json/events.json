@@ -5,8 +5,8 @@
         "description": "Description for Astronomy vs Astrology.",
         "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "series", "color": "#3FB498",
         "episodes": [
-            {"id": 20190101, "seriesId": 201901, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "astronomy-and-astrology/astronomy-and-astrology.jpg",   "name": "Astronomy vs Astrology"},
-            {"id": 20190102, "seriesId": 201901, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
+            {"id": 20190101, "seriesId": 201901, "startDate": "2019-01-05T00:00:00", "endDate": "2019-01-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "xiY-rKPtsnY", "flyer": "astronomy-and-astrology/astronomy-and-astrology.jpg",   "name": "Astronomy vs Astrology"},
+            {"id": 20190102, "seriesId": 201901, "startDate": "2019-01-12T00:00:00", "endDate": "2019-01-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "zKUWRo-w1eo", "flyer": "astronomy-and-astrology/astronomy-and-astrology-2.jpg", "name": "Astronomy vs Astrology"}
         ]
     },
     {
@@ -15,12 +15,12 @@
         "description": "Description for Blue Planet Earth.",
         "startDate": "2019-01-19T00:00:00", "endDate": "2019-02-22T00:00:00", "type": "series", "color": "#ED7D31",
         "episodes": [
-            {"id": 20190201, "seriesId": 201902, "startDate": "2019-01-19T00:00:00", "endDate": "2019-01-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Introduction & Moon Earth Formation"},
-            {"id": 20190202, "seriesId": 201902, "startDate": "2019-01-26T00:00:00", "endDate": "2019-01-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Earth's Core and Plate Techtonics"},
-            {"id": 20190203, "seriesId": 201902, "startDate": "2019-02-02T00:00:00", "endDate": "2019-02-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Valconoes"},
-            {"id": 20190204, "seriesId": 201902, "startDate": "2019-02-09T00:00:00", "endDate": "2019-02-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Oceans"},
-            {"id": 20190205, "seriesId": 201902, "startDate": "2019-02-16T00:00:00", "endDate": "2019-02-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Icy Ice"},
-            {"id": 20190206, "seriesId": 201902, "startDate": "2019-02-23T00:00:00", "endDate": "2019-02-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Atmosphere & Conclusion"}
+            {"id": 20190201, "seriesId": 201902, "startDate": "2019-01-19T00:00:00", "endDate": "2019-01-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "hknD4GGXGLU", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Introduction & Moon Earth Formation"},
+            {"id": 20190202, "seriesId": 201902, "startDate": "2019-01-26T00:00:00", "endDate": "2019-01-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "AMlofMNtNR8", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Earth's Core and Plate Techtonics"},
+            {"id": 20190203, "seriesId": 201902, "startDate": "2019-02-02T00:00:00", "endDate": "2019-02-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "MiILZALY4io", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Valconoes"},
+            {"id": 20190204, "seriesId": 201902, "startDate": "2019-02-09T00:00:00", "endDate": "2019-02-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "rOxizWolG-Q", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Oceans"},
+            {"id": 20190205, "seriesId": 201902, "startDate": "2019-02-16T00:00:00", "endDate": "2019-02-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "9mWC3ownq2g", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Icy Ice"},
+            {"id": 20190206, "seriesId": 201902, "startDate": "2019-02-23T00:00:00", "endDate": "2019-02-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "QISHgNzYCW8", "flyer": "blue-planet-earth/blue-planet-earth.jpg", "name": "Atmosphere & Conclusion"}
         ]
     },
     {
@@ -29,11 +29,11 @@
         "description": "English ethologist, evolutionary biologist, and author.",
         "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "series", "color": "#00B0F0",
         "episodes": [
-            {"id": 20190301, "seriesId": 201903, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "Introduction"},
-            {"id": 20190302, "seriesId": 201903, "startDate": "2019-03-09T00:00:00", "endDate": "2019-03-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Selfish Gene"},
-            {"id": 20190303, "seriesId": 201903, "startDate": "2019-03-16T00:00:00", "endDate": "2019-03-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Greatest Show on Earth"},
-            {"id": 20190304, "seriesId": 201903, "startDate": "2019-03-23T00:00:00", "endDate": "2019-03-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Blind Watchmaker"},
-            {"id": 20190305, "seriesId": 201903, "startDate": "2019-03-30T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "Conclusion and QA"}
+            {"id": 20190301, "seriesId": 201903, "startDate": "2019-03-02T00:00:00", "endDate": "2019-03-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "wBQmxuFCh30", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "Introduction"},
+            {"id": 20190302, "seriesId": 201903, "startDate": "2019-03-09T00:00:00", "endDate": "2019-03-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "JJT-44mqVrE", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Selfish Gene"},
+            {"id": 20190303, "seriesId": 201903, "startDate": "2019-03-16T00:00:00", "endDate": "2019-03-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Hbm4Qoy_HvU", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Greatest Show on Earth"},
+            {"id": 20190304, "seriesId": 201903, "startDate": "2019-03-23T00:00:00", "endDate": "2019-03-23T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "AK_5JOhM7VQ", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "The Blind Watchmaker"},
+            {"id": 20190305, "seriesId": 201903, "startDate": "2019-03-30T00:00:00", "endDate": "2019-03-30T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "lbnOc3USQag", "flyer": "richard-dawkins/richard-dawkins.jpg", "name": "Conclusion and QA"}
         ]
     },
     {
@@ -42,12 +42,12 @@
         "description": "New Horizons Description.",
         "startDate": "2019-04-06T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "series", "color": "#BFBFBF",
         "episodes": [
-            {"id": 20190401, "seriesId": 201904, "startDate": "2019-04-06T00:00:00", "endDate": "2019-04-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Introduction to Solar System"},
-            {"id": 20190402, "seriesId": 201904, "startDate": "2019-04-13T00:00:00", "endDate": "2019-04-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Missions to Mercury and Venus"},
-            {"id": 20190403, "seriesId": 201904, "startDate": "2019-04-20T00:00:00", "endDate": "2019-04-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Cassini Mission"},
-            {"id": 20190404, "seriesId": 201904, "startDate": "2019-04-27T00:00:00", "endDate": "2019-04-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Juno Mission"},
-            {"id": 20190405, "seriesId": 201904, "startDate": "2019-05-04T00:00:00", "endDate": "2019-05-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Rovers to Mars"},
-            {"id": 20190406, "seriesId": 201904, "startDate": "2019-05-11T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "new-horizons/new-horizons.jpg", "name": "Voyager 1 & 2, Conclusion & QA"}
+            {"id": 20190401, "seriesId": 201904, "startDate": "2019-04-06T00:00:00", "endDate": "2019-04-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "yKBwvKOsNrI", "flyer": "new-horizons/new-horizons.jpg", "name": "Introduction to Solar System"},
+            {"id": 20190402, "seriesId": 201904, "startDate": "2019-04-13T00:00:00", "endDate": "2019-04-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "pahWpRZM09M", "flyer": "new-horizons/new-horizons.jpg", "name": "Missions to Mercury and Venus"},
+            {"id": 20190403, "seriesId": 201904, "startDate": "2019-04-20T00:00:00", "endDate": "2019-04-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Zc1i8THcbnU", "flyer": "new-horizons/new-horizons.jpg", "name": "Cassini Mission"},
+            {"id": 20190404, "seriesId": 201904, "startDate": "2019-04-27T00:00:00", "endDate": "2019-04-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "VpUIrnedyns", "flyer": "new-horizons/new-horizons.jpg", "name": "Juno Mission"},
+            {"id": 20190405, "seriesId": 201904, "startDate": "2019-05-04T00:00:00", "endDate": "2019-05-04T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "SCVn-88cqRo", "flyer": "new-horizons/new-horizons.jpg", "name": "Rovers to Mars"},
+            {"id": 20190406, "seriesId": 201904, "startDate": "2019-05-11T00:00:00", "endDate": "2019-05-11T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "h0uQCgeglnk", "flyer": "new-horizons/new-horizons.jpg", "name": "Voyager 1 & 2, Conclusion & QA"}
         ]
     },
     {
@@ -56,10 +56,10 @@
         "description": "Nanduri vaari Vignaana Diksoochi",
         "startDate": "2019-05-18T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "series", "color": "#FF33CC",
         "episodes": [
-            {"id": 20190501, "seriesId": 201905, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
-            {"id": 20190502, "seriesId": 201905, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
-            {"id": 20190503, "seriesId": 201905, "startDate": "2019-06-01T00:00:00", "endDate": "2019-06-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Bharateeya Chintana"},
-            {"id": 20190504, "seriesId": 201905, "startDate": "2019-06-08T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Paschatya Chintana - Conclusion"}
+            {"id": 20190501, "seriesId": 201905, "startDate": "2019-05-18T00:00:00", "endDate": "2019-05-18T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "3B6hRVFmdOE", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Introduction & Naravataram"},
+            {"id": 20190502, "seriesId": 201905, "startDate": "2019-05-25T00:00:00", "endDate": "2019-05-25T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "HGOpl9rWCgQ", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswaroopam"},
+            {"id": 20190503, "seriesId": 201905, "startDate": "2019-06-01T00:00:00", "endDate": "2019-06-01T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "GTKGEEIrhF0", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Bharateeya Chintana"},
+            {"id": 20190504, "seriesId": 201905, "startDate": "2019-06-08T00:00:00", "endDate": "2019-06-08T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "5yyn1K_h2pg", "flyer": "knowledge-compass/knowledge-compass.jpg", "name": "Viswadarshanam - Paschatya Chintana - Conclusion"}
         ]
     },
     {
@@ -82,13 +82,13 @@
         "description": "Observatories and Telescopes.",
         "startDate": "2019-06-15T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "series", "color": "#FF0000",
         "episodes": [
-            {"id": 20190701, "seriesId": 201907, "startDate": "2019-06-15T00:00:00", "endDate": "2019-06-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Introduction & Mount Wilson Observatory"},
-            {"id": 20190702, "seriesId": 201907, "startDate": "2019-06-22T00:00:00", "endDate": "2019-06-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "W.M. Keck Observatory"},
-            {"id": 20190703, "seriesId": 201907, "startDate": "2019-06-29T00:00:00", "endDate": "2019-06-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Arecibo Observatory"},
-            {"id": 20190704, "seriesId": 201907, "startDate": "2019-07-06T00:00:00", "endDate": "2019-07-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Atacama Large Millimeter/Sub-millimeter Array"},
-            {"id": 20190705, "seriesId": 201907, "startDate": "2019-07-13T00:00:00", "endDate": "2019-07-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Gran Telescopio Canarias"},
-            {"id": 20190706, "seriesId": 201907, "startDate": "2019-07-20T00:00:00", "endDate": "2019-07-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Telescopes in Space - Hubble and Kepler"},
-            {"id": 20190707, "seriesId": 201907, "startDate": "2019-07-27T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Observatories in India - Conclusion"}
+            {"id": 20190701, "seriesId": 201907, "startDate": "2019-06-15T00:00:00", "endDate": "2019-06-15T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "8UrqrHuYelY", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Introduction & Mount Wilson Observatory"},
+            {"id": 20190702, "seriesId": 201907, "startDate": "2019-06-22T00:00:00", "endDate": "2019-06-22T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Gc2Asr8Z4jw", "flyer": "watching-heavens/watching-heavens.jpg", "name": "W.M. Keck Observatory"},
+            {"id": 20190703, "seriesId": 201907, "startDate": "2019-06-29T00:00:00", "endDate": "2019-06-29T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "1ZqPJykt8xc", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Arecibo Observatory"},
+            {"id": 20190704, "seriesId": 201907, "startDate": "2019-07-06T00:00:00", "endDate": "2019-07-06T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "d5pY4PdJl44", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Atacama Large Millimeter/Sub-millimeter Array"},
+            {"id": 20190705, "seriesId": 201907, "startDate": "2019-07-13T00:00:00", "endDate": "2019-07-13T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "315eYhHndqQ", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Gran Telescopio Canarias"},
+            {"id": 20190706, "seriesId": 201907, "startDate": "2019-07-20T00:00:00", "endDate": "2019-07-20T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "BhRuOsLbwiI", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Telescopes in Space - Hubble and Kepler"},
+            {"id": 20190707, "seriesId": 201907, "startDate": "2019-07-27T00:00:00", "endDate": "2019-07-27T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "MEeToJvBt0o", "flyer": "watching-heavens/watching-heavens.jpg", "name": "Observatories in India - Conclusion"}
         ]
     },
     {
@@ -97,15 +97,15 @@
         "description": "British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate.",
         "startDate": "2019-08-03T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "series", "color": "#0000FF",
         "episodes": [
-            {"id": 2019081, "seriesId": 201908, "startDate": "2019-08-03T00:00:00", "endDate": "2019-08-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Introduction"},
-            {"id": 2019082, "seriesId": 201908, "startDate": "2019-08-10T00:00:00", "endDate": "2019-08-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Theory of Knowledge"},
+            {"id": 2019081, "seriesId": 201908, "startDate": "2019-08-03T00:00:00", "endDate": "2019-08-03T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "8s-jNr9QYhc", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Introduction"},
+            {"id": 2019082, "seriesId": 201908, "startDate": "2019-08-10T00:00:00", "endDate": "2019-08-10T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "sAmV_OTYYFQ", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Theory of Knowledge"},
             {"id": 2019083, "seriesId": 201908, "startDate": "2019-08-17T00:00:00", "endDate": "2019-08-17T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Logic and Knowledge"},
-            {"id": 2019084, "seriesId": 201908, "startDate": "2019-08-24T00:00:00", "endDate": "2019-08-24T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Human Knowledge, it's scope and limits"},
-            {"id": 2019085, "seriesId": 201908, "startDate": "2019-08-31T00:00:00", "endDate": "2019-08-31T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "speaker": "Prasad", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "The Scientific Outlook"},
-            {"id": 2019086, "seriesId": 201908, "startDate": "2019-09-07T00:00:00", "endDate": "2019-09-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "The Principle of Mathematics"},
-            {"id": 2019087, "seriesId": 201908, "startDate": "2019-09-14T00:00:00", "endDate": "2019-09-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Introduction to Mathematica"},
-            {"id": 2019088, "seriesId": 201908, "startDate": "2019-09-21T00:00:00", "endDate": "2019-09-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Mysticism and Mathematics"},
-            {"id": 2019089, "seriesId": 201908, "startDate": "2019-09-28T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Religion and Science - Conclusion"}
+            {"id": 2019084, "seriesId": 201908, "startDate": "2019-08-24T00:00:00", "endDate": "2019-08-24T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "XsCIstlfckk", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Human Knowledge, it's scope and limits"},
+            {"id": 2019085, "seriesId": 201908, "startDate": "2019-08-31T00:00:00", "endDate": "2019-08-31T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "OCex2feS62Q", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "The Scientific Outlook", "speaker": "Prasad"},
+            {"id": 2019086, "seriesId": 201908, "startDate": "2019-09-07T00:00:00", "endDate": "2019-09-07T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "XPnVovgcB_g", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "The Principle of Mathematics"},
+            {"id": 2019087, "seriesId": 201908, "startDate": "2019-09-14T00:00:00", "endDate": "2019-09-14T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "1mxn749s6pg", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Introduction to Mathematica"},
+            {"id": 2019088, "seriesId": 201908, "startDate": "2019-09-21T00:00:00", "endDate": "2019-09-21T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "bLB7gw54C2U", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Mysticism and Mathematics"},
+            {"id": 2019089, "seriesId": 201908, "startDate": "2019-09-28T00:00:00", "endDate": "2019-09-28T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "_o1N5Mdai3E", "flyer": "bertrand-russell/bertrand-russell.jpg", "name": "Religion and Science - Conclusion"}
         ]
     },
     {
@@ -114,13 +114,13 @@
         "description": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, paleontology and cartography.",
         "startDate": "2019-10-05T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "series", "color": "#00FF00",
         "episodes": [
-            {"id": 20190901, "seriesId": 201909, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
-            {"id": 20190902, "seriesId": 201909, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
-            {"id": 20190903, "seriesId": 201909, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 1", "speaker": "Prasad, Govind"},
-            {"id": 20190904, "seriesId": 201909, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 2"},
+            {"id": 20190901, "seriesId": 201909, "startDate": "2019-10-05T00:00:00", "endDate": "2019-10-05T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "iIhRexE2-7c", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Introduction"},
+            {"id": 20190902, "seriesId": 201909, "startDate": "2019-10-12T00:00:00", "endDate": "2019-10-12T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "El3oNfMYL3w", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Inventor"},
+            {"id": 20190903, "seriesId": 201909, "startDate": "2019-10-19T00:00:00", "endDate": "2019-10-19T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "Zx0-TXK_RRw", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 1", "speaker": "Prasad, Govind"},
+            {"id": 20190904, "seriesId": 201909, "startDate": "2019-10-26T00:00:00", "endDate": "2019-10-26T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "vo10Ff9tl9s", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Engineering - 2"},
             {"id": 20190905, "seriesId": 201909, "startDate": "2019-11-02T00:00:00", "endDate": "2019-11-02T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Milatary Engineering"},
-            {"id": 20190906, "seriesId": 201909, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Flight"},
-            {"id": 20190907, "seriesId": 201909, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Conclusion and QA"}
+            {"id": 20190906, "seriesId": 201909, "startDate": "2019-11-09T00:00:00", "endDate": "2019-11-09T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "QezyDoIjdi4", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "The Flight"},
+            {"id": 20190907, "seriesId": 201909, "startDate": "2019-11-16T00:00:00", "endDate": "2019-11-16T00:00:00", "type": "episode", "startTime": "12:30:00", "endTime": "01:30:00", "youtubeKey": "EN12JqoVZJ0", "flyer": "leonardo-da-vinci/leonardo-da-vinci.jpg", "name": "Conclusion and QA", "desc": "100th Episode of Science Hour in Tori"}
         ]
     },
     {
