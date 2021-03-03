@@ -12,11 +12,11 @@
 
     <div class="card-details">
       <div class="card-title">
-        <span class="card-title-name">{{episode.name}}</span>
+        <span class="card-title-name" [ngbTooltip]="episode.name">{{episode.name}}</span>
       </div>
 
       <div class="card-speaker">
-        <span>by: </span><span class="card-speaker-name">{{episode.speaker?episode.speaker:series.speaker}}</span>
+        <span class="card-speaker-name">{{episode.speaker?episode.speaker:series.speaker}}</span>
       </div>
 
       <div class="card-description">
