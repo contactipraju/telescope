@@ -17,6 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 /* Third-party Modules */
 import { ModalModule }              from 'ngx-bootstrap/modal';
+import { NgbTooltipModule }         from '@ng-bootstrap/ng-bootstrap';
 /* import { GridStackModule }          from 'ngx-grid-stack'; TODO: Use lb-gridstack later */
 import { ShareModule }              from '@ngx-share/core';
 import { ShareService }             from '@ngx-share/core';
@@ -170,6 +171,7 @@ import { TileUserComponent }          from './components/views-tile/tile-user/ti
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
+    NgbTooltipModule,
     RouterModule,
     StoreModule.forRoot(appReducers, {
       runtimeChecks: {
