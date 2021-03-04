@@ -33,7 +33,7 @@ export class ListViewSeriesComponent implements OnInit, OnChanges {
 
   sortSeries(series: ISeries[]) {
     series.sort((a,b) => {
-      return a.startDate.getTime() - b.startDate.getTime();
+      return b.startDate.getTime() - a.startDate.getTime();
     });
 
     this.filteredSeriesList = [];
