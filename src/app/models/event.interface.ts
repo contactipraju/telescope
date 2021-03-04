@@ -4,7 +4,7 @@ export interface IEvent {
   id?: number;
   name: string;
   description?: string;
-  speaker?: number;
+  speakers?: string[];
 
   type?: string;
   color?: string;
