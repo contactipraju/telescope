@@ -16,7 +16,7 @@
       </div>
 
       <div class="card-speaker">
-        <span class="card-speaker-name">{{episode.speaker?episode.speaker:series.speaker}}</span>
+        <span *ngFor="let speaker of speakers; last as isLast" class="card-speaker-name">{{speaker.label}}{{isLast ? '' : ', '}}</span>
       </div>
 
       <div class="card-description">

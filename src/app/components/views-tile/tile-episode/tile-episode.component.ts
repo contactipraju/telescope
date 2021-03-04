@@ -13,10 +13,21 @@ export class TileEpisodeComponent implements OnInit, OnChanges {
   @Input() episode: IEpisode;
   @Input() series: ISeries;
 
+  public speakers = [];
+
   constructor() { }
 
   ngOnInit() {
     console.log("TileEpisodeComponent - ngOnInit: ", this.episode);
+    this.prepSpeakers();
+  }
+
+  prepSpeakers() {
+    let source = this.episode.speakers ? this.episode.speakers : this.series.speakers;
+
+    for (let i=0; i<source.length; i++) {
+      this.speakers.push({label: source[i]});
+    }
   }
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
