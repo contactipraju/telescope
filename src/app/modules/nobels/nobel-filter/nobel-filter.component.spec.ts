@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { NobelFilterComponent } from './nobel-filter.component';
 
@@ -6,7 +6,7 @@ describe('NobelFilterComponent', () => {
   let component: NobelFilterComponent;
   let fixture: ComponentFixture<NobelFilterComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ NobelFilterComponent ]
     })

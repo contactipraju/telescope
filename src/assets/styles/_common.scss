@@ -1,33 +1,33 @@
-@import './variables';
+@import "../../variables";
 
 .pull-left {
-    float: left;
+  float: left;
 }
 .pull-right {
-    float: right;
+  float: right;
 }
 
 .btn {
-    border-color: $DefaultColor;
+  border-color: $DefaultColor;
 }
 
 .btn:hover {
-    color: #fff;
-    background-color: $DefaultColor;
-    border-color: #fff;
+  color: #fff;
+  background-color: $DefaultColor;
+  border-color: #fff;
 }
 
 .btn-inverted {
-    color: #fff;
-    background-color: $DefaultColor;
-    border-color: #fff;
+  color: #fff;
+  background-color: $DefaultColor;
+  border-color: #fff;
 }
 
 .btn-delete {
-	border-color: #ED3210;
+  border-color: #ed3210;
 }
 
 .btn-delete:hover {
-	border-color: #ED3210;
-	background-color: #ED3210;
+  border-color: #ed3210;
+  background-color: #ed3210;
 }
