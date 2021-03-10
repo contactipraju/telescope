@@ -52,7 +52,7 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
       event: {}
     };
 
-    this.modalRef_EditEpisode = this.modalService.show(EditEpisodeComponent, {initialState});
+    this.modalRef_EditEpisode = this.modalService.show(EditEpisodeComponent, { initialState });
     this.modalRef_EditEpisode.content.modalRef = this.modalRef_EditEpisode;
   }
 
@@ -63,7 +63,7 @@ export class TableViewEpisodesComponent implements OnInit, OnChanges {
       event: e
     };
 
-    this.modalRef_EditEpisode = this.modalService.show(EditEpisodeComponent, {initialState});
+    this.modalRef_EditEpisode = this.modalService.show(EditEpisodeComponent, { initialState });
     this.modalRef_EditEpisode.content.modalRef = this.modalRef_EditEpisode;
   }
 

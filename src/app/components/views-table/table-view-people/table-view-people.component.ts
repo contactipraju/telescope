@@ -45,18 +45,18 @@ export class TableViewPeopleComponent implements OnInit, OnChanges {
       user: {}
     };
 
-    this.modalRef_EditUser = this.modalService.show(EditUserComponent, {initialState});
+    this.modalRef_EditUser = this.modalService.show(EditUserComponent, { initialState });
     this.modalRef_EditUser.content.modalRef = this.modalRef_EditUser;
   }
 
-  selectUser(e) {
+  selectUser(e: IUser) {
     const initialState = {
       mode: "edit",
-      usersList: this.data,
+//      usersList: this.data,
       user: e
     };
 
-    this.modalRef_EditUser = this.modalService.show(EditUserComponent, {initialState});
+    this.modalRef_EditUser = this.modalService.show(EditUserComponent, { initialState });
     this.modalRef_EditUser.content.modalRef = this.modalRef_EditUser;
   }
 

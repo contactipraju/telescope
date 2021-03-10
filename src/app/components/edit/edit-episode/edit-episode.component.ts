@@ -17,7 +17,7 @@ import { IEvent }            from '../../../models/event.interface';
 export class EditEpisodeComponent implements OnInit {
   mode: string;
   event: IEvent;
-  seriesList: IEvent[];
+  seriesList?: IEvent[];
 
   showDeleteConfirmation: boolean = false;
 

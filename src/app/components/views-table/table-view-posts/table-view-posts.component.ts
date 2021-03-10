@@ -51,11 +51,11 @@ export class TableViewPostsComponent implements OnInit, OnChanges {
       post: {}
     };
 
-    this.modalRef_EditPost = this.modalService.show(EditPostComponent, {initialState});
+    this.modalRef_EditPost = this.modalService.show(EditPostComponent, { initialState });
     this.modalRef_EditPost.content.modalRef = this.modalRef_EditPost;
   }
 
-  selectPost(e) {
+  selectPost(e: IPost) {
     const initialState = {
       mode: "edit",
       posts: this.posts,
@@ -63,7 +63,7 @@ export class TableViewPostsComponent implements OnInit, OnChanges {
       post: e
     };
 
-    this.modalRef_EditPost = this.modalService.show(EditPostComponent, {initialState});
+    this.modalRef_EditPost = this.modalService.show(EditPostComponent, { initialState });
     this.modalRef_EditPost.content.modalRef = this.modalRef_EditPost;
   }
 
