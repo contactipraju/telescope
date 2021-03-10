@@ -1,0 +1,20 @@
+<div class="nobel-filter-container">
+  <div class="group-container-label">Sort on:</div>
+  <div class="sort-group">
+    <app-sort-button class="sort-component" (emitter)="filterEventHandler($event)" [selected]='filterInputs.sortOn' [data]='allFilters.sortOn.born'></app-sort-button>
+    <app-sort-button class="sort-component" (emitter)="filterEventHandler($event)" [selected]='filterInputs.sortOn' [data]='allFilters.sortOn.year'></app-sort-button>
+  </div>
+  <div class="sort-group">
+    <app-sort-button class="sort-component" (emitter)="filterEventHandler($event)" [selected]='filterInputs.sortOn' [data]='allFilters.sortOn.count'></app-sort-button>
+    <app-sort-button class="sort-component" (emitter)="filterEventHandler($event)" [selected]='filterInputs.sortOn' [data]='allFilters.sortOn.age'></app-sort-button>
+  </div>
+
+  <div class="group-container-label">Name:</div>
+  <app-input-string (emitter)="filterEventHandler($event)" [data]='allFilters.name'></app-input-string>
+
+  <app-button-group (emitter)="filterEventHandler($event)" [data]='allFilters.gender'></app-button-group>
+
+  <app-button-group (emitter)="filterEventHandler($event)" [data]='allFilters.area'></app-button-group>
+
+  <button id="reset-filters" class="btn btn-block" (click)="onResetFilters()">Reset Filters</button>
+</div>

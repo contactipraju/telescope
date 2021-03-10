@@ -1,0 +1,25 @@
+<div class="btn-group-container">
+  <div *ngIf="data.title" class="btn-group-container-label">
+    {{data.title}}
+  </div>
+
+  <div class="btn-group" *ngIf="!data.multiselect" btnRadioGroup [(ngModel)]="selection" ngDefaultControl>
+    <label class="btn btn-primary" *ngFor="let option of data.options" role="button" uncheckable
+        (click)="onBtn()"
+        btnRadio="{{option.value}}"
+        [style.width.%]="width">
+        <i class="icon" [ngClass]="option.image"></i>
+        <span>{{option.text}}</span>
+    </label>
+  </div>
+
+  <div class="btn-group" *ngIf="data.multiselect">
+    <label class="btn btn-primary" *ngFor="let option of data.options" role="button" uncheckable btnCheckbox ngDefaultControl
+        (click)="onCheck()"
+        [(ngModel)]="checkModel[option.value]"
+        [style.width.%]="width">
+        <i class="icon" [ngClass]="option.image"></i>
+        {{option.text}}
+    </label>
+  </div>
+</div>

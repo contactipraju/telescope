@@ -7,7 +7,7 @@ import { IEvent } from '../../../models/event.interface';
 // TODO: Review this when the issue (https://github.com/year-calendar/js-year-calendar/issues/6) is resolved
 // and get rid of the library and import it from the library under node_modules/js-year-calendar
 // import Calendar from "js-year-calendar"; // Ideal usage, once issue resolves
-import Calendar from "../../../../lib/js-year-calendar/js-year-calendar";  // Temporary solution
+import Calendar from "@app/../lib/js-year-calendar/js-year-calendar";  // Temporary solution
 
 @Component({
   selector: 'app-year-calendar',
