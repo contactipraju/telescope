@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NobelFilterService } from './nobel-filter.service';
+import { FilterService } from './nobel-filter.service';
 
-describe('NobelFilterService', () => {
+describe('FilterService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: NobelFilterService = TestBed.get(NobelFilterService);
+    const service: FilterService = TestBed.get(FilterService);
     expect(service).toBeTruthy();
   });
 });

@@ -1,12 +1,13 @@
 import { Pipe, PipeTransform } from '@angular/core';
+
 import * as moment  from 'moment';
-import { Laureate } from '../../nobels.model';
+
+import { Laureate } from '../models/nobels.model';
 
 @Pipe({
   name: 'sortOn',
   pure: false
 })
-
 export class SortOnPipe implements PipeTransform {
 
   transform(items: Laureate[], prop: string, direction?: boolean): Laureate[] {

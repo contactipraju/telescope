@@ -1,0 +1,47 @@
+@import "../../../../variables";
+
+.btn-group-container {
+  display: block;
+
+  .btn-primary {
+    border-radius: 5px;
+
+    color: $SelectedColor;
+    background-color: #fff;
+    border-color: $DefaultColor;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: $SelectedColor;
+    border-color: $SelectedColor;
+  }
+
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $SelectedColor;
+    border-color: $SelectedColor;
+  }
+
+  .btn-group-container-label {
+    font-style: italic;
+  }
+
+  .btn-group {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    vertical-align: middle;
+
+    .btn {
+      margin: 5px;
+      font-size: 14px;
+      padding: 9px;
+      line-height: 90%;
+      cursor: pointer;
+    }
+  }
+}

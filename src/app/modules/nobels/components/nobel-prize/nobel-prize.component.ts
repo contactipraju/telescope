@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Prize } from '../../nobels.model';
+import { Prize } from '../../models/nobels.model';
 
 @Component({
   selector: 'app-nobel-prize',

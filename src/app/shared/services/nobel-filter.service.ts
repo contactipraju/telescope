@@ -4,7 +4,7 @@ import { Subject }    from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class NobelFilterService {
+export class FilterService {
 
   // Observable source
   private resetFiltersSource = new Subject<string>();

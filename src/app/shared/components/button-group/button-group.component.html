@@ -14,7 +14,7 @@
   </div>
 
   <div class="btn-group" *ngIf="data.multiselect">
-    <label class="btn btn-primary" *ngFor="let option of data.options" role="button" uncheckable btnCheckbox
+    <label class="btn btn-primary" *ngFor="let option of data.options" role="button" uncheckable btnCheckbox ngDefaultControl
         (click)="onCheck()"
         [(ngModel)]="checkModel[option.value]"
         [style.width.%]="width">

@@ -4,7 +4,7 @@ import { OnDestroy, EventEmitter } from '@angular/core';
 
 import { Subscription }            from 'rxjs';
 
-import { NobelFilterService }      from '../nobel-filter.service';
+import { FilterService } from '../../services/nobel-filter.service';
 
 @Component({
   selector: 'app-input-string',
@@ -19,8 +19,8 @@ export class InputStringComponent implements OnInit, OnDestroy {
   value: string;
   subscription: Subscription;
 
-  constructor(private nobelFilterService: NobelFilterService) {
-    this.subscription = nobelFilterService.resetFilters$.subscribe(
+  constructor(private filterService: FilterService) {
+    this.subscription = filterService.resetFilters$.subscribe(
       message => {
         if(message === 'reset') {
           this.value = '';

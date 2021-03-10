@@ -6,26 +6,23 @@ import { BrowserModule }    from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule }      from '@angular/forms';
 
-import { ButtonsModule }    from 'ngx-bootstrap/buttons';
+/* Modules */
+import { SharedModule } from '@app/shared/shared.module';
 
 /* Services */
-import { NobelsService }      from './nobels.service';
-import { NobelFilterService } from './nobel-filter/nobel-filter.service';
+import { NobelsService }      from './services/nobels.service';
 
 /* Filters */
-import { AreaPipe }         from './nobel-filter/pipes/area.pipe';
-import { GenderPipe }       from './nobel-filter/pipes/gender.pipe';
-import { SortOnPipe }       from './nobel-filter/pipes/sort-on.pipe';
-import { LaureateNamePipe } from './nobel-filter/pipes/laureate-name.pipe';
+import { AreaPipe }         from './pipes/area.pipe';
+import { GenderPipe }       from './pipes/gender.pipe';
+import { SortOnPipe }       from './pipes/sort-on.pipe';
+import { LaureateNamePipe } from './pipes/laureate-name.pipe';
 
 /* Components */
-import { NobelsComponent }       from './nobels.component';
-import { LaureateCardComponent } from './laureate-card/laureate-card.component';
-import { NobelPrizeComponent }   from './laureate-card/nobel-prize/nobel-prize.component';
-import { NobelFilterComponent }  from './nobel-filter/nobel-filter.component';
-import { InputStringComponent }  from './nobel-filter/input-string/input-string.component';
-import { ButtonGroupComponent }  from './nobel-filter/button-group/button-group.component';
-import { SortButtonComponent }   from './nobel-filter/sort-button/sort-button.component';
+import { NobelsComponent }       from './components/nobels/nobels.component';
+import { LaureateCardComponent } from './components/laureate-card/laureate-card.component';
+import { NobelPrizeComponent }   from './components/nobel-prize/nobel-prize.component';
+import { NobelFilterComponent }  from './components/nobel-filter/nobel-filter.component';
 
 @NgModule({
   declarations: [
@@ -33,9 +30,6 @@ import { SortButtonComponent }   from './nobel-filter/sort-button/sort-button.co
     LaureateCardComponent,
     NobelPrizeComponent,
     NobelFilterComponent,
-    InputStringComponent,
-    ButtonGroupComponent,
-    SortButtonComponent,
     AreaPipe,
     GenderPipe,
     SortOnPipe,
@@ -46,12 +40,12 @@ import { SortButtonComponent }   from './nobel-filter/sort-button/sort-button.co
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    ButtonsModule.forRoot(),
-    RouterModule.forChild([])
+    RouterModule.forChild([]),
+    SharedModule
   ],
   exports: [
     NobelsComponent
   ],
-  providers: [NobelsService, NobelFilterService],
+  providers: [NobelsService],
 })
 export class NobelsModule { }

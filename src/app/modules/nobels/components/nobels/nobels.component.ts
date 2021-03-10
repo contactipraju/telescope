@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { NobelsService }     from './nobels.service';
-import { Laureate }          from './nobels.model';
-import { Filter }            from './nobel-filter/nobel-filter.model';
+
+import { NobelsService }     from '../../services/nobels.service';
+
+import { Laureate }          from '../../models/nobels.model';
+import { Filter }            from '../../models/nobel-filter.model';
 
 @Component({
   selector: 'app-nobels',

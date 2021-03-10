@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Laureate } from '../../nobels.model';
+
+import { Laureate } from '../models/nobels.model';
 
 @Pipe({
   name: 'gender'

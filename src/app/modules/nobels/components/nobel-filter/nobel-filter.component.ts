@@ -1,17 +1,18 @@
 import { Component, OnInit }    from '@angular/core';
 import { EventEmitter, Output } from '@angular/core';
 
-import { Subject }      from 'rxjs';
-import { debounceTime } from 'rxjs/operators';
+import { Subject }       from 'rxjs';
+import { debounceTime }  from 'rxjs/operators';
 
-import { Filter }             from './nobel-filter.model';
-import { NobelFilterService } from './nobel-filter.service';
+import { FilterService } from '@app/shared/services/nobel-filter.service';
+
+import { Filter }        from '../../models/nobel-filter.model';
 
 @Component({
   selector: 'app-nobel-filter',
   templateUrl: './nobel-filter.component.html',
   styleUrls: ['./nobel-filter.component.scss'],
-  providers: [NobelFilterService]
+  providers: [FilterService]
 })
 export class NobelFilterComponent implements OnInit {
   private searchUpdated = new Subject<Filter>();
@@ -20,7 +21,7 @@ export class NobelFilterComponent implements OnInit {
   filterInputs = new Filter();
   allFilters = this.filterInputs.allOptions();
 
-  constructor(private filterService: NobelFilterService) {
+  constructor(private filterService: FilterService) {
     this.searchUpdated.pipe(debounceTime(200))
       .subscribe((val) => this.searchTextEmitter.emit(val));
   }
