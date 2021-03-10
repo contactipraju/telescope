@@ -2,7 +2,7 @@ import { IImage } from './misc.interface';
 
 export interface IEvent {
   id?: number;
-  name: string;
+  name?: string;
   description?: string;
   speakers?: string[];
 

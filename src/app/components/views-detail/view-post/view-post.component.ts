@@ -102,7 +102,7 @@ export class ViewPostComponent implements OnInit, OnChanges {
       post: this.post
     };
 
-    this.modalRef_EditPost = this.modalService.show(EditPostComponent, {initialState});
+    this.modalRef_EditPost = this.modalService.show(EditPostComponent, { initialState });
     this.modalRef_EditPost.content.modalRef = this.modalRef_EditPost;
   }
 }

@@ -45,7 +45,7 @@ export class TableViewSeriesComponent implements OnInit, OnChanges {
       event: {}
     };
 
-    this.modalRef_EditSeries = this.modalService.show(EditSeriesComponent, {initialState});
+    this.modalRef_EditSeries = this.modalService.show(EditSeriesComponent, { initialState });
     this.modalRef_EditSeries.content.modalRef = this.modalRef_EditSeries;
   }
 
@@ -55,7 +55,7 @@ export class TableViewSeriesComponent implements OnInit, OnChanges {
       event: e
     };
 
-    this.modalRef_EditSeries = this.modalService.show(EditSeriesComponent, {initialState});
+    this.modalRef_EditSeries = this.modalService.show(EditSeriesComponent, { initialState });
     this.modalRef_EditSeries.content.modalRef = this.modalRef_EditSeries;
   }
 

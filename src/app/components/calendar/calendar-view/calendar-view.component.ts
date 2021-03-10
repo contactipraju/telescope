@@ -106,7 +106,7 @@ export class CalendarViewComponent implements OnInit, OnChanges {
       event: e
     };
 
-    this.modalRef_EditEvent = this.modalService.show(EditEpisodeComponent, {initialState});
+    this.modalRef_EditEvent = this.modalService.show(EditEpisodeComponent, { initialState });
     this.modalRef_EditEvent.content.modalRef = this.modalRef_EditEvent;
   }
 }
